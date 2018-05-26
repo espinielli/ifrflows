@@ -1,0 +1,5 @@
+.httr-oauth
+.Rproj.user
+inst/doc
+.Rhistory
+.RData
