@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 A still-in-progress example
 
-```{r flows-in-map}
+```{r flows-in-map, eval=FALSE}
 library("ROracle")
 library("tidyverse")
 library("sf")
@@ -36,8 +36,9 @@ f <- f %>% group_by(ADEP) %>% mutate(total = sum(n)) %>% ungroup()
 # airport info
 ap <- retrieve_airports(c("a"), "2017-01-01", "2017-01-02")
 ap <- ap %>% filter(!is.na(LONGITUDE), !is.na(LATITUDE)) %>% st_as_sf(coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
+```
 
-
+```{r map, eval=FALSE}
 ## Simutate
 # install.packages('gtools')
 library(gtools)

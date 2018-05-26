@@ -517,7 +517,7 @@ movements %>%
 
 
 Save all on file
-```{r}
+```{r save-files, eval=FALSE}
 data_dir <- "data/"
 flows %>%
   write_csv(., paste(data_dir, extra_flows_file, sep = ""))
@@ -553,7 +553,12 @@ cols <- cols(
   destination_name = col_character(),
   destinationregion_name = col_character()
 )
-intra <- read_csv("data/intra-flows.csv", col_types = cols)
+
+intra <- read_csv(
+  str_glue('{root}/data/', intra_flows_file, root = here()),
+  na = c(""),
+  col_types = cols)
+
 ii <- intra  %>%
   select(origin_iso, destination_iso, countryflow_2015) %>%
   rename(flights = countryflow_2015) %>%
@@ -561,11 +566,12 @@ ii <- intra  %>%
 
 library(tidygraph)
 library(igraph)
+library("networkD3")
+
 ng <- ii %>% 
   as_tbl_graph() %>% 
   igraph_to_networkD3()
 
-library("networkD3")
 sankeyNetwork(
   Links = ng[["links"]], 
   Nodes = ng[["nodes"]],

@@ -1,4 +1,4 @@
-Package: flows
+Package: ifrflows
 Version: 0.0.0.9000
 Title: Data Preparation and Plots for Flows of Flights
 Description: Data preparation for flows of flights so that circular and sankey plots are possible and easy.
