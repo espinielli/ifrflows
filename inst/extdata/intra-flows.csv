@@ -1,0 +1,1612 @@
+origin_iso,origin_name,origin_region_name,destination_iso,destination_name,destination_region_name,countryflow_2014,countryflow_2015
+AL,Albania,ESRA East,AL,Albania,ESRA East,2,10
+AL,Albania,ESRA East,AM,Armenia,Other Europe,0,2
+AL,Albania,ESRA East,AT,Austria,ESRA North-West,672,683
+AL,Albania,ESRA East,BA,Bosnia & Herzegovina,ESRA East,6,2
+AL,Albania,ESRA East,BE,Belgium,ESRA North-West,145,232
+AL,Albania,ESRA East,BG,Bulgaria,ESRA East,7,14
+AL,Albania,ESRA East,CH,Switzerland,ESRA North-West,11,10
+AL,Albania,ESRA East,CY,Cyprus,ESRA Mediterranean,3,2
+AL,Albania,ESRA East,CZ,Czechia,ESRA East,4,28
+AL,Albania,ESRA East,DE,Germany,ESRA North-West,520,604
+AL,Albania,ESRA East,DK,Denmark,ESRA North-West,2,2
+AL,Albania,ESRA East,ES,Spain,ESRA Mediterranean,4,2
+AL,Albania,ESRA East,FI,Finland,ESRA North-West,1,6
+AL,Albania,ESRA East,FR,France,ESRA North-West,102,261
+AL,Albania,ESRA East,GB,United Kingdom,ESRA North-West,255,304
+AL,Albania,ESRA East,GE,Georgia,Other Europe,3,2
+AL,Albania,ESRA East,GR,Greece,ESRA Mediterranean,770,872
+AL,Albania,ESRA East,HR,Croatia,ESRA East,12,13
+AL,Albania,ESRA East,HU,Hungary,ESRA East,12,6
+AL,Albania,ESRA East,IT,Italy,ESRA Mediterranean,4651,5250
+AL,Albania,ESRA East,LT,Lithuania,Other Europe,0,1
+AL,Albania,ESRA East,LU,Luxembourg,ESRA North-West,4,2
+AL,Albania,ESRA East,LV,Latvia,Other Europe,0,1
+AL,Albania,ESRA East,MD,Moldova,ESRA East,0,3
+AL,Albania,ESRA East,MK,Macedonia,ESRA East,6,13
+AL,Albania,ESRA East,MT,Malta,ESRA Mediterranean,3,1
+AL,Albania,ESRA East,NL,Netherlands,ESRA North-West,2,1
+AL,Albania,ESRA East,NO,Norway,ESRA North-West,1,4
+AL,Albania,ESRA East,PL,Poland,ESRA East,1,21
+AL,Albania,ESRA East,PT,Portugal,ESRA Mediterranean,0,3
+AL,Albania,ESRA East,RO,Romania,ESRA East,9,3
+AL,Albania,ESRA East,RS,Serbia,ESRA East,83,381
+AL,Albania,ESRA East,SE,Sweden,ESRA North-West,3,0
+AL,Albania,ESRA East,SI,Slovenia,ESRA East,512,511
+AL,Albania,ESRA East,SK,Slovakia,ESRA East,14,40
+AL,Albania,ESRA East,TR,Turkey,ESRA Mediterranean,1070,1063
+AL,Albania,ESRA East,UA,Ukraine,ESRA East,3,13
+AM,Armenia,Other Europe,AL,Albania,ESRA East,0,2
+AM,Armenia,Other Europe,AM,Armenia,Other Europe,9,5
+AM,Armenia,Other Europe,AT,Austria,ESRA North-West,285,272
+AM,Armenia,Other Europe,BE,Belgium,ESRA North-West,3,9
+AM,Armenia,Other Europe,BG,Bulgaria,ESRA East,28,30
+AM,Armenia,Other Europe,CH,Switzerland,ESRA North-West,3,7
+AM,Armenia,Other Europe,CY,Cyprus,ESRA Mediterranean,12,15
+AM,Armenia,Other Europe,CZ,Czechia,ESRA East,148,11
+AM,Armenia,Other Europe,DE,Germany,ESRA North-West,33,11
+AM,Armenia,Other Europe,DK,Denmark,ESRA North-West,0,1
+AM,Armenia,Other Europe,EE,Estonia,Other Europe,1,2
+AM,Armenia,Other Europe,ES,Spain,ESRA Mediterranean,16,11
+AM,Armenia,Other Europe,FI,Finland,ESRA North-West,2,0
+AM,Armenia,Other Europe,FR,France,ESRA North-West,275,187
+AM,Armenia,Other Europe,GB,United Kingdom,ESRA North-West,6,4
+AM,Armenia,Other Europe,GE,Georgia,Other Europe,42,197
+AM,Armenia,Other Europe,GR,Greece,ESRA Mediterranean,68,120
+AM,Armenia,Other Europe,HR,Croatia,ESRA East,2,1
+AM,Armenia,Other Europe,HU,Hungary,ESRA East,2,1
+AM,Armenia,Other Europe,IE,Ireland,ESRA North-West,1,0
+AM,Armenia,Other Europe,IT,Italy,ESRA Mediterranean,108,13
+AM,Armenia,Other Europe,LT,Lithuania,Other Europe,3,4
+AM,Armenia,Other Europe,LV,Latvia,Other Europe,1,2
+AM,Armenia,Other Europe,MD,Moldova,ESRA East,1,1
+AM,Armenia,Other Europe,MT,Malta,ESRA Mediterranean,0,4
+AM,Armenia,Other Europe,NL,Netherlands,ESRA North-West,2,1
+AM,Armenia,Other Europe,NO,Norway,ESRA North-West,0,1
+AM,Armenia,Other Europe,PL,Poland,ESRA East,209,79
+AM,Armenia,Other Europe,PT,Portugal,ESRA Mediterranean,1,0
+AM,Armenia,Other Europe,RO,Romania,ESRA East,10,6
+AM,Armenia,Other Europe,RS,Serbia,ESRA East,15,12
+AM,Armenia,Other Europe,SE,Sweden,ESRA North-West,3,2
+AM,Armenia,Other Europe,SK,Slovakia,ESRA East,1,1
+AM,Armenia,Other Europe,TR,Turkey,ESRA Mediterranean,146,136
+AM,Armenia,Other Europe,UA,Ukraine,ESRA East,420,409
+AT,Austria,ESRA North-West,AL,Albania,ESRA East,673,672
+AT,Austria,ESRA North-West,AM,Armenia,Other Europe,288,272
+AT,Austria,ESRA North-West,AT,Austria,ESRA North-West,21149,19137
+AT,Austria,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,706,690
+AT,Austria,ESRA North-West,BE,Belgium,ESRA North-West,2704,2692
+AT,Austria,ESRA North-West,BG,Bulgaria,ESRA East,2328,2272
+AT,Austria,ESRA North-West,CH,Switzerland,ESRA North-West,9288,9427
+AT,Austria,ESRA North-West,CY,Cyprus,ESRA Mediterranean,720,863
+AT,Austria,ESRA North-West,CZ,Czechia,ESRA East,2429,2515
+AT,Austria,ESRA North-West,DE,Germany,ESRA North-West,42308,41965
+AT,Austria,ESRA North-West,DK,Denmark,ESRA North-West,2162,1638
+AT,Austria,ESRA North-West,EE,Estonia,Other Europe,57,253
+AT,Austria,ESRA North-West,ES,Spain,ESRA Mediterranean,5778,6025
+AT,Austria,ESRA North-West,FI,Finland,ESRA North-West,858,868
+AT,Austria,ESRA North-West,FO,Faroe Islands,ESRA North-West,0,2
+AT,Austria,ESRA North-West,FR,France,ESRA North-West,6679,6660
+AT,Austria,ESRA North-West,GB,United Kingdom,ESRA North-West,6984,7553
+AT,Austria,ESRA North-West,GE,Georgia,Other Europe,121,128
+AT,Austria,ESRA North-West,GI,Gibraltar,Other Europe,2,3
+AT,Austria,ESRA North-West,GR,Greece,ESRA Mediterranean,3557,3979
+AT,Austria,ESRA North-West,HR,Croatia,ESRA East,3001,3013
+AT,Austria,ESRA North-West,HU,Hungary,ESRA East,1915,1828
+AT,Austria,ESRA North-West,IE,Ireland,ESRA North-West,504,485
+AT,Austria,ESRA North-West,IT,Italy,ESRA Mediterranean,9344,9007
+AT,Austria,ESRA North-West,LT,Lithuania,Other Europe,399,406
+AT,Austria,ESRA North-West,LU,Luxembourg,ESRA North-West,1080,1130
+AT,Austria,ESRA North-West,LV,Latvia,Other Europe,658,644
+AT,Austria,ESRA North-West,MD,Moldova,ESRA East,528,598
+AT,Austria,ESRA North-West,MK,Macedonia,ESRA East,604,607
+AT,Austria,ESRA North-West,MT,Malta,ESRA Mediterranean,439,492
+AT,Austria,ESRA North-West,NL,Netherlands,ESRA North-West,3971,3966
+AT,Austria,ESRA North-West,NO,Norway,ESRA North-West,1142,976
+AT,Austria,ESRA North-West,PL,Poland,ESRA East,2745,2686
+AT,Austria,ESRA North-West,PT,Portugal,ESRA Mediterranean,579,704
+AT,Austria,ESRA North-West,RO,Romania,ESRA East,3434,3241
+AT,Austria,ESRA North-West,RS,Serbia,ESRA East,3139,2948
+AT,Austria,ESRA North-West,SE,Sweden,ESRA North-West,1786,1818
+AT,Austria,ESRA North-West,SI,Slovenia,ESRA East,1638,1385
+AT,Austria,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,0,1
+AT,Austria,ESRA North-West,SK,Slovakia,ESRA East,890,856
+AT,Austria,ESRA North-West,TR,Turkey,ESRA Mediterranean,5300,5480
+AT,Austria,ESRA North-West,UA,Ukraine,ESRA East,2472,2372
+BA,Bosnia & Herzegovina,ESRA East,AL,Albania,ESRA East,3,2
+BA,Bosnia & Herzegovina,ESRA East,AT,Austria,ESRA North-West,692,685
+BA,Bosnia & Herzegovina,ESRA East,BA,Bosnia & Herzegovina,ESRA East,514,232
+BA,Bosnia & Herzegovina,ESRA East,BE,Belgium,ESRA North-West,16,10
+BA,Bosnia & Herzegovina,ESRA East,BG,Bulgaria,ESRA East,7,5
+BA,Bosnia & Herzegovina,ESRA East,CH,Switzerland,ESRA North-West,238,235
+BA,Bosnia & Herzegovina,ESRA East,CY,Cyprus,ESRA Mediterranean,2,3
+BA,Bosnia & Herzegovina,ESRA East,CZ,Czechia,ESRA East,5,10
+BA,Bosnia & Herzegovina,ESRA East,DE,Germany,ESRA North-West,767,959
+BA,Bosnia & Herzegovina,ESRA East,DK,Denmark,ESRA North-West,109,26
+BA,Bosnia & Herzegovina,ESRA East,ES,Spain,ESRA Mediterranean,5,8
+BA,Bosnia & Herzegovina,ESRA East,FI,Finland,ESRA North-West,0,2
+BA,Bosnia & Herzegovina,ESRA East,FR,France,ESRA North-West,172,160
+BA,Bosnia & Herzegovina,ESRA East,GB,United Kingdom,ESRA North-West,13,14
+BA,Bosnia & Herzegovina,ESRA East,GR,Greece,ESRA Mediterranean,24,26
+BA,Bosnia & Herzegovina,ESRA East,HR,Croatia,ESRA East,697,753
+BA,Bosnia & Herzegovina,ESRA East,HU,Hungary,ESRA East,28,23
+BA,Bosnia & Herzegovina,ESRA East,IE,Ireland,ESRA North-West,2,8
+BA,Bosnia & Herzegovina,ESRA East,IT,Italy,ESRA Mediterranean,681,709
+BA,Bosnia & Herzegovina,ESRA East,LT,Lithuania,Other Europe,2,2
+BA,Bosnia & Herzegovina,ESRA East,LU,Luxembourg,ESRA North-West,1,0
+BA,Bosnia & Herzegovina,ESRA East,MK,Macedonia,ESRA East,9,9
+BA,Bosnia & Herzegovina,ESRA East,MT,Malta,ESRA Mediterranean,0,1
+BA,Bosnia & Herzegovina,ESRA East,NL,Netherlands,ESRA North-West,56,105
+BA,Bosnia & Herzegovina,ESRA East,NO,Norway,ESRA North-West,19,91
+BA,Bosnia & Herzegovina,ESRA East,PL,Poland,ESRA East,3,9
+BA,Bosnia & Herzegovina,ESRA East,PT,Portugal,ESRA Mediterranean,5,1
+BA,Bosnia & Herzegovina,ESRA East,RO,Romania,ESRA East,5,13
+BA,Bosnia & Herzegovina,ESRA East,RS,Serbia,ESRA East,1144,818
+BA,Bosnia & Herzegovina,ESRA East,SE,Sweden,ESRA North-West,342,399
+BA,Bosnia & Herzegovina,ESRA East,SI,Slovenia,ESRA East,475,357
+BA,Bosnia & Herzegovina,ESRA East,SK,Slovakia,ESRA East,12,12
+BA,Bosnia & Herzegovina,ESRA East,TR,Turkey,ESRA Mediterranean,1415,1378
+BA,Bosnia & Herzegovina,ESRA East,UA,Ukraine,ESRA East,1,2
+BE,Belgium,ESRA North-West,AL,Albania,ESRA East,144,261
+BE,Belgium,ESRA North-West,AM,Armenia,Other Europe,2,6
+BE,Belgium,ESRA North-West,AT,Austria,ESRA North-West,2767,2794
+BE,Belgium,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,13,9
+BE,Belgium,ESRA North-West,BE,Belgium,ESRA North-West,6268,5609
+BE,Belgium,ESRA North-West,BG,Bulgaria,ESRA East,791,828
+BE,Belgium,ESRA North-West,CH,Switzerland,ESRA North-West,5710,6074
+BE,Belgium,ESRA North-West,CY,Cyprus,ESRA Mediterranean,272,278
+BE,Belgium,ESRA North-West,CZ,Czechia,ESRA East,2029,2317
+BE,Belgium,ESRA North-West,DE,Germany,ESRA North-West,13595,15080
+BE,Belgium,ESRA North-West,DK,Denmark,ESRA North-West,3420,3970
+BE,Belgium,ESRA North-West,EE,Estonia,Other Europe,427,450
+BE,Belgium,ESRA North-West,ES,Spain,ESRA Mediterranean,19645,20901
+BE,Belgium,ESRA North-West,FI,Finland,ESRA North-West,1535,1569
+BE,Belgium,ESRA North-West,FO,Faroe Islands,ESRA North-West,2,2
+BE,Belgium,ESRA North-West,FR,France,ESRA North-West,15939,16141
+BE,Belgium,ESRA North-West,GB,United Kingdom,ESRA North-West,14250,14533
+BE,Belgium,ESRA North-West,GE,Georgia,Other Europe,11,5
+BE,Belgium,ESRA North-West,GI,Gibraltar,Other Europe,1,1
+BE,Belgium,ESRA North-West,GR,Greece,ESRA Mediterranean,3583,3714
+BE,Belgium,ESRA North-West,HR,Croatia,ESRA East,994,1149
+BE,Belgium,ESRA North-West,HU,Hungary,ESRA East,1981,2140
+BE,Belgium,ESRA North-West,IE,Ireland,ESRA North-West,1964,2370
+BE,Belgium,ESRA North-West,IT,Italy,ESRA Mediterranean,16514,16311
+BE,Belgium,ESRA North-West,LT,Lithuania,Other Europe,577,580
+BE,Belgium,ESRA North-West,LU,Luxembourg,ESRA North-West,226,247
+BE,Belgium,ESRA North-West,LV,Latvia,Other Europe,690,1092
+BE,Belgium,ESRA North-West,MD,Moldova,ESRA East,3,4
+BE,Belgium,ESRA North-West,MK,Macedonia,ESRA East,147,158
+BE,Belgium,ESRA North-West,MT,Malta,ESRA Mediterranean,431,494
+BE,Belgium,ESRA North-West,NL,Netherlands,ESRA North-West,2945,2935
+BE,Belgium,ESRA North-West,NO,Norway,ESRA North-West,1786,1838
+BE,Belgium,ESRA North-West,PL,Poland,ESRA East,3039,3858
+BE,Belgium,ESRA North-West,PT,Portugal,ESRA Mediterranean,4735,5140
+BE,Belgium,ESRA North-West,RO,Romania,ESRA East,1795,2233
+BE,Belgium,ESRA North-West,RS,Serbia,ESRA East,609,592
+BE,Belgium,ESRA North-West,SE,Sweden,ESRA North-West,3759,3881
+BE,Belgium,ESRA North-West,SI,Slovenia,ESRA East,770,817
+BE,Belgium,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,1,0
+BE,Belgium,ESRA North-West,SK,Slovakia,ESRA East,408,452
+BE,Belgium,ESRA North-West,TR,Turkey,ESRA Mediterranean,5525,5475
+BE,Belgium,ESRA North-West,UA,Ukraine,ESRA East,605,501
+BG,Bulgaria,ESRA East,AL,Albania,ESRA East,8,11
+BG,Bulgaria,ESRA East,AM,Armenia,Other Europe,32,30
+BG,Bulgaria,ESRA East,AT,Austria,ESRA North-West,2318,2262
+BG,Bulgaria,ESRA East,BA,Bosnia & Herzegovina,ESRA East,7,6
+BG,Bulgaria,ESRA East,BE,Belgium,ESRA North-West,807,818
+BG,Bulgaria,ESRA East,BG,Bulgaria,ESRA East,3380,3372
+BG,Bulgaria,ESRA East,CH,Switzerland,ESRA North-West,307,464
+BG,Bulgaria,ESRA East,CY,Cyprus,ESRA Mediterranean,325,358
+BG,Bulgaria,ESRA East,CZ,Czechia,ESRA East,996,998
+BG,Bulgaria,ESRA East,DE,Germany,ESRA North-West,5924,5790
+BG,Bulgaria,ESRA East,DK,Denmark,ESRA North-West,244,294
+BG,Bulgaria,ESRA East,EE,Estonia,Other Europe,79,80
+BG,Bulgaria,ESRA East,ES,Spain,ESRA Mediterranean,1070,1039
+BG,Bulgaria,ESRA East,FI,Finland,ESRA North-West,127,124
+BG,Bulgaria,ESRA East,FR,France,ESRA North-West,961,1003
+BG,Bulgaria,ESRA East,GB,United Kingdom,ESRA North-West,3328,3590
+BG,Bulgaria,ESRA East,GE,Georgia,Other Europe,13,16
+BG,Bulgaria,ESRA East,GR,Greece,ESRA Mediterranean,912,994
+BG,Bulgaria,ESRA East,HR,Croatia,ESRA East,38,49
+BG,Bulgaria,ESRA East,HU,Hungary,ESRA East,151,114
+BG,Bulgaria,ESRA East,IE,Ireland,ESRA North-West,101,127
+BG,Bulgaria,ESRA East,IT,Italy,ESRA Mediterranean,1657,1812
+BG,Bulgaria,ESRA East,LT,Lithuania,Other Europe,106,91
+BG,Bulgaria,ESRA East,LU,Luxembourg,ESRA North-West,105,84
+BG,Bulgaria,ESRA East,LV,Latvia,Other Europe,116,102
+BG,Bulgaria,ESRA East,MD,Moldova,ESRA East,17,9
+BG,Bulgaria,ESRA East,MK,Macedonia,ESRA East,19,34
+BG,Bulgaria,ESRA East,MT,Malta,ESRA Mediterranean,56,123
+BG,Bulgaria,ESRA East,NL,Netherlands,ESRA North-West,866,836
+BG,Bulgaria,ESRA East,NO,Norway,ESRA North-West,338,306
+BG,Bulgaria,ESRA East,PL,Poland,ESRA East,1287,1511
+BG,Bulgaria,ESRA East,PT,Portugal,ESRA Mediterranean,9,8
+BG,Bulgaria,ESRA East,RO,Romania,ESRA East,1476,1105
+BG,Bulgaria,ESRA East,RS,Serbia,ESRA East,521,1023
+BG,Bulgaria,ESRA East,SE,Sweden,ESRA North-West,198,234
+BG,Bulgaria,ESRA East,SI,Slovenia,ESRA East,19,11
+BG,Bulgaria,ESRA East,SK,Slovakia,ESRA East,335,305
+BG,Bulgaria,ESRA East,TR,Turkey,ESRA Mediterranean,1127,1371
+BG,Bulgaria,ESRA East,UA,Ukraine,ESRA East,311,194
+CH,Switzerland,ESRA North-West,AL,Albania,ESRA East,13,13
+CH,Switzerland,ESRA North-West,AM,Armenia,Other Europe,3,9
+CH,Switzerland,ESRA North-West,AT,Austria,ESRA North-West,9190,9335
+CH,Switzerland,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,235,227
+CH,Switzerland,ESRA North-West,BE,Belgium,ESRA North-West,5657,6115
+CH,Switzerland,ESRA North-West,BG,Bulgaria,ESRA East,315,466
+CH,Switzerland,ESRA North-West,CH,Switzerland,ESRA North-West,21396,21994
+CH,Switzerland,ESRA North-West,CY,Cyprus,ESRA Mediterranean,506,447
+CH,Switzerland,ESRA North-West,CZ,Czechia,ESRA East,2335,1842
+CH,Switzerland,ESRA North-West,DE,Germany,ESRA North-West,38552,38233
+CH,Switzerland,ESRA North-West,DK,Denmark,ESRA North-West,3303,3140
+CH,Switzerland,ESRA North-West,EE,Estonia,Other Europe,30,34
+CH,Switzerland,ESRA North-West,ES,Spain,ESRA Mediterranean,17222,17735
+CH,Switzerland,ESRA North-West,FI,Finland,ESRA North-West,1737,2068
+CH,Switzerland,ESRA North-West,FO,Faroe Islands,ESRA North-West,1,2
+CH,Switzerland,ESRA North-West,FR,France,ESRA North-West,27125,25995
+CH,Switzerland,ESRA North-West,GB,United Kingdom,ESRA North-West,30324,29664
+CH,Switzerland,ESRA North-West,GE,Georgia,Other Europe,3,13
+CH,Switzerland,ESRA North-West,GI,Gibraltar,Other Europe,28,26
+CH,Switzerland,ESRA North-West,GR,Greece,ESRA Mediterranean,3726,4372
+CH,Switzerland,ESRA North-West,HR,Croatia,ESRA East,1556,1819
+CH,Switzerland,ESRA North-West,HU,Hungary,ESRA East,1564,1554
+CH,Switzerland,ESRA North-West,IE,Ireland,ESRA North-West,1369,1495
+CH,Switzerland,ESRA North-West,IT,Italy,ESRA Mediterranean,15892,16204
+CH,Switzerland,ESRA North-West,LT,Lithuania,Other Europe,29,34
+CH,Switzerland,ESRA North-West,LU,Luxembourg,ESRA North-West,2195,2158
+CH,Switzerland,ESRA North-West,LV,Latvia,Other Europe,328,465
+CH,Switzerland,ESRA North-West,MD,Moldova,ESRA East,31,35
+CH,Switzerland,ESRA North-West,MK,Macedonia,ESRA East,471,655
+CH,Switzerland,ESRA North-West,MT,Malta,ESRA Mediterranean,482,534
+CH,Switzerland,ESRA North-West,NL,Netherlands,ESRA North-West,7693,7565
+CH,Switzerland,ESRA North-West,NO,Norway,ESRA North-West,1293,1151
+CH,Switzerland,ESRA North-West,PL,Poland,ESRA East,2665,2203
+CH,Switzerland,ESRA North-West,PT,Portugal,ESRA Mediterranean,6085,6639
+CH,Switzerland,ESRA North-West,RO,Romania,ESRA East,743,879
+CH,Switzerland,ESRA North-West,RS,Serbia,ESRA East,3322,3266
+CH,Switzerland,ESRA North-West,SE,Sweden,ESRA North-West,2736,2787
+CH,Switzerland,ESRA North-West,SI,Slovenia,ESRA East,981,1201
+CH,Switzerland,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,3,4
+CH,Switzerland,ESRA North-West,SK,Slovakia,ESRA East,109,121
+CH,Switzerland,ESRA North-West,TR,Turkey,ESRA Mediterranean,5467,5638
+CH,Switzerland,ESRA North-West,UA,Ukraine,ESRA East,1326,1021
+CY,Cyprus,ESRA Mediterranean,AL,Albania,ESRA East,2,0
+CY,Cyprus,ESRA Mediterranean,AM,Armenia,Other Europe,11,11
+CY,Cyprus,ESRA Mediterranean,AT,Austria,ESRA North-West,723,839
+CY,Cyprus,ESRA Mediterranean,BA,Bosnia & Herzegovina,ESRA East,3,3
+CY,Cyprus,ESRA Mediterranean,BE,Belgium,ESRA North-West,192,154
+CY,Cyprus,ESRA Mediterranean,BG,Bulgaria,ESRA East,326,353
+CY,Cyprus,ESRA Mediterranean,CH,Switzerland,ESRA North-West,497,442
+CY,Cyprus,ESRA Mediterranean,CY,Cyprus,ESRA Mediterranean,118,272
+CY,Cyprus,ESRA Mediterranean,CZ,Czechia,ESRA East,71,82
+CY,Cyprus,ESRA Mediterranean,DE,Germany,ESRA North-West,815,1008
+CY,Cyprus,ESRA Mediterranean,DK,Denmark,ESRA North-West,198,151
+CY,Cyprus,ESRA Mediterranean,EE,Estonia,Other Europe,6,17
+CY,Cyprus,ESRA Mediterranean,ES,Spain,ESRA Mediterranean,61,53
+CY,Cyprus,ESRA Mediterranean,FI,Finland,ESRA North-West,116,103
+CY,Cyprus,ESRA Mediterranean,FR,France,ESRA North-West,512,451
+CY,Cyprus,ESRA Mediterranean,GB,United Kingdom,ESRA North-West,6766,6921
+CY,Cyprus,ESRA Mediterranean,GE,Georgia,Other Europe,5,9
+CY,Cyprus,ESRA Mediterranean,GR,Greece,ESRA Mediterranean,4749,5267
+CY,Cyprus,ESRA Mediterranean,HR,Croatia,ESRA East,33,37
+CY,Cyprus,ESRA Mediterranean,HU,Hungary,ESRA East,174,172
+CY,Cyprus,ESRA Mediterranean,IE,Ireland,ESRA North-West,8,8
+CY,Cyprus,ESRA Mediterranean,IT,Italy,ESRA Mediterranean,337,413
+CY,Cyprus,ESRA Mediterranean,LT,Lithuania,Other Europe,120,143
+CY,Cyprus,ESRA Mediterranean,LU,Luxembourg,ESRA North-West,10,10
+CY,Cyprus,ESRA Mediterranean,LV,Latvia,Other Europe,77,70
+CY,Cyprus,ESRA Mediterranean,MD,Moldova,ESRA East,56,75
+CY,Cyprus,ESRA Mediterranean,MK,Macedonia,ESRA East,6,2
+CY,Cyprus,ESRA Mediterranean,MT,Malta,ESRA Mediterranean,294,379
+CY,Cyprus,ESRA Mediterranean,NL,Netherlands,ESRA North-West,306,198
+CY,Cyprus,ESRA Mediterranean,NO,Norway,ESRA North-West,344,255
+CY,Cyprus,ESRA Mediterranean,PL,Poland,ESRA East,422,536
+CY,Cyprus,ESRA Mediterranean,PT,Portugal,ESRA Mediterranean,4,2
+CY,Cyprus,ESRA Mediterranean,RO,Romania,ESRA East,534,541
+CY,Cyprus,ESRA Mediterranean,RS,Serbia,ESRA East,376,320
+CY,Cyprus,ESRA Mediterranean,SE,Sweden,ESRA North-West,557,500
+CY,Cyprus,ESRA Mediterranean,SI,Slovenia,ESRA East,3,1
+CY,Cyprus,ESRA Mediterranean,SK,Slovakia,ESRA East,22,19
+CY,Cyprus,ESRA Mediterranean,TR,Turkey,ESRA Mediterranean,0,2
+CY,Cyprus,ESRA Mediterranean,UA,Ukraine,ESRA East,469,616
+CZ,Czechia,ESRA East,AL,Albania,ESRA East,5,23
+CZ,Czechia,ESRA East,AM,Armenia,Other Europe,149,9
+CZ,Czechia,ESRA East,AT,Austria,ESRA North-West,2440,2495
+CZ,Czechia,ESRA East,BA,Bosnia & Herzegovina,ESRA East,3,8
+CZ,Czechia,ESRA East,BE,Belgium,ESRA North-West,2068,2403
+CZ,Czechia,ESRA East,BG,Bulgaria,ESRA East,979,992
+CZ,Czechia,ESRA East,CH,Switzerland,ESRA North-West,2328,1840
+CZ,Czechia,ESRA East,CY,Cyprus,ESRA Mediterranean,69,70
+CZ,Czechia,ESRA East,CZ,Czechia,ESRA East,5040,6422
+CZ,Czechia,ESRA East,DE,Germany,ESRA North-West,9521,10001
+CZ,Czechia,ESRA East,DK,Denmark,ESRA North-West,1009,1152
+CZ,Czechia,ESRA East,EE,Estonia,Other Europe,11,9
+CZ,Czechia,ESRA East,ES,Spain,ESRA Mediterranean,2476,2711
+CZ,Czechia,ESRA East,FI,Finland,ESRA North-West,907,963
+CZ,Czechia,ESRA East,FR,France,ESRA North-West,4797,4755
+CZ,Czechia,ESRA East,GB,United Kingdom,ESRA North-West,5759,6443
+CZ,Czechia,ESRA East,GE,Georgia,Other Europe,38,15
+CZ,Czechia,ESRA East,GI,Gibraltar,Other Europe,1,2
+CZ,Czechia,ESRA East,GR,Greece,ESRA Mediterranean,2452,2568
+CZ,Czechia,ESRA East,HR,Croatia,ESRA East,630,711
+CZ,Czechia,ESRA East,HU,Hungary,ESRA East,1037,1070
+CZ,Czechia,ESRA East,IE,Ireland,ESRA North-West,578,691
+CZ,Czechia,ESRA East,IT,Italy,ESRA Mediterranean,4266,4647
+CZ,Czechia,ESRA East,LT,Lithuania,Other Europe,203,39
+CZ,Czechia,ESRA East,LU,Luxembourg,ESRA North-West,137,143
+CZ,Czechia,ESRA East,LV,Latvia,Other Europe,345,381
+CZ,Czechia,ESRA East,MD,Moldova,ESRA East,64,31
+CZ,Czechia,ESRA East,MK,Macedonia,ESRA East,12,9
+CZ,Czechia,ESRA East,MT,Malta,ESRA Mediterranean,85,61
+CZ,Czechia,ESRA East,NL,Netherlands,ESRA North-West,2780,2653
+CZ,Czechia,ESRA East,NO,Norway,ESRA North-West,590,646
+CZ,Czechia,ESRA East,PL,Poland,ESRA East,2557,2749
+CZ,Czechia,ESRA East,PT,Portugal,ESRA Mediterranean,469,507
+CZ,Czechia,ESRA East,RO,Romania,ESRA East,699,572
+CZ,Czechia,ESRA East,RS,Serbia,ESRA East,574,645
+CZ,Czechia,ESRA East,SE,Sweden,ESRA North-West,820,1005
+CZ,Czechia,ESRA East,SI,Slovenia,ESRA East,250,289
+CZ,Czechia,ESRA East,SK,Slovakia,ESRA East,1879,1866
+CZ,Czechia,ESRA East,TR,Turkey,ESRA Mediterranean,1971,2407
+CZ,Czechia,ESRA East,UA,Ukraine,ESRA East,738,618
+DE,Germany,ESRA North-West,AL,Albania,ESRA East,525,652
+DE,Germany,ESRA North-West,AM,Armenia,Other Europe,39,12
+DE,Germany,ESRA North-West,AT,Austria,ESRA North-West,41971,41524
+DE,Germany,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,768,946
+DE,Germany,ESRA North-West,BE,Belgium,ESRA North-West,13437,14812
+DE,Germany,ESRA North-West,BG,Bulgaria,ESRA East,5936,5741
+DE,Germany,ESRA North-West,CH,Switzerland,ESRA North-West,38617,38455
+DE,Germany,ESRA North-West,CY,Cyprus,ESRA Mediterranean,816,1015
+DE,Germany,ESRA North-West,CZ,Czechia,ESRA East,9578,10198
+DE,Germany,ESRA North-West,DE,Germany,ESRA North-West,330882,330317
+DE,Germany,ESRA North-West,DK,Denmark,ESRA North-West,19092,20066
+DE,Germany,ESRA North-West,EE,Estonia,Other Europe,1189,1501
+DE,Germany,ESRA North-West,ES,Spain,ESRA Mediterranean,83574,83549
+DE,Germany,ESRA North-West,FI,Finland,ESRA North-West,8189,7902
+DE,Germany,ESRA North-West,FO,Faroe Islands,ESRA North-West,2,7
+DE,Germany,ESRA North-West,FR,France,ESRA North-West,58389,57674
+DE,Germany,ESRA North-West,GB,United Kingdom,ESRA North-West,69964,72307
+DE,Germany,ESRA North-West,GE,Georgia,Other Europe,433,400
+DE,Germany,ESRA North-West,GI,Gibraltar,Other Europe,8,7
+DE,Germany,ESRA North-West,GR,Greece,ESRA Mediterranean,18542,18934
+DE,Germany,ESRA North-West,HR,Croatia,ESRA East,8178,8407
+DE,Germany,ESRA North-West,HU,Hungary,ESRA East,8537,8444
+DE,Germany,ESRA North-West,IE,Ireland,ESRA North-West,6598,7073
+DE,Germany,ESRA North-West,IT,Italy,ESRA Mediterranean,62921,65888
+DE,Germany,ESRA North-West,LT,Lithuania,Other Europe,2105,2014
+DE,Germany,ESRA North-West,LU,Luxembourg,ESRA North-West,5488,5703
+DE,Germany,ESRA North-West,LV,Latvia,Other Europe,3723,4075
+DE,Germany,ESRA North-West,MD,Moldova,ESRA East,639,646
+DE,Germany,ESRA North-West,MK,Macedonia,ESRA East,691,835
+DE,Germany,ESRA North-West,MT,Malta,ESRA Mediterranean,2244,2372
+DE,Germany,ESRA North-West,NL,Netherlands,ESRA North-West,26608,26586
+DE,Germany,ESRA North-West,NO,Norway,ESRA North-West,9340,7609
+DE,Germany,ESRA North-West,PL,Poland,ESRA East,25001,26014
+DE,Germany,ESRA North-West,PT,Portugal,ESRA Mediterranean,11832,13420
+DE,Germany,ESRA North-West,RO,Romania,ESRA East,8913,9731
+DE,Germany,ESRA North-West,RS,Serbia,ESRA East,5580,5788
+DE,Germany,ESRA North-West,SE,Sweden,ESRA North-West,16422,17276
+DE,Germany,ESRA North-West,SI,Slovenia,ESRA East,2422,2698
+DE,Germany,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,12,14
+DE,Germany,ESRA North-West,SK,Slovakia,ESRA East,737,1002
+DE,Germany,ESRA North-West,TR,Turkey,ESRA Mediterranean,49625,54146
+DE,Germany,ESRA North-West,UA,Ukraine,ESRA East,4209,3619
+DK,Denmark,ESRA North-West,AL,Albania,ESRA East,1,4
+DK,Denmark,ESRA North-West,AM,Armenia,Other Europe,1,1
+DK,Denmark,ESRA North-West,AT,Austria,ESRA North-West,2175,1652
+DK,Denmark,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,110,27
+DK,Denmark,ESRA North-West,BE,Belgium,ESRA North-West,3486,4073
+DK,Denmark,ESRA North-West,BG,Bulgaria,ESRA East,247,305
+DK,Denmark,ESRA North-West,CH,Switzerland,ESRA North-West,3333,3119
+DK,Denmark,ESRA North-West,CY,Cyprus,ESRA Mediterranean,206,159
+DK,Denmark,ESRA North-West,CZ,Czechia,ESRA East,1016,1133
+DK,Denmark,ESRA North-West,DE,Germany,ESRA North-West,19184,20021
+DK,Denmark,ESRA North-West,DK,Denmark,ESRA North-West,34014,34345
+DK,Denmark,ESRA North-West,EE,Estonia,Other Europe,1027,1046
+DK,Denmark,ESRA North-West,ES,Spain,ESRA Mediterranean,7971,7969
+DK,Denmark,ESRA North-West,FI,Finland,ESRA North-West,4141,3588
+DK,Denmark,ESRA North-West,FO,Faroe Islands,ESRA North-West,980,1016
+DK,Denmark,ESRA North-West,FR,France,ESRA North-West,6027,6175
+DK,Denmark,ESRA North-West,GB,United Kingdom,ESRA North-West,13996,15258
+DK,Denmark,ESRA North-West,GE,Georgia,Other Europe,4,4
+DK,Denmark,ESRA North-West,GI,Gibraltar,Other Europe,7,7
+DK,Denmark,ESRA North-West,GR,Greece,ESRA Mediterranean,2501,2675
+DK,Denmark,ESRA North-West,HR,Croatia,ESRA East,727,630
+DK,Denmark,ESRA North-West,HU,Hungary,ESRA East,546,737
+DK,Denmark,ESRA North-West,IE,Ireland,ESRA North-West,1110,1251
+DK,Denmark,ESRA North-West,IT,Italy,ESRA Mediterranean,4800,5275
+DK,Denmark,ESRA North-West,LT,Lithuania,Other Europe,1685,1872
+DK,Denmark,ESRA North-West,LU,Luxembourg,ESRA North-West,1035,977
+DK,Denmark,ESRA North-West,LV,Latvia,Other Europe,1431,1506
+DK,Denmark,ESRA North-West,MD,Moldova,ESRA East,1,1
+DK,Denmark,ESRA North-West,MK,Macedonia,ESRA East,5,6
+DK,Denmark,ESRA North-West,MT,Malta,ESRA Mediterranean,243,224
+DK,Denmark,ESRA North-West,NL,Netherlands,ESRA North-West,6942,7256
+DK,Denmark,ESRA North-West,NO,Norway,ESRA North-West,18758,17893
+DK,Denmark,ESRA North-West,PL,Poland,ESRA East,4348,4595
+DK,Denmark,ESRA North-West,PT,Portugal,ESRA Mediterranean,1125,954
+DK,Denmark,ESRA North-West,RO,Romania,ESRA East,179,184
+DK,Denmark,ESRA North-West,RS,Serbia,ESRA East,504,470
+DK,Denmark,ESRA North-West,SE,Sweden,ESRA North-West,12462,12768
+DK,Denmark,ESRA North-West,SI,Slovenia,ESRA East,184,183
+DK,Denmark,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,3,3
+DK,Denmark,ESRA North-West,SK,Slovakia,ESRA East,15,9
+DK,Denmark,ESRA North-West,TR,Turkey,ESRA Mediterranean,3927,4067
+DK,Denmark,ESRA North-West,UA,Ukraine,ESRA East,25,16
+EE,Estonia,Other Europe,AL,Albania,ESRA East,0,1
+EE,Estonia,Other Europe,AM,Armenia,Other Europe,0,1
+EE,Estonia,Other Europe,AT,Austria,ESRA North-West,53,262
+EE,Estonia,Other Europe,BA,Bosnia & Herzegovina,ESRA East,2,0
+EE,Estonia,Other Europe,BE,Belgium,ESRA North-West,431,485
+EE,Estonia,Other Europe,BG,Bulgaria,ESRA East,77,81
+EE,Estonia,Other Europe,CH,Switzerland,ESRA North-West,32,37
+EE,Estonia,Other Europe,CY,Cyprus,ESRA Mediterranean,6,17
+EE,Estonia,Other Europe,CZ,Czechia,ESRA East,16,12
+EE,Estonia,Other Europe,DE,Germany,ESRA North-West,1224,1519
+EE,Estonia,Other Europe,DK,Denmark,ESRA North-West,1029,1049
+EE,Estonia,Other Europe,EE,Estonia,Other Europe,2354,2826
+EE,Estonia,Other Europe,ES,Spain,ESRA Mediterranean,212,214
+EE,Estonia,Other Europe,FI,Finland,ESRA North-West,2833,2720
+EE,Estonia,Other Europe,FO,Faroe Islands,ESRA North-West,0,1
+EE,Estonia,Other Europe,FR,France,ESRA North-West,171,426
+EE,Estonia,Other Europe,GB,United Kingdom,ESRA North-West,514,503
+EE,Estonia,Other Europe,GE,Georgia,Other Europe,3,3
+EE,Estonia,Other Europe,GR,Greece,ESRA Mediterranean,81,114
+EE,Estonia,Other Europe,HR,Croatia,ESRA East,38,51
+EE,Estonia,Other Europe,HU,Hungary,ESRA East,4,6
+EE,Estonia,Other Europe,IE,Ireland,ESRA North-West,25,46
+EE,Estonia,Other Europe,IT,Italy,ESRA Mediterranean,192,274
+EE,Estonia,Other Europe,LT,Lithuania,Other Europe,999,656
+EE,Estonia,Other Europe,LU,Luxembourg,ESRA North-West,2,8
+EE,Estonia,Other Europe,LV,Latvia,Other Europe,1749,1872
+EE,Estonia,Other Europe,MD,Moldova,ESRA East,1,1
+EE,Estonia,Other Europe,MT,Malta,ESRA Mediterranean,2,7
+EE,Estonia,Other Europe,NL,Netherlands,ESRA North-West,691,721
+EE,Estonia,Other Europe,NO,Norway,ESRA North-West,957,1022
+EE,Estonia,Other Europe,PL,Poland,ESRA East,620,649
+EE,Estonia,Other Europe,PT,Portugal,ESRA Mediterranean,74,9
+EE,Estonia,Other Europe,RO,Romania,ESRA East,2,1
+EE,Estonia,Other Europe,RS,Serbia,ESRA East,4,10
+EE,Estonia,Other Europe,SE,Sweden,ESRA North-West,1551,1856
+EE,Estonia,Other Europe,SI,Slovenia,ESRA East,5,8
+EE,Estonia,Other Europe,SK,Slovakia,ESRA East,5,2
+EE,Estonia,Other Europe,TR,Turkey,ESRA Mediterranean,571,701
+EE,Estonia,Other Europe,UA,Ukraine,ESRA East,273,314
+ES,Spain,ESRA Mediterranean,AL,Albania,ESRA East,4,3
+ES,Spain,ESRA Mediterranean,AM,Armenia,Other Europe,14,9
+ES,Spain,ESRA Mediterranean,AT,Austria,ESRA North-West,5676,5931
+ES,Spain,ESRA Mediterranean,BA,Bosnia & Herzegovina,ESRA East,5,9
+ES,Spain,ESRA Mediterranean,BE,Belgium,ESRA North-West,19535,20789
+ES,Spain,ESRA Mediterranean,BG,Bulgaria,ESRA East,1068,1050
+ES,Spain,ESRA Mediterranean,CH,Switzerland,ESRA North-West,17162,17750
+ES,Spain,ESRA Mediterranean,CY,Cyprus,ESRA Mediterranean,71,65
+ES,Spain,ESRA Mediterranean,CZ,Czechia,ESRA East,2509,2736
+ES,Spain,ESRA Mediterranean,DE,Germany,ESRA North-West,83112,83117
+ES,Spain,ESRA Mediterranean,DK,Denmark,ESRA North-West,7908,7920
+ES,Spain,ESRA Mediterranean,EE,Estonia,Other Europe,209,211
+ES,Spain,ESRA Mediterranean,ES,Spain,ESRA Mediterranean,337705,348014
+ES,Spain,ESRA Mediterranean,FI,Finland,ESRA North-West,4502,4085
+ES,Spain,ESRA Mediterranean,FO,Faroe Islands,ESRA North-West,23,36
+ES,Spain,ESRA Mediterranean,FR,France,ESRA North-West,50608,54570
+ES,Spain,ESRA Mediterranean,GB,United Kingdom,ESRA North-West,113193,114391
+ES,Spain,ESRA Mediterranean,GE,Georgia,Other Europe,5,9
+ES,Spain,ESRA Mediterranean,GI,Gibraltar,Other Europe,85,98
+ES,Spain,ESRA Mediterranean,GR,Greece,ESRA Mediterranean,1610,1933
+ES,Spain,ESRA Mediterranean,HR,Croatia,ESRA East,722,926
+ES,Spain,ESRA Mediterranean,HU,Hungary,ESRA East,1247,1655
+ES,Spain,ESRA Mediterranean,IE,Ireland,ESRA North-West,10072,10615
+ES,Spain,ESRA Mediterranean,IT,Italy,ESRA Mediterranean,39399,42742
+ES,Spain,ESRA Mediterranean,LT,Lithuania,Other Europe,549,727
+ES,Spain,ESRA Mediterranean,LU,Luxembourg,ESRA North-West,2001,1889
+ES,Spain,ESRA Mediterranean,LV,Latvia,Other Europe,428,383
+ES,Spain,ESRA Mediterranean,MD,Moldova,ESRA East,58,127
+ES,Spain,ESRA Mediterranean,MK,Macedonia,ESRA East,3,56
+ES,Spain,ESRA Mediterranean,MT,Malta,ESRA Mediterranean,482,575
+ES,Spain,ESRA Mediterranean,NL,Netherlands,ESRA North-West,19979,21034
+ES,Spain,ESRA Mediterranean,NO,Norway,ESRA North-West,9360,8504
+ES,Spain,ESRA Mediterranean,PL,Poland,ESRA East,4447,5374
+ES,Spain,ESRA Mediterranean,PT,Portugal,ESRA Mediterranean,20290,21352
+ES,Spain,ESRA Mediterranean,RO,Romania,ESRA East,3779,4045
+ES,Spain,ESRA Mediterranean,RS,Serbia,ESRA East,204,230
+ES,Spain,ESRA Mediterranean,SE,Sweden,ESRA North-West,8880,8825
+ES,Spain,ESRA Mediterranean,SI,Slovenia,ESRA East,75,46
+ES,Spain,ESRA Mediterranean,SK,Slovakia,ESRA East,350,507
+ES,Spain,ESRA Mediterranean,TR,Turkey,ESRA Mediterranean,4699,5077
+ES,Spain,ESRA Mediterranean,UA,Ukraine,ESRA East,931,593
+FI,Finland,ESRA North-West,AL,Albania,ESRA East,1,6
+FI,Finland,ESRA North-West,AM,Armenia,Other Europe,2,1
+FI,Finland,ESRA North-West,AT,Austria,ESRA North-West,873,854
+FI,Finland,ESRA North-West,BE,Belgium,ESRA North-West,1377,1497
+FI,Finland,ESRA North-West,BG,Bulgaria,ESRA East,128,122
+FI,Finland,ESRA North-West,CH,Switzerland,ESRA North-West,1756,2074
+FI,Finland,ESRA North-West,CY,Cyprus,ESRA Mediterranean,115,106
+FI,Finland,ESRA North-West,CZ,Czechia,ESRA East,900,964
+FI,Finland,ESRA North-West,DE,Germany,ESRA North-West,8190,7997
+FI,Finland,ESRA North-West,DK,Denmark,ESRA North-West,4142,3610
+FI,Finland,ESRA North-West,EE,Estonia,Other Europe,2844,2728
+FI,Finland,ESRA North-West,ES,Spain,ESRA Mediterranean,4460,4090
+FI,Finland,ESRA North-West,FI,Finland,ESRA North-West,46326,44455
+FI,Finland,ESRA North-West,FO,Faroe Islands,ESRA North-West,1,3
+FI,Finland,ESRA North-West,FR,France,ESRA North-West,2480,2524
+FI,Finland,ESRA North-West,GB,United Kingdom,ESRA North-West,4514,4667
+FI,Finland,ESRA North-West,GE,Georgia,Other Europe,3,2
+FI,Finland,ESRA North-West,GR,Greece,ESRA Mediterranean,1103,1175
+FI,Finland,ESRA North-West,HR,Croatia,ESRA East,343,404
+FI,Finland,ESRA North-West,HU,Hungary,ESRA East,835,869
+FI,Finland,ESRA North-West,IE,Ireland,ESRA North-West,78,297
+FI,Finland,ESRA North-West,IT,Italy,ESRA Mediterranean,1994,2038
+FI,Finland,ESRA North-West,LT,Lithuania,Other Europe,765,789
+FI,Finland,ESRA North-West,LU,Luxembourg,ESRA North-West,14,13
+FI,Finland,ESRA North-West,LV,Latvia,Other Europe,2776,2631
+FI,Finland,ESRA North-West,MD,Moldova,ESRA East,2,3
+FI,Finland,ESRA North-West,MT,Malta,ESRA Mediterranean,2,57
+FI,Finland,ESRA North-West,NL,Netherlands,ESRA North-West,1888,1899
+FI,Finland,ESRA North-West,NO,Norway,ESRA North-West,2439,2235
+FI,Finland,ESRA North-West,PL,Poland,ESRA East,1301,1434
+FI,Finland,ESRA North-West,PT,Portugal,ESRA Mediterranean,458,403
+FI,Finland,ESRA North-West,RO,Romania,ESRA East,10,13
+FI,Finland,ESRA North-West,RS,Serbia,ESRA East,10,3
+FI,Finland,ESRA North-West,SE,Sweden,ESRA North-West,14792,14564
+FI,Finland,ESRA North-West,SI,Slovenia,ESRA East,122,131
+FI,Finland,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,1,1
+FI,Finland,ESRA North-West,SK,Slovakia,ESRA East,9,15
+FI,Finland,ESRA North-West,TR,Turkey,ESRA Mediterranean,1893,2015
+FI,Finland,ESRA North-West,UA,Ukraine,ESRA East,286,292
+FO,Faroe Islands,ESRA North-West,BE,Belgium,ESRA North-West,1,3
+FO,Faroe Islands,ESRA North-West,BG,Bulgaria,ESRA East,1,0
+FO,Faroe Islands,ESRA North-West,CH,Switzerland,ESRA North-West,2,2
+FO,Faroe Islands,ESRA North-West,DE,Germany,ESRA North-West,5,4
+FO,Faroe Islands,ESRA North-West,DK,Denmark,ESRA North-West,991,1019
+FO,Faroe Islands,ESRA North-West,EE,Estonia,Other Europe,0,2
+FO,Faroe Islands,ESRA North-West,ES,Spain,ESRA Mediterranean,23,37
+FO,Faroe Islands,ESRA North-West,FI,Finland,ESRA North-West,2,2
+FO,Faroe Islands,ESRA North-West,FO,Faroe Islands,ESRA North-West,3,2
+FO,Faroe Islands,ESRA North-West,FR,France,ESRA North-West,3,8
+FO,Faroe Islands,ESRA North-West,GB,United Kingdom,ESRA North-West,58,106
+FO,Faroe Islands,ESRA North-West,HR,Croatia,ESRA East,1,0
+FO,Faroe Islands,ESRA North-West,HU,Hungary,ESRA East,1,2
+FO,Faroe Islands,ESRA North-West,IE,Ireland,ESRA North-West,3,0
+FO,Faroe Islands,ESRA North-West,IT,Italy,ESRA Mediterranean,8,6
+FO,Faroe Islands,ESRA North-West,LU,Luxembourg,ESRA North-West,1,0
+FO,Faroe Islands,ESRA North-West,NO,Norway,ESRA North-West,185,186
+FO,Faroe Islands,ESRA North-West,PL,Poland,ESRA East,2,1
+FO,Faroe Islands,ESRA North-West,RO,Romania,ESRA East,0,3
+FO,Faroe Islands,ESRA North-West,RS,Serbia,ESRA East,1,0
+FO,Faroe Islands,ESRA North-West,SE,Sweden,ESRA North-West,7,1
+FR,France,ESRA North-West,AL,Albania,ESRA East,43,249
+FR,France,ESRA North-West,AM,Armenia,Other Europe,278,183
+FR,France,ESRA North-West,AT,Austria,ESRA North-West,6601,6654
+FR,France,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,142,144
+FR,France,ESRA North-West,BE,Belgium,ESRA North-West,16096,16136
+FR,France,ESRA North-West,BG,Bulgaria,ESRA East,953,1004
+FR,France,ESRA North-West,CH,Switzerland,ESRA North-West,26788,25892
+FR,France,ESRA North-West,CY,Cyprus,ESRA Mediterranean,523,487
+FR,France,ESRA North-West,CZ,Czechia,ESRA East,4632,4724
+FR,France,ESRA North-West,DE,Germany,ESRA North-West,58496,57643
+FR,France,ESRA North-West,DK,Denmark,ESRA North-West,6063,6181
+FR,France,ESRA North-West,EE,Estonia,Other Europe,159,422
+FR,France,ESRA North-West,ES,Spain,ESRA Mediterranean,50557,54435
+FR,France,ESRA North-West,FI,Finland,ESRA North-West,2473,2497
+FR,France,ESRA North-West,FO,Faroe Islands,ESRA North-West,4,5
+FR,France,ESRA North-West,FR,France,ESRA North-West,375746,371757
+FR,France,ESRA North-West,GB,United Kingdom,ESRA North-West,67458,66889
+FR,France,ESRA North-West,GE,Georgia,Other Europe,77,54
+FR,France,ESRA North-West,GI,Gibraltar,Other Europe,38,38
+FR,France,ESRA North-West,GR,Greece,ESRA Mediterranean,7884,8704
+FR,France,ESRA North-West,HR,Croatia,ESRA East,2395,2466
+FR,France,ESRA North-West,HU,Hungary,ESRA East,2237,2584
+FR,France,ESRA North-West,IE,Ireland,ESRA North-West,7884,8349
+FR,France,ESRA North-West,IT,Italy,ESRA Mediterranean,53824,55093
+FR,France,ESRA North-West,LT,Lithuania,Other Europe,539,470
+FR,France,ESRA North-West,LU,Luxembourg,ESRA North-West,2822,2940
+FR,France,ESRA North-West,LV,Latvia,Other Europe,915,880
+FR,France,ESRA North-West,MD,Moldova,ESRA East,154,183
+FR,France,ESRA North-West,MK,Macedonia,ESRA East,331,440
+FR,France,ESRA North-West,MT,Malta,ESRA Mediterranean,1838,1703
+FR,France,ESRA North-West,NL,Netherlands,ESRA North-West,17634,18845
+FR,France,ESRA North-West,NO,Norway,ESRA North-West,4150,3905
+FR,France,ESRA North-West,PL,Poland,ESRA East,5203,5508
+FR,France,ESRA North-West,PT,Portugal,ESRA Mediterranean,20006,21288
+FR,France,ESRA North-West,RO,Romania,ESRA East,3054,3440
+FR,France,ESRA North-West,RS,Serbia,ESRA East,2357,2522
+FR,France,ESRA North-West,SE,Sweden,ESRA North-West,5450,5156
+FR,France,ESRA North-West,SI,Slovenia,ESRA East,792,783
+FR,France,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,10,8
+FR,France,ESRA North-West,SK,Slovakia,ESRA East,321,389
+FR,France,ESRA North-West,TR,Turkey,ESRA Mediterranean,10853,11468
+FR,France,ESRA North-West,UA,Ukraine,ESRA East,1599,1569
+GB,United Kingdom,ESRA North-West,AL,Albania,ESRA East,246,311
+GB,United Kingdom,ESRA North-West,AM,Armenia,Other Europe,7,6
+GB,United Kingdom,ESRA North-West,AT,Austria,ESRA North-West,6880,7552
+GB,United Kingdom,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,15,25
+GB,United Kingdom,ESRA North-West,BE,Belgium,ESRA North-West,14550,14773
+GB,United Kingdom,ESRA North-West,BG,Bulgaria,ESRA East,3312,3593
+GB,United Kingdom,ESRA North-West,CH,Switzerland,ESRA North-West,30351,29465
+GB,United Kingdom,ESRA North-West,CY,Cyprus,ESRA Mediterranean,6781,6920
+GB,United Kingdom,ESRA North-West,CZ,Czechia,ESRA East,5660,6468
+GB,United Kingdom,ESRA North-West,DE,Germany,ESRA North-West,70904,73302
+GB,United Kingdom,ESRA North-West,DK,Denmark,ESRA North-West,14017,15299
+GB,United Kingdom,ESRA North-West,EE,Estonia,Other Europe,509,506
+GB,United Kingdom,ESRA North-West,ES,Spain,ESRA Mediterranean,113337,114703
+GB,United Kingdom,ESRA North-West,FI,Finland,ESRA North-West,4503,4652
+GB,United Kingdom,ESRA North-West,FO,Faroe Islands,ESRA North-West,67,107
+GB,United Kingdom,ESRA North-West,FR,France,ESRA North-West,67188,66860
+GB,United Kingdom,ESRA North-West,GB,United Kingdom,ESRA North-West,388478,397870
+GB,United Kingdom,ESRA North-West,GE,Georgia,Other Europe,16,12
+GB,United Kingdom,ESRA North-West,GI,Gibraltar,Other Europe,1557,1621
+GB,United Kingdom,ESRA North-West,GR,Greece,ESRA Mediterranean,17230,18751
+GB,United Kingdom,ESRA North-West,HR,Croatia,ESRA East,3849,3867
+GB,United Kingdom,ESRA North-West,HU,Hungary,ESRA East,5271,5759
+GB,United Kingdom,ESRA North-West,IE,Ireland,ESRA North-West,56577,57670
+GB,United Kingdom,ESRA North-West,IT,Italy,ESRA Mediterranean,48586,50455
+GB,United Kingdom,ESRA North-West,LT,Lithuania,Other Europe,2298,2556
+GB,United Kingdom,ESRA North-West,LU,Luxembourg,ESRA North-West,3768,3789
+GB,United Kingdom,ESRA North-West,LV,Latvia,Other Europe,2226,2500
+GB,United Kingdom,ESRA North-West,MD,Moldova,ESRA East,115,165
+GB,United Kingdom,ESRA North-West,MK,Macedonia,ESRA East,239,273
+GB,United Kingdom,ESRA North-West,MT,Malta,ESRA Mediterranean,4406,4517
+GB,United Kingdom,ESRA North-West,NL,Netherlands,ESRA North-West,49078,50357
+GB,United Kingdom,ESRA North-West,NO,Norway,ESRA North-West,15727,14394
+GB,United Kingdom,ESRA North-West,PL,Poland,ESRA East,16955,19637
+GB,United Kingdom,ESRA North-West,PT,Portugal,ESRA Mediterranean,22142,23132
+GB,United Kingdom,ESRA North-West,RO,Romania,ESRA East,4317,5405
+GB,United Kingdom,ESRA North-West,RS,Serbia,ESRA East,943,982
+GB,United Kingdom,ESRA North-West,SE,Sweden,ESRA North-West,11388,11118
+GB,United Kingdom,ESRA North-West,SI,Slovenia,ESRA East,667,712
+GB,United Kingdom,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,1,3
+GB,United Kingdom,ESRA North-West,SK,Slovakia,ESRA East,1685,2154
+GB,United Kingdom,ESRA North-West,TR,Turkey,ESRA Mediterranean,17515,17905
+GB,United Kingdom,ESRA North-West,UA,Ukraine,ESRA East,1310,1222
+GE,Georgia,Other Europe,AL,Albania,ESRA East,1,0
+GE,Georgia,Other Europe,AM,Armenia,Other Europe,33,206
+GE,Georgia,Other Europe,AT,Austria,ESRA North-West,122,120
+GE,Georgia,Other Europe,BE,Belgium,ESRA North-West,9,7
+GE,Georgia,Other Europe,BG,Bulgaria,ESRA East,24,24
+GE,Georgia,Other Europe,CH,Switzerland,ESRA North-West,7,13
+GE,Georgia,Other Europe,CY,Cyprus,ESRA Mediterranean,11,9
+GE,Georgia,Other Europe,CZ,Czechia,ESRA East,43,14
+GE,Georgia,Other Europe,DE,Germany,ESRA North-West,450,408
+GE,Georgia,Other Europe,DK,Denmark,ESRA North-West,2,2
+GE,Georgia,Other Europe,EE,Estonia,Other Europe,3,3
+GE,Georgia,Other Europe,ES,Spain,ESRA Mediterranean,7,10
+GE,Georgia,Other Europe,FI,Finland,ESRA North-West,4,2
+GE,Georgia,Other Europe,FR,France,ESRA North-West,84,55
+GE,Georgia,Other Europe,GB,United Kingdom,ESRA North-West,20,16
+GE,Georgia,Other Europe,GE,Georgia,Other Europe,797,607
+GE,Georgia,Other Europe,GR,Greece,ESRA Mediterranean,104,136
+GE,Georgia,Other Europe,HR,Croatia,ESRA East,6,2
+GE,Georgia,Other Europe,HU,Hungary,ESRA East,31,106
+GE,Georgia,Other Europe,IE,Ireland,ESRA North-West,1,0
+GE,Georgia,Other Europe,IT,Italy,ESRA Mediterranean,178,144
+GE,Georgia,Other Europe,LT,Lithuania,Other Europe,80,96
+GE,Georgia,Other Europe,LU,Luxembourg,ESRA North-West,0,1
+GE,Georgia,Other Europe,LV,Latvia,Other Europe,156,156
+GE,Georgia,Other Europe,MD,Moldova,ESRA East,13,3
+GE,Georgia,Other Europe,MT,Malta,ESRA Mediterranean,4,1
+GE,Georgia,Other Europe,NL,Netherlands,ESRA North-West,120,116
+GE,Georgia,Other Europe,NO,Norway,ESRA North-West,0,3
+GE,Georgia,Other Europe,PL,Poland,ESRA East,529,450
+GE,Georgia,Other Europe,RO,Romania,ESRA East,26,19
+GE,Georgia,Other Europe,RS,Serbia,ESRA East,6,7
+GE,Georgia,Other Europe,SE,Sweden,ESRA North-West,4,2
+GE,Georgia,Other Europe,SI,Slovenia,ESRA East,0,3
+GE,Georgia,Other Europe,SK,Slovakia,ESRA East,7,8
+GE,Georgia,Other Europe,TR,Turkey,ESRA Mediterranean,3119,3038
+GE,Georgia,Other Europe,UA,Ukraine,ESRA East,1326,1119
+GI,Gibraltar,Other Europe,AT,Austria,ESRA North-West,3,2
+GI,Gibraltar,Other Europe,BE,Belgium,ESRA North-West,1,1
+GI,Gibraltar,Other Europe,CH,Switzerland,ESRA North-West,25,24
+GI,Gibraltar,Other Europe,CY,Cyprus,ESRA Mediterranean,0,1
+GI,Gibraltar,Other Europe,CZ,Czechia,ESRA East,1,3
+GI,Gibraltar,Other Europe,DE,Germany,ESRA North-West,5,6
+GI,Gibraltar,Other Europe,DK,Denmark,ESRA North-West,5,7
+GI,Gibraltar,Other Europe,ES,Spain,ESRA Mediterranean,70,95
+GI,Gibraltar,Other Europe,FR,France,ESRA North-West,44,37
+GI,Gibraltar,Other Europe,GB,United Kingdom,ESRA North-West,1526,1612
+GI,Gibraltar,Other Europe,GI,Gibraltar,Other Europe,6,5
+GI,Gibraltar,Other Europe,GR,Greece,ESRA Mediterranean,0,3
+GI,Gibraltar,Other Europe,IE,Ireland,ESRA North-West,3,3
+GI,Gibraltar,Other Europe,IT,Italy,ESRA Mediterranean,13,12
+GI,Gibraltar,Other Europe,LU,Luxembourg,ESRA North-West,1,1
+GI,Gibraltar,Other Europe,NL,Netherlands,ESRA North-West,1,1
+GI,Gibraltar,Other Europe,NO,Norway,ESRA North-West,1,1
+GI,Gibraltar,Other Europe,PL,Poland,ESRA East,0,1
+GI,Gibraltar,Other Europe,PT,Portugal,ESRA Mediterranean,27,16
+GI,Gibraltar,Other Europe,RO,Romania,ESRA East,3,0
+GI,Gibraltar,Other Europe,RS,Serbia,ESRA East,0,1
+GI,Gibraltar,Other Europe,SE,Sweden,ESRA North-West,2,0
+GI,Gibraltar,Other Europe,SK,Slovakia,ESRA East,1,1
+GR,Greece,ESRA Mediterranean,AL,Albania,ESRA East,776,874
+GR,Greece,ESRA Mediterranean,AM,Armenia,Other Europe,69,122
+GR,Greece,ESRA Mediterranean,AT,Austria,ESRA North-West,3590,3969
+GR,Greece,ESRA Mediterranean,BA,Bosnia & Herzegovina,ESRA East,27,19
+GR,Greece,ESRA Mediterranean,BE,Belgium,ESRA North-West,3312,3565
+GR,Greece,ESRA Mediterranean,BG,Bulgaria,ESRA East,915,976
+GR,Greece,ESRA Mediterranean,CH,Switzerland,ESRA North-West,3743,4359
+GR,Greece,ESRA Mediterranean,CY,Cyprus,ESRA Mediterranean,4782,5276
+GR,Greece,ESRA Mediterranean,CZ,Czechia,ESRA East,2446,2570
+GR,Greece,ESRA Mediterranean,DE,Germany,ESRA North-West,18029,18483
+GR,Greece,ESRA Mediterranean,DK,Denmark,ESRA North-West,2477,2671
+GR,Greece,ESRA Mediterranean,EE,Estonia,Other Europe,84,114
+GR,Greece,ESRA Mediterranean,ES,Spain,ESRA Mediterranean,1569,1886
+GR,Greece,ESRA Mediterranean,FI,Finland,ESRA North-West,1098,1179
+GR,Greece,ESRA Mediterranean,FO,Faroe Islands,ESRA North-West,0,2
+GR,Greece,ESRA Mediterranean,FR,France,ESRA North-West,7986,8726
+GR,Greece,ESRA Mediterranean,GB,United Kingdom,ESRA North-West,17261,18804
+GR,Greece,ESRA Mediterranean,GE,Georgia,Other Europe,102,136
+GR,Greece,ESRA Mediterranean,GI,Gibraltar,Other Europe,1,4
+GR,Greece,ESRA Mediterranean,GR,Greece,ESRA Mediterranean,92242,99409
+GR,Greece,ESRA Mediterranean,HR,Croatia,ESRA East,301,403
+GR,Greece,ESRA Mediterranean,HU,Hungary,ESRA East,642,940
+GR,Greece,ESRA Mediterranean,IE,Ireland,ESRA North-West,338,366
+GR,Greece,ESRA Mediterranean,IT,Italy,ESRA Mediterranean,11713,12683
+GR,Greece,ESRA Mediterranean,LT,Lithuania,Other Europe,289,303
+GR,Greece,ESRA Mediterranean,LU,Luxembourg,ESRA North-West,216,220
+GR,Greece,ESRA Mediterranean,LV,Latvia,Other Europe,218,298
+GR,Greece,ESRA Mediterranean,MD,Moldova,ESRA East,98,126
+GR,Greece,ESRA Mediterranean,MK,Macedonia,ESRA East,18,24
+GR,Greece,ESRA Mediterranean,MT,Malta,ESRA Mediterranean,173,261
+GR,Greece,ESRA Mediterranean,NL,Netherlands,ESRA North-West,4432,4641
+GR,Greece,ESRA Mediterranean,NO,Norway,ESRA North-West,2488,2089
+GR,Greece,ESRA Mediterranean,PL,Poland,ESRA East,3473,4046
+GR,Greece,ESRA Mediterranean,PT,Portugal,ESRA Mediterranean,48,45
+GR,Greece,ESRA Mediterranean,RO,Romania,ESRA East,1714,1746
+GR,Greece,ESRA Mediterranean,RS,Serbia,ESRA East,1832,1752
+GR,Greece,ESRA Mediterranean,SE,Sweden,ESRA North-West,3082,3156
+GR,Greece,ESRA Mediterranean,SI,Slovenia,ESRA East,286,337
+GR,Greece,ESRA Mediterranean,SK,Slovakia,ESRA East,487,627
+GR,Greece,ESRA Mediterranean,TR,Turkey,ESRA Mediterranean,4568,5093
+GR,Greece,ESRA Mediterranean,UA,Ukraine,ESRA East,1202,900
+HR,Croatia,ESRA East,AL,Albania,ESRA East,12,13
+HR,Croatia,ESRA East,AM,Armenia,Other Europe,1,1
+HR,Croatia,ESRA East,AT,Austria,ESRA North-West,3025,3011
+HR,Croatia,ESRA East,BA,Bosnia & Herzegovina,ESRA East,700,762
+HR,Croatia,ESRA East,BE,Belgium,ESRA North-West,997,1165
+HR,Croatia,ESRA East,BG,Bulgaria,ESRA East,26,48
+HR,Croatia,ESRA East,CH,Switzerland,ESRA North-West,1591,1826
+HR,Croatia,ESRA East,CY,Cyprus,ESRA Mediterranean,23,23
+HR,Croatia,ESRA East,CZ,Czechia,ESRA East,639,734
+HR,Croatia,ESRA East,DE,Germany,ESRA North-West,8149,8428
+HR,Croatia,ESRA East,DK,Denmark,ESRA North-West,723,626
+HR,Croatia,ESRA East,EE,Estonia,Other Europe,36,55
+HR,Croatia,ESRA East,ES,Spain,ESRA Mediterranean,733,935
+HR,Croatia,ESRA East,FI,Finland,ESRA North-West,347,406
+HR,Croatia,ESRA East,FO,Faroe Islands,ESRA North-West,1,1
+HR,Croatia,ESRA East,FR,France,ESRA North-West,2437,2553
+HR,Croatia,ESRA East,GB,United Kingdom,ESRA North-West,3886,3928
+HR,Croatia,ESRA East,GE,Georgia,Other Europe,5,1
+HR,Croatia,ESRA East,GR,Greece,ESRA Mediterranean,280,360
+HR,Croatia,ESRA East,HR,Croatia,ESRA East,9647,9208
+HR,Croatia,ESRA East,HU,Hungary,ESRA East,430,163
+HR,Croatia,ESRA East,IE,Ireland,ESRA North-West,298,338
+HR,Croatia,ESRA East,IT,Italy,ESRA Mediterranean,2127,2280
+HR,Croatia,ESRA East,LT,Lithuania,Other Europe,27,9
+HR,Croatia,ESRA East,LU,Luxembourg,ESRA North-West,35,54
+HR,Croatia,ESRA East,LV,Latvia,Other Europe,40,84
+HR,Croatia,ESRA East,MD,Moldova,ESRA East,6,4
+HR,Croatia,ESRA East,MK,Macedonia,ESRA East,407,416
+HR,Croatia,ESRA East,MT,Malta,ESRA Mediterranean,34,29
+HR,Croatia,ESRA East,NL,Netherlands,ESRA North-West,804,1078
+HR,Croatia,ESRA East,NO,Norway,ESRA North-West,1048,845
+HR,Croatia,ESRA East,PL,Poland,ESRA East,495,309
+HR,Croatia,ESRA East,PT,Portugal,ESRA Mediterranean,99,90
+HR,Croatia,ESRA East,RO,Romania,ESRA East,39,27
+HR,Croatia,ESRA East,RS,Serbia,ESRA East,806,1420
+HR,Croatia,ESRA East,SE,Sweden,ESRA North-West,937,893
+HR,Croatia,ESRA East,SI,Slovenia,ESRA East,178,247
+HR,Croatia,ESRA East,SK,Slovakia,ESRA East,168,225
+HR,Croatia,ESRA East,TR,Turkey,ESRA Mediterranean,831,798
+HR,Croatia,ESRA East,UA,Ukraine,ESRA East,88,89
+HU,Hungary,ESRA East,AL,Albania,ESRA East,11,3
+HU,Hungary,ESRA East,AM,Armenia,Other Europe,0,1
+HU,Hungary,ESRA East,AT,Austria,ESRA North-West,1932,1818
+HU,Hungary,ESRA East,BA,Bosnia & Herzegovina,ESRA East,30,30
+HU,Hungary,ESRA East,BE,Belgium,ESRA North-West,2026,2176
+HU,Hungary,ESRA East,BG,Bulgaria,ESRA East,161,114
+HU,Hungary,ESRA East,CH,Switzerland,ESRA North-West,1578,1556
+HU,Hungary,ESRA East,CY,Cyprus,ESRA Mediterranean,169,173
+HU,Hungary,ESRA East,CZ,Czechia,ESRA East,1094,1032
+HU,Hungary,ESRA East,DE,Germany,ESRA North-West,8268,8271
+HU,Hungary,ESRA East,DK,Denmark,ESRA North-West,542,720
+HU,Hungary,ESRA East,EE,Estonia,Other Europe,3,4
+HU,Hungary,ESRA East,ES,Spain,ESRA Mediterranean,1267,1695
+HU,Hungary,ESRA East,FI,Finland,ESRA North-West,840,878
+HU,Hungary,ESRA East,FO,Faroe Islands,ESRA North-West,0,3
+HU,Hungary,ESRA East,FR,France,ESRA North-West,2215,2622
+HU,Hungary,ESRA East,GB,United Kingdom,ESRA North-West,5279,5798
+HU,Hungary,ESRA East,GE,Georgia,Other Europe,32,107
+HU,Hungary,ESRA East,GI,Gibraltar,Other Europe,0,1
+HU,Hungary,ESRA East,GR,Greece,ESRA Mediterranean,639,927
+HU,Hungary,ESRA East,HR,Croatia,ESRA East,450,152
+HU,Hungary,ESRA East,HU,Hungary,ESRA East,281,363
+HU,Hungary,ESRA East,IE,Ireland,ESRA North-West,595,616
+HU,Hungary,ESRA East,IT,Italy,ESRA Mediterranean,2773,3380
+HU,Hungary,ESRA East,LT,Lithuania,Other Europe,15,10
+HU,Hungary,ESRA East,LU,Luxembourg,ESRA North-West,201,160
+HU,Hungary,ESRA East,LV,Latvia,Other Europe,218,162
+HU,Hungary,ESRA East,MD,Moldova,ESRA East,5,3
+HU,Hungary,ESRA East,MK,Macedonia,ESRA East,25,13
+HU,Hungary,ESRA East,MT,Malta,ESRA Mediterranean,208,218
+HU,Hungary,ESRA East,NL,Netherlands,ESRA North-West,2189,2128
+HU,Hungary,ESRA East,NO,Norway,ESRA North-West,426,487
+HU,Hungary,ESRA East,PL,Poland,ESRA East,1541,1659
+HU,Hungary,ESRA East,PT,Portugal,ESRA Mediterranean,347,416
+HU,Hungary,ESRA East,RO,Romania,ESRA East,1998,1988
+HU,Hungary,ESRA East,RS,Serbia,ESRA East,737,776
+HU,Hungary,ESRA East,SE,Sweden,ESRA North-West,975,1211
+HU,Hungary,ESRA East,SI,Slovenia,ESRA East,43,47
+HU,Hungary,ESRA East,SK,Slovakia,ESRA East,112,154
+HU,Hungary,ESRA East,TR,Turkey,ESRA Mediterranean,1869,2265
+HU,Hungary,ESRA East,UA,Ukraine,ESRA East,382,342
+IE,Ireland,ESRA North-West,AL,Albania,ESRA East,0,1
+IE,Ireland,ESRA North-West,AM,Armenia,Other Europe,1,0
+IE,Ireland,ESRA North-West,AT,Austria,ESRA North-West,488,474
+IE,Ireland,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,0,5
+IE,Ireland,ESRA North-West,BE,Belgium,ESRA North-West,1949,2381
+IE,Ireland,ESRA North-West,BG,Bulgaria,ESRA East,99,124
+IE,Ireland,ESRA North-West,CH,Switzerland,ESRA North-West,1311,1444
+IE,Ireland,ESRA North-West,CY,Cyprus,ESRA Mediterranean,4,5
+IE,Ireland,ESRA North-West,CZ,Czechia,ESRA East,573,686
+IE,Ireland,ESRA North-West,DE,Germany,ESRA North-West,6550,7031
+IE,Ireland,ESRA North-West,DK,Denmark,ESRA North-West,1115,1244
+IE,Ireland,ESRA North-West,EE,Estonia,Other Europe,21,45
+IE,Ireland,ESRA North-West,ES,Spain,ESRA Mediterranean,10046,10635
+IE,Ireland,ESRA North-West,FI,Finland,ESRA North-West,76,292
+IE,Ireland,ESRA North-West,FO,Faroe Islands,ESRA North-West,4,0
+IE,Ireland,ESRA North-West,FR,France,ESRA North-West,7858,8297
+IE,Ireland,ESRA North-West,GB,United Kingdom,ESRA North-West,55989,57058
+IE,Ireland,ESRA North-West,GE,Georgia,Other Europe,2,2
+IE,Ireland,ESRA North-West,GI,Gibraltar,Other Europe,1,3
+IE,Ireland,ESRA North-West,GR,Greece,ESRA Mediterranean,314,373
+IE,Ireland,ESRA North-West,HR,Croatia,ESRA East,296,329
+IE,Ireland,ESRA North-West,HU,Hungary,ESRA East,591,615
+IE,Ireland,ESRA North-West,IE,Ireland,ESRA North-West,5365,5240
+IE,Ireland,ESRA North-West,IT,Italy,ESRA Mediterranean,3511,4128
+IE,Ireland,ESRA North-West,LT,Lithuania,Other Europe,539,516
+IE,Ireland,ESRA North-West,LU,Luxembourg,ESRA North-West,188,310
+IE,Ireland,ESRA North-West,LV,Latvia,Other Europe,347,376
+IE,Ireland,ESRA North-West,MD,Moldova,ESRA East,60,92
+IE,Ireland,ESRA North-West,MK,Macedonia,ESRA East,2,1
+IE,Ireland,ESRA North-West,MT,Malta,ESRA Mediterranean,190,236
+IE,Ireland,ESRA North-West,NL,Netherlands,ESRA North-West,3022,3185
+IE,Ireland,ESRA North-West,NO,Norway,ESRA North-West,600,617
+IE,Ireland,ESRA North-West,PL,Poland,ESRA East,2738,2895
+IE,Ireland,ESRA North-West,PT,Portugal,ESRA Mediterranean,2564,2586
+IE,Ireland,ESRA North-West,RO,Romania,ESRA East,560,433
+IE,Ireland,ESRA North-West,RS,Serbia,ESRA East,4,7
+IE,Ireland,ESRA North-West,SE,Sweden,ESRA North-West,500,392
+IE,Ireland,ESRA North-West,SI,Slovenia,ESRA East,5,1
+IE,Ireland,ESRA North-West,SK,Slovakia,ESRA East,312,368
+IE,Ireland,ESRA North-West,TR,Turkey,ESRA Mediterranean,897,986
+IE,Ireland,ESRA North-West,UA,Ukraine,ESRA East,5,1
+IT,Italy,ESRA Mediterranean,AL,Albania,ESRA East,4697,5251
+IT,Italy,ESRA Mediterranean,AM,Armenia,Other Europe,107,13
+IT,Italy,ESRA Mediterranean,AT,Austria,ESRA North-West,9006,8797
+IT,Italy,ESRA Mediterranean,BA,Bosnia & Herzegovina,ESRA East,682,713
+IT,Italy,ESRA Mediterranean,BE,Belgium,ESRA North-West,16289,16311
+IT,Italy,ESRA Mediterranean,BG,Bulgaria,ESRA East,1668,1812
+IT,Italy,ESRA Mediterranean,CH,Switzerland,ESRA North-West,15820,16145
+IT,Italy,ESRA Mediterranean,CY,Cyprus,ESRA Mediterranean,305,385
+IT,Italy,ESRA Mediterranean,CZ,Czechia,ESRA East,4261,4639
+IT,Italy,ESRA Mediterranean,DE,Germany,ESRA North-West,62860,66117
+IT,Italy,ESRA Mediterranean,DK,Denmark,ESRA North-West,4780,5276
+IT,Italy,ESRA Mediterranean,EE,Estonia,Other Europe,194,258
+IT,Italy,ESRA Mediterranean,ES,Spain,ESRA Mediterranean,39430,42724
+IT,Italy,ESRA Mediterranean,FI,Finland,ESRA North-West,1983,2030
+IT,Italy,ESRA Mediterranean,FO,Faroe Islands,ESRA North-West,8,6
+IT,Italy,ESRA Mediterranean,FR,France,ESRA North-West,53728,55083
+IT,Italy,ESRA Mediterranean,GB,United Kingdom,ESRA North-West,48338,50399
+IT,Italy,ESRA Mediterranean,GE,Georgia,Other Europe,135,122
+IT,Italy,ESRA Mediterranean,GI,Gibraltar,Other Europe,12,9
+IT,Italy,ESRA Mediterranean,GR,Greece,ESRA Mediterranean,11417,12244
+IT,Italy,ESRA Mediterranean,HR,Croatia,ESRA East,2161,2341
+IT,Italy,ESRA Mediterranean,HU,Hungary,ESRA East,2763,3286
+IT,Italy,ESRA Mediterranean,IE,Ireland,ESRA North-West,3655,4269
+IT,Italy,ESRA Mediterranean,IT,Italy,ESRA Mediterranean,291062,280779
+IT,Italy,ESRA Mediterranean,LT,Lithuania,Other Europe,920,955
+IT,Italy,ESRA Mediterranean,LU,Luxembourg,ESRA North-West,2326,2413
+IT,Italy,ESRA Mediterranean,LV,Latvia,Other Europe,982,833
+IT,Italy,ESRA Mediterranean,MD,Moldova,ESRA East,1486,1675
+IT,Italy,ESRA Mediterranean,MK,Macedonia,ESRA East,459,592
+IT,Italy,ESRA Mediterranean,MT,Malta,ESRA Mediterranean,3288,3694
+IT,Italy,ESRA Mediterranean,NL,Netherlands,ESRA North-West,15403,16658
+IT,Italy,ESRA Mediterranean,NO,Norway,ESRA North-West,1913,1348
+IT,Italy,ESRA Mediterranean,PL,Poland,ESRA East,5901,6240
+IT,Italy,ESRA Mediterranean,PT,Portugal,ESRA Mediterranean,5826,6713
+IT,Italy,ESRA Mediterranean,RO,Romania,ESRA East,8806,10112
+IT,Italy,ESRA Mediterranean,RS,Serbia,ESRA East,2741,2251
+IT,Italy,ESRA Mediterranean,SE,Sweden,ESRA North-West,2857,2805
+IT,Italy,ESRA Mediterranean,SI,Slovenia,ESRA East,200,327
+IT,Italy,ESRA Mediterranean,SJ,Svalbard & Jan Mayen,ESRA North-West,1,0
+IT,Italy,ESRA Mediterranean,SK,Slovakia,ESRA East,907,962
+IT,Italy,ESRA Mediterranean,TR,Turkey,ESRA Mediterranean,9190,10350
+IT,Italy,ESRA Mediterranean,UA,Ukraine,ESRA East,2143,1270
+LT,Lithuania,Other Europe,AL,Albania,ESRA East,1,1
+LT,Lithuania,Other Europe,AM,Armenia,Other Europe,2,3
+LT,Lithuania,Other Europe,AT,Austria,ESRA North-West,386,402
+LT,Lithuania,Other Europe,BA,Bosnia & Herzegovina,ESRA East,0,4
+LT,Lithuania,Other Europe,BE,Belgium,ESRA North-West,579,575
+LT,Lithuania,Other Europe,BG,Bulgaria,ESRA East,113,90
+LT,Lithuania,Other Europe,CH,Switzerland,ESRA North-West,32,39
+LT,Lithuania,Other Europe,CY,Cyprus,ESRA Mediterranean,121,139
+LT,Lithuania,Other Europe,CZ,Czechia,ESRA East,215,46
+LT,Lithuania,Other Europe,DE,Germany,ESRA North-West,2006,1978
+LT,Lithuania,Other Europe,DK,Denmark,ESRA North-West,1681,1879
+LT,Lithuania,Other Europe,EE,Estonia,Other Europe,955,647
+LT,Lithuania,Other Europe,ES,Spain,ESRA Mediterranean,558,741
+LT,Lithuania,Other Europe,FI,Finland,ESRA North-West,752,785
+LT,Lithuania,Other Europe,FR,France,ESRA North-West,548,491
+LT,Lithuania,Other Europe,GB,United Kingdom,ESRA North-West,2309,2553
+LT,Lithuania,Other Europe,GE,Georgia,Other Europe,81,96
+LT,Lithuania,Other Europe,GR,Greece,ESRA Mediterranean,293,301
+LT,Lithuania,Other Europe,HR,Croatia,ESRA East,30,7
+LT,Lithuania,Other Europe,HU,Hungary,ESRA East,12,15
+LT,Lithuania,Other Europe,IE,Ireland,ESRA North-West,535,518
+LT,Lithuania,Other Europe,IT,Italy,ESRA Mediterranean,924,963
+LT,Lithuania,Other Europe,LT,Lithuania,Other Europe,949,1200
+LT,Lithuania,Other Europe,LU,Luxembourg,ESRA North-West,8,5
+LT,Lithuania,Other Europe,LV,Latvia,Other Europe,2202,2290
+LT,Lithuania,Other Europe,MD,Moldova,ESRA East,5,4
+LT,Lithuania,Other Europe,MK,Macedonia,ESRA East,3,0
+LT,Lithuania,Other Europe,MT,Malta,ESRA Mediterranean,72,73
+LT,Lithuania,Other Europe,NL,Netherlands,ESRA North-West,354,575
+LT,Lithuania,Other Europe,NO,Norway,ESRA North-West,1072,1204
+LT,Lithuania,Other Europe,PL,Poland,ESRA East,1729,1734
+LT,Lithuania,Other Europe,PT,Portugal,ESRA Mediterranean,11,15
+LT,Lithuania,Other Europe,RO,Romania,ESRA East,12,6
+LT,Lithuania,Other Europe,RS,Serbia,ESRA East,13,7
+LT,Lithuania,Other Europe,SE,Sweden,ESRA North-West,760,1066
+LT,Lithuania,Other Europe,SI,Slovenia,ESRA East,7,1
+LT,Lithuania,Other Europe,SJ,Svalbard & Jan Mayen,ESRA North-West,1,0
+LT,Lithuania,Other Europe,SK,Slovakia,ESRA East,9,15
+LT,Lithuania,Other Europe,TR,Turkey,ESRA Mediterranean,681,804
+LT,Lithuania,Other Europe,UA,Ukraine,ESRA East,590,664
+LU,Luxembourg,ESRA North-West,AL,Albania,ESRA East,4,1
+LU,Luxembourg,ESRA North-West,AM,Armenia,Other Europe,24,5
+LU,Luxembourg,ESRA North-West,AT,Austria,ESRA North-West,972,1014
+LU,Luxembourg,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,1,2
+LU,Luxembourg,ESRA North-West,BE,Belgium,ESRA North-West,191,178
+LU,Luxembourg,ESRA North-West,BG,Bulgaria,ESRA East,107,86
+LU,Luxembourg,ESRA North-West,CH,Switzerland,ESRA North-West,2229,2184
+LU,Luxembourg,ESRA North-West,CY,Cyprus,ESRA Mediterranean,10,17
+LU,Luxembourg,ESRA North-West,CZ,Czechia,ESRA East,33,31
+LU,Luxembourg,ESRA North-West,DE,Germany,ESRA North-West,5347,5565
+LU,Luxembourg,ESRA North-West,DK,Denmark,ESRA North-West,1031,977
+LU,Luxembourg,ESRA North-West,EE,Estonia,Other Europe,3,3
+LU,Luxembourg,ESRA North-West,ES,Spain,ESRA Mediterranean,1966,1950
+LU,Luxembourg,ESRA North-West,FI,Finland,ESRA North-West,20,26
+LU,Luxembourg,ESRA North-West,FR,France,ESRA North-West,2719,2799
+LU,Luxembourg,ESRA North-West,GB,United Kingdom,ESRA North-West,3294,3227
+LU,Luxembourg,ESRA North-West,GE,Georgia,Other Europe,107,102
+LU,Luxembourg,ESRA North-West,GI,Gibraltar,Other Europe,1,3
+LU,Luxembourg,ESRA North-West,GR,Greece,ESRA Mediterranean,229,254
+LU,Luxembourg,ESRA North-West,HR,Croatia,ESRA East,36,58
+LU,Luxembourg,ESRA North-West,HU,Hungary,ESRA East,15,14
+LU,Luxembourg,ESRA North-West,IE,Ireland,ESRA North-West,189,318
+LU,Luxembourg,ESRA North-West,IT,Italy,ESRA Mediterranean,2278,2354
+LU,Luxembourg,ESRA North-West,LT,Lithuania,Other Europe,3,6
+LU,Luxembourg,ESRA North-West,LU,Luxembourg,ESRA North-West,37,53
+LU,Luxembourg,ESRA North-West,LV,Latvia,Other Europe,5,6
+LU,Luxembourg,ESRA North-West,MD,Moldova,ESRA East,1,0
+LU,Luxembourg,ESRA North-West,MK,Macedonia,ESRA East,3,3
+LU,Luxembourg,ESRA North-West,MT,Malta,ESRA Mediterranean,37,36
+LU,Luxembourg,ESRA North-West,NL,Netherlands,ESRA North-West,1389,1370
+LU,Luxembourg,ESRA North-West,NO,Norway,ESRA North-West,22,8
+LU,Luxembourg,ESRA North-West,PL,Poland,ESRA East,46,38
+LU,Luxembourg,ESRA North-West,PT,Portugal,ESRA Mediterranean,1360,1520
+LU,Luxembourg,ESRA North-West,RO,Romania,ESRA East,10,17
+LU,Luxembourg,ESRA North-West,RS,Serbia,ESRA East,14,21
+LU,Luxembourg,ESRA North-West,SE,Sweden,ESRA North-West,199,326
+LU,Luxembourg,ESRA North-West,SI,Slovenia,ESRA East,2,11
+LU,Luxembourg,ESRA North-West,SK,Slovakia,ESRA East,7,19
+LU,Luxembourg,ESRA North-West,TR,Turkey,ESRA Mediterranean,536,578
+LU,Luxembourg,ESRA North-West,UA,Ukraine,ESRA East,12,16
+LV,Latvia,Other Europe,AL,Albania,ESRA East,1,0
+LV,Latvia,Other Europe,AM,Armenia,Other Europe,1,3
+LV,Latvia,Other Europe,AT,Austria,ESRA North-West,666,631
+LV,Latvia,Other Europe,BE,Belgium,ESRA North-West,685,1096
+LV,Latvia,Other Europe,BG,Bulgaria,ESRA East,115,97
+LV,Latvia,Other Europe,CH,Switzerland,ESRA North-West,337,467
+LV,Latvia,Other Europe,CY,Cyprus,ESRA Mediterranean,81,73
+LV,Latvia,Other Europe,CZ,Czechia,ESRA East,349,388
+LV,Latvia,Other Europe,DE,Germany,ESRA North-West,3721,4074
+LV,Latvia,Other Europe,DK,Denmark,ESRA North-West,1429,1514
+LV,Latvia,Other Europe,EE,Estonia,Other Europe,1749,1878
+LV,Latvia,Other Europe,ES,Spain,ESRA Mediterranean,432,379
+LV,Latvia,Other Europe,FI,Finland,ESRA North-West,2775,2630
+LV,Latvia,Other Europe,FR,France,ESRA North-West,904,891
+LV,Latvia,Other Europe,GB,United Kingdom,ESRA North-West,2224,2490
+LV,Latvia,Other Europe,GE,Georgia,Other Europe,156,157
+LV,Latvia,Other Europe,GR,Greece,ESRA Mediterranean,214,295
+LV,Latvia,Other Europe,HR,Croatia,ESRA East,41,76
+LV,Latvia,Other Europe,HU,Hungary,ESRA East,212,159
+LV,Latvia,Other Europe,IE,Ireland,ESRA North-West,346,373
+LV,Latvia,Other Europe,IT,Italy,ESRA Mediterranean,981,845
+LV,Latvia,Other Europe,LT,Lithuania,Other Europe,2187,2267
+LV,Latvia,Other Europe,LU,Luxembourg,ESRA North-West,6,7
+LV,Latvia,Other Europe,LV,Latvia,Other Europe,245,217
+LV,Latvia,Other Europe,MD,Moldova,ESRA East,89,65
+LV,Latvia,Other Europe,MK,Macedonia,ESRA East,3,2
+LV,Latvia,Other Europe,MT,Malta,ESRA Mediterranean,45,34
+LV,Latvia,Other Europe,NL,Netherlands,ESRA North-West,846,819
+LV,Latvia,Other Europe,NO,Norway,ESRA North-West,2021,1945
+LV,Latvia,Other Europe,PL,Poland,ESRA East,1078,1230
+LV,Latvia,Other Europe,PT,Portugal,ESRA Mediterranean,5,12
+LV,Latvia,Other Europe,RO,Romania,ESRA East,97,91
+LV,Latvia,Other Europe,RS,Serbia,ESRA East,16,27
+LV,Latvia,Other Europe,SE,Sweden,ESRA North-West,1779,2323
+LV,Latvia,Other Europe,SI,Slovenia,ESRA East,4,2
+LV,Latvia,Other Europe,SK,Slovakia,ESRA East,18,22
+LV,Latvia,Other Europe,TR,Turkey,ESRA Mediterranean,689,613
+LV,Latvia,Other Europe,UA,Ukraine,ESRA East,841,931
+MD,Moldova,ESRA East,AL,Albania,ESRA East,0,3
+MD,Moldova,ESRA East,AM,Armenia,Other Europe,2,1
+MD,Moldova,ESRA East,AT,Austria,ESRA North-West,528,597
+MD,Moldova,ESRA East,BE,Belgium,ESRA North-West,5,4
+MD,Moldova,ESRA East,BG,Bulgaria,ESRA East,16,10
+MD,Moldova,ESRA East,CH,Switzerland,ESRA North-West,31,41
+MD,Moldova,ESRA East,CY,Cyprus,ESRA Mediterranean,68,81
+MD,Moldova,ESRA East,CZ,Czechia,ESRA East,65,23
+MD,Moldova,ESRA East,DE,Germany,ESRA North-West,644,648
+MD,Moldova,ESRA East,DK,Denmark,ESRA North-West,3,1
+MD,Moldova,ESRA East,EE,Estonia,Other Europe,1,1
+MD,Moldova,ESRA East,ES,Spain,ESRA Mediterranean,67,128
+MD,Moldova,ESRA East,FI,Finland,ESRA North-West,1,1
+MD,Moldova,ESRA East,FR,France,ESRA North-West,150,176
+MD,Moldova,ESRA East,GB,United Kingdom,ESRA North-West,121,163
+MD,Moldova,ESRA East,GE,Georgia,Other Europe,10,4
+MD,Moldova,ESRA East,GR,Greece,ESRA Mediterranean,89,126
+MD,Moldova,ESRA East,HR,Croatia,ESRA East,5,2
+MD,Moldova,ESRA East,HU,Hungary,ESRA East,6,3
+MD,Moldova,ESRA East,IE,Ireland,ESRA North-West,60,91
+MD,Moldova,ESRA East,IT,Italy,ESRA Mediterranean,1486,1676
+MD,Moldova,ESRA East,LT,Lithuania,Other Europe,1,8
+MD,Moldova,ESRA East,LU,Luxembourg,ESRA North-West,0,1
+MD,Moldova,ESRA East,LV,Latvia,Other Europe,92,66
+MD,Moldova,ESRA East,MD,Moldova,ESRA East,50,31
+MD,Moldova,ESRA East,MK,Macedonia,ESRA East,0,1
+MD,Moldova,ESRA East,MT,Malta,ESRA Mediterranean,0,1
+MD,Moldova,ESRA East,NL,Netherlands,ESRA North-West,0,2
+MD,Moldova,ESRA East,NO,Norway,ESRA North-West,2,2
+MD,Moldova,ESRA East,PL,Poland,ESRA East,54,104
+MD,Moldova,ESRA East,PT,Portugal,ESRA Mediterranean,39,69
+MD,Moldova,ESRA East,RO,Romania,ESRA East,1585,1338
+MD,Moldova,ESRA East,RS,Serbia,ESRA East,11,23
+MD,Moldova,ESRA East,SE,Sweden,ESRA North-West,1,4
+MD,Moldova,ESRA East,SI,Slovenia,ESRA East,6,2
+MD,Moldova,ESRA East,SK,Slovakia,ESRA East,8,15
+MD,Moldova,ESRA East,TR,Turkey,ESRA Mediterranean,1165,1166
+MD,Moldova,ESRA East,UA,Ukraine,ESRA East,562,561
+MK,Macedonia,ESRA East,AL,Albania,ESRA East,5,11
+MK,Macedonia,ESRA East,AT,Austria,ESRA North-West,610,599
+MK,Macedonia,ESRA East,BA,Bosnia & Herzegovina,ESRA East,12,13
+MK,Macedonia,ESRA East,BE,Belgium,ESRA North-West,146,159
+MK,Macedonia,ESRA East,BG,Bulgaria,ESRA East,20,37
+MK,Macedonia,ESRA East,CH,Switzerland,ESRA North-West,468,661
+MK,Macedonia,ESRA East,CY,Cyprus,ESRA Mediterranean,7,4
+MK,Macedonia,ESRA East,CZ,Czechia,ESRA East,9,6
+MK,Macedonia,ESRA East,DE,Germany,ESRA North-West,713,819
+MK,Macedonia,ESRA East,DK,Denmark,ESRA North-West,1,6
+MK,Macedonia,ESRA East,EE,Estonia,Other Europe,0,1
+MK,Macedonia,ESRA East,ES,Spain,ESRA Mediterranean,5,59
+MK,Macedonia,ESRA East,FI,Finland,ESRA North-West,0,2
+MK,Macedonia,ESRA East,FR,France,ESRA North-West,330,444
+MK,Macedonia,ESRA East,GB,United Kingdom,ESRA North-West,232,269
+MK,Macedonia,ESRA East,GE,Georgia,Other Europe,1,0
+MK,Macedonia,ESRA East,GR,Greece,ESRA Mediterranean,16,44
+MK,Macedonia,ESRA East,HR,Croatia,ESRA East,412,416
+MK,Macedonia,ESRA East,HU,Hungary,ESRA East,29,15
+MK,Macedonia,ESRA East,IE,Ireland,ESRA North-West,1,0
+MK,Macedonia,ESRA East,IT,Italy,ESRA Mediterranean,460,584
+MK,Macedonia,ESRA East,LT,Lithuania,Other Europe,0,1
+MK,Macedonia,ESRA East,LU,Luxembourg,ESRA North-West,10,6
+MK,Macedonia,ESRA East,LV,Latvia,Other Europe,2,2
+MK,Macedonia,ESRA East,MD,Moldova,ESRA East,0,1
+MK,Macedonia,ESRA East,MK,Macedonia,ESRA East,38,49
+MK,Macedonia,ESRA East,MT,Malta,ESRA Mediterranean,1,0
+MK,Macedonia,ESRA East,NL,Netherlands,ESRA North-West,222,246
+MK,Macedonia,ESRA East,NO,Norway,ESRA North-West,0,54
+MK,Macedonia,ESRA East,PL,Poland,ESRA East,7,13
+MK,Macedonia,ESRA East,RO,Romania,ESRA East,7,11
+MK,Macedonia,ESRA East,RS,Serbia,ESRA East,615,527
+MK,Macedonia,ESRA East,SE,Sweden,ESRA North-West,465,561
+MK,Macedonia,ESRA East,SI,Slovenia,ESRA East,443,372
+MK,Macedonia,ESRA East,SK,Slovakia,ESRA East,261,256
+MK,Macedonia,ESRA East,TR,Turkey,ESRA Mediterranean,1022,1052
+MK,Macedonia,ESRA East,UA,Ukraine,ESRA East,5,6
+MT,Malta,ESRA Mediterranean,AL,Albania,ESRA East,1,2
+MT,Malta,ESRA Mediterranean,AM,Armenia,Other Europe,0,4
+MT,Malta,ESRA Mediterranean,AT,Austria,ESRA North-West,435,487
+MT,Malta,ESRA Mediterranean,BA,Bosnia & Herzegovina,ESRA East,2,1
+MT,Malta,ESRA Mediterranean,BE,Belgium,ESRA North-West,389,475
+MT,Malta,ESRA Mediterranean,BG,Bulgaria,ESRA East,55,123
+MT,Malta,ESRA Mediterranean,CH,Switzerland,ESRA North-West,468,551
+MT,Malta,ESRA Mediterranean,CY,Cyprus,ESRA Mediterranean,291,374
+MT,Malta,ESRA Mediterranean,CZ,Czechia,ESRA East,86,68
+MT,Malta,ESRA Mediterranean,DE,Germany,ESRA North-West,2263,2398
+MT,Malta,ESRA Mediterranean,DK,Denmark,ESRA North-West,242,226
+MT,Malta,ESRA Mediterranean,EE,Estonia,Other Europe,3,7
+MT,Malta,ESRA Mediterranean,ES,Spain,ESRA Mediterranean,483,574
+MT,Malta,ESRA Mediterranean,FI,Finland,ESRA North-West,0,59
+MT,Malta,ESRA Mediterranean,FR,France,ESRA North-West,1666,1556
+MT,Malta,ESRA Mediterranean,GB,United Kingdom,ESRA North-West,4386,4514
+MT,Malta,ESRA Mediterranean,GE,Georgia,Other Europe,0,1
+MT,Malta,ESRA Mediterranean,GI,Gibraltar,Other Europe,0,1
+MT,Malta,ESRA Mediterranean,GR,Greece,ESRA Mediterranean,184,272
+MT,Malta,ESRA Mediterranean,HR,Croatia,ESRA East,28,33
+MT,Malta,ESRA Mediterranean,HU,Hungary,ESRA East,203,214
+MT,Malta,ESRA Mediterranean,IE,Ireland,ESRA North-West,195,235
+MT,Malta,ESRA Mediterranean,IT,Italy,ESRA Mediterranean,3455,3888
+MT,Malta,ESRA Mediterranean,LT,Lithuania,Other Europe,73,75
+MT,Malta,ESRA Mediterranean,LU,Luxembourg,ESRA North-West,41,22
+MT,Malta,ESRA Mediterranean,LV,Latvia,Other Europe,46,35
+MT,Malta,ESRA Mediterranean,MD,Moldova,ESRA East,0,1
+MT,Malta,ESRA Mediterranean,MT,Malta,ESRA Mediterranean,258,211
+MT,Malta,ESRA Mediterranean,NL,Netherlands,ESRA North-West,384,492
+MT,Malta,ESRA Mediterranean,NO,Norway,ESRA North-West,105,64
+MT,Malta,ESRA Mediterranean,PL,Poland,ESRA East,225,339
+MT,Malta,ESRA Mediterranean,PT,Portugal,ESRA Mediterranean,25,35
+MT,Malta,ESRA Mediterranean,RO,Romania,ESRA East,95,126
+MT,Malta,ESRA Mediterranean,RS,Serbia,ESRA East,38,47
+MT,Malta,ESRA Mediterranean,SE,Sweden,ESRA North-West,265,284
+MT,Malta,ESRA Mediterranean,SI,Slovenia,ESRA East,19,24
+MT,Malta,ESRA Mediterranean,SK,Slovakia,ESRA East,19,17
+MT,Malta,ESRA Mediterranean,TR,Turkey,ESRA Mediterranean,350,580
+MT,Malta,ESRA Mediterranean,UA,Ukraine,ESRA East,6,21
+NL,Netherlands,ESRA North-West,AL,Albania,ESRA East,4,6
+NL,Netherlands,ESRA North-West,AM,Armenia,Other Europe,7,3
+NL,Netherlands,ESRA North-West,AT,Austria,ESRA North-West,4125,4151
+NL,Netherlands,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,57,102
+NL,Netherlands,ESRA North-West,BE,Belgium,ESRA North-West,3021,2912
+NL,Netherlands,ESRA North-West,BG,Bulgaria,ESRA East,814,764
+NL,Netherlands,ESRA North-West,CH,Switzerland,ESRA North-West,7703,7534
+NL,Netherlands,ESRA North-West,CY,Cyprus,ESRA Mediterranean,334,199
+NL,Netherlands,ESRA North-West,CZ,Czechia,ESRA East,2791,2737
+NL,Netherlands,ESRA North-West,DE,Germany,ESRA North-West,26810,26883
+NL,Netherlands,ESRA North-West,DK,Denmark,ESRA North-West,7131,7398
+NL,Netherlands,ESRA North-West,EE,Estonia,Other Europe,685,713
+NL,Netherlands,ESRA North-West,ES,Spain,ESRA Mediterranean,20261,21195
+NL,Netherlands,ESRA North-West,FI,Finland,ESRA North-West,1889,1904
+NL,Netherlands,ESRA North-West,FR,France,ESRA North-West,17619,19017
+NL,Netherlands,ESRA North-West,GB,United Kingdom,ESRA North-West,48997,50376
+NL,Netherlands,ESRA North-West,GE,Georgia,Other Europe,169,169
+NL,Netherlands,ESRA North-West,GI,Gibraltar,Other Europe,3,2
+NL,Netherlands,ESRA North-West,GR,Greece,ESRA Mediterranean,4436,4606
+NL,Netherlands,ESRA North-West,HR,Croatia,ESRA East,793,1044
+NL,Netherlands,ESRA North-West,HU,Hungary,ESRA East,2247,2156
+NL,Netherlands,ESRA North-West,IE,Ireland,ESRA North-West,3009,3190
+NL,Netherlands,ESRA North-West,IT,Italy,ESRA Mediterranean,15590,16900
+NL,Netherlands,ESRA North-West,LT,Lithuania,Other Europe,342,577
+NL,Netherlands,ESRA North-West,LU,Luxembourg,ESRA North-West,1783,1738
+NL,Netherlands,ESRA North-West,LV,Latvia,Other Europe,862,828
+NL,Netherlands,ESRA North-West,MD,Moldova,ESRA East,0,2
+NL,Netherlands,ESRA North-West,MK,Macedonia,ESRA East,234,264
+NL,Netherlands,ESRA North-West,MT,Malta,ESRA Mediterranean,391,468
+NL,Netherlands,ESRA North-West,NL,Netherlands,ESRA North-West,9921,7913
+NL,Netherlands,ESRA North-West,NO,Norway,ESRA North-West,9657,9637
+NL,Netherlands,ESRA North-West,PL,Poland,ESRA East,3863,4281
+NL,Netherlands,ESRA North-West,PT,Portugal,ESRA Mediterranean,5551,5827
+NL,Netherlands,ESRA North-West,RO,Romania,ESRA East,1917,1921
+NL,Netherlands,ESRA North-West,RS,Serbia,ESRA East,599,682
+NL,Netherlands,ESRA North-West,SE,Sweden,ESRA North-West,5708,5516
+NL,Netherlands,ESRA North-West,SI,Slovenia,ESRA East,199,180
+NL,Netherlands,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,1,3
+NL,Netherlands,ESRA North-West,SK,Slovakia,ESRA East,19,23
+NL,Netherlands,ESRA North-West,TR,Turkey,ESRA Mediterranean,9787,9829
+NL,Netherlands,ESRA North-West,UA,Ukraine,ESRA East,1059,1105
+NO,Norway,ESRA North-West,AL,Albania,ESRA East,0,3
+NO,Norway,ESRA North-West,AM,Armenia,Other Europe,0,1
+NO,Norway,ESRA North-West,AT,Austria,ESRA North-West,898,834
+NO,Norway,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,18,89
+NO,Norway,ESRA North-West,BE,Belgium,ESRA North-West,1496,1443
+NO,Norway,ESRA North-West,BG,Bulgaria,ESRA East,335,305
+NO,Norway,ESRA North-West,CH,Switzerland,ESRA North-West,1301,1137
+NO,Norway,ESRA North-West,CY,Cyprus,ESRA Mediterranean,345,252
+NO,Norway,ESRA North-West,CZ,Czechia,ESRA East,591,642
+NO,Norway,ESRA North-West,DE,Germany,ESRA North-West,9517,7842
+NO,Norway,ESRA North-West,DK,Denmark,ESRA North-West,18903,17955
+NO,Norway,ESRA North-West,EE,Estonia,Other Europe,964,1022
+NO,Norway,ESRA North-West,ES,Spain,ESRA Mediterranean,9304,8476
+NO,Norway,ESRA North-West,FI,Finland,ESRA North-West,2420,2230
+NO,Norway,ESRA North-West,FO,Faroe Islands,ESRA North-West,189,191
+NO,Norway,ESRA North-West,FR,France,ESRA North-West,4145,3905
+NO,Norway,ESRA North-West,GB,United Kingdom,ESRA North-West,15665,14289
+NO,Norway,ESRA North-West,GR,Greece,ESRA Mediterranean,2489,2077
+NO,Norway,ESRA North-West,HR,Croatia,ESRA East,1045,846
+NO,Norway,ESRA North-West,HU,Hungary,ESRA East,432,480
+NO,Norway,ESRA North-West,IE,Ireland,ESRA North-West,606,608
+NO,Norway,ESRA North-West,IT,Italy,ESRA Mediterranean,1895,1352
+NO,Norway,ESRA North-West,LT,Lithuania,Other Europe,1069,1203
+NO,Norway,ESRA North-West,LU,Luxembourg,ESRA North-West,14,3
+NO,Norway,ESRA North-West,LV,Latvia,Other Europe,2011,1948
+NO,Norway,ESRA North-West,MD,Moldova,ESRA East,0,2
+NO,Norway,ESRA North-West,MK,Macedonia,ESRA East,4,54
+NO,Norway,ESRA North-West,MT,Malta,ESRA Mediterranean,110,68
+NO,Norway,ESRA North-West,NL,Netherlands,ESRA North-West,9673,9652
+NO,Norway,ESRA North-West,NO,Norway,ESRA North-West,273512,269004
+NO,Norway,ESRA North-West,PL,Poland,ESRA East,5703,6685
+NO,Norway,ESRA North-West,PT,Portugal,ESRA Mediterranean,742,726
+NO,Norway,ESRA North-West,RO,Romania,ESRA East,122,117
+NO,Norway,ESRA North-West,RS,Serbia,ESRA East,178,199
+NO,Norway,ESRA North-West,SE,Sweden,ESRA North-West,11417,10613
+NO,Norway,ESRA North-West,SI,Slovenia,ESRA East,3,8
+NO,Norway,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,894,885
+NO,Norway,ESRA North-West,SK,Slovakia,ESRA East,101,23
+NO,Norway,ESRA North-West,TR,Turkey,ESRA Mediterranean,2344,2345
+NO,Norway,ESRA North-West,UA,Ukraine,ESRA East,97,19
+PL,Poland,ESRA East,AL,Albania,ESRA East,0,18
+PL,Poland,ESRA East,AM,Armenia,Other Europe,209,78
+PL,Poland,ESRA East,AT,Austria,ESRA North-West,2772,2685
+PL,Poland,ESRA East,BA,Bosnia & Herzegovina,ESRA East,7,7
+PL,Poland,ESRA East,BE,Belgium,ESRA North-West,2940,3691
+PL,Poland,ESRA East,BG,Bulgaria,ESRA East,1295,1520
+PL,Poland,ESRA East,CH,Switzerland,ESRA North-West,2677,2195
+PL,Poland,ESRA East,CY,Cyprus,ESRA Mediterranean,425,534
+PL,Poland,ESRA East,CZ,Czechia,ESRA East,2582,2802
+PL,Poland,ESRA East,DE,Germany,ESRA North-West,24955,25839
+PL,Poland,ESRA East,DK,Denmark,ESRA North-West,4360,4600
+PL,Poland,ESRA East,EE,Estonia,Other Europe,628,639
+PL,Poland,ESRA East,ES,Spain,ESRA Mediterranean,4448,5316
+PL,Poland,ESRA East,FI,Finland,ESRA North-West,1285,1427
+PL,Poland,ESRA East,FR,France,ESRA North-West,5369,5707
+PL,Poland,ESRA East,GB,United Kingdom,ESRA North-West,16988,19710
+PL,Poland,ESRA East,GE,Georgia,Other Europe,520,446
+PL,Poland,ESRA East,GR,Greece,ESRA Mediterranean,3460,4042
+PL,Poland,ESRA East,HR,Croatia,ESRA East,495,303
+PL,Poland,ESRA East,HU,Hungary,ESRA East,1537,1677
+PL,Poland,ESRA East,IE,Ireland,ESRA North-West,2737,2907
+PL,Poland,ESRA East,IT,Italy,ESRA Mediterranean,5887,6321
+PL,Poland,ESRA East,LT,Lithuania,Other Europe,1642,1704
+PL,Poland,ESRA East,LU,Luxembourg,ESRA North-West,51,41
+PL,Poland,ESRA East,LV,Latvia,Other Europe,1068,1235
+PL,Poland,ESRA East,MD,Moldova,ESRA East,56,105
+PL,Poland,ESRA East,MK,Macedonia,ESRA East,10,12
+PL,Poland,ESRA East,MT,Malta,ESRA Mediterranean,230,337
+PL,Poland,ESRA East,NL,Netherlands,ESRA North-West,3865,4262
+PL,Poland,ESRA East,NO,Norway,ESRA North-West,5701,6674
+PL,Poland,ESRA East,PL,Poland,ESRA East,37998,35671
+PL,Poland,ESRA East,PT,Portugal,ESRA Mediterranean,546,772
+PL,Poland,ESRA East,RO,Romania,ESRA East,1026,1194
+PL,Poland,ESRA East,RS,Serbia,ESRA East,557,549
+PL,Poland,ESRA East,SE,Sweden,ESRA North-West,3536,4075
+PL,Poland,ESRA East,SI,Slovenia,ESRA East,144,204
+PL,Poland,ESRA East,SK,Slovakia,ESRA East,195,254
+PL,Poland,ESRA East,TR,Turkey,ESRA Mediterranean,2706,2832
+PL,Poland,ESRA East,UA,Ukraine,ESRA East,2623,2537
+PT,Portugal,ESRA Mediterranean,AL,Albania,ESRA East,0,5
+PT,Portugal,ESRA Mediterranean,AM,Armenia,Other Europe,1,0
+PT,Portugal,ESRA Mediterranean,AT,Austria,ESRA North-West,573,704
+PT,Portugal,ESRA Mediterranean,BA,Bosnia & Herzegovina,ESRA East,1,1
+PT,Portugal,ESRA Mediterranean,BE,Belgium,ESRA North-West,5082,5519
+PT,Portugal,ESRA Mediterranean,BG,Bulgaria,ESRA East,8,10
+PT,Portugal,ESRA Mediterranean,CH,Switzerland,ESRA North-West,6071,6610
+PT,Portugal,ESRA Mediterranean,CY,Cyprus,ESRA Mediterranean,4,4
+PT,Portugal,ESRA Mediterranean,CZ,Czechia,ESRA East,464,481
+PT,Portugal,ESRA Mediterranean,DE,Germany,ESRA North-West,11741,13261
+PT,Portugal,ESRA Mediterranean,DK,Denmark,ESRA North-West,1129,970
+PT,Portugal,ESRA Mediterranean,EE,Estonia,Other Europe,71,10
+PT,Portugal,ESRA Mediterranean,ES,Spain,ESRA Mediterranean,19793,20744
+PT,Portugal,ESRA Mediterranean,FI,Finland,ESRA North-West,435,380
+PT,Portugal,ESRA Mediterranean,FR,France,ESRA North-West,19870,21158
+PT,Portugal,ESRA Mediterranean,GB,United Kingdom,ESRA North-West,22245,23304
+PT,Portugal,ESRA Mediterranean,GE,Georgia,Other Europe,0,1
+PT,Portugal,ESRA Mediterranean,GI,Gibraltar,Other Europe,30,18
+PT,Portugal,ESRA Mediterranean,GR,Greece,ESRA Mediterranean,56,56
+PT,Portugal,ESRA Mediterranean,HR,Croatia,ESRA East,98,93
+PT,Portugal,ESRA Mediterranean,HU,Hungary,ESRA East,359,411
+PT,Portugal,ESRA Mediterranean,IE,Ireland,ESRA North-West,2588,2617
+PT,Portugal,ESRA Mediterranean,IT,Italy,ESRA Mediterranean,5784,6663
+PT,Portugal,ESRA Mediterranean,LT,Lithuania,Other Europe,11,14
+PT,Portugal,ESRA Mediterranean,LU,Luxembourg,ESRA North-West,1340,1518
+PT,Portugal,ESRA Mediterranean,LV,Latvia,Other Europe,5,16
+PT,Portugal,ESRA Mediterranean,MD,Moldova,ESRA East,52,68
+PT,Portugal,ESRA Mediterranean,MK,Macedonia,ESRA East,3,0
+PT,Portugal,ESRA Mediterranean,MT,Malta,ESRA Mediterranean,39,36
+PT,Portugal,ESRA Mediterranean,NL,Netherlands,ESRA North-West,5490,5805
+PT,Portugal,ESRA Mediterranean,NO,Norway,ESRA North-West,738,728
+PT,Portugal,ESRA Mediterranean,PL,Poland,ESRA East,545,772
+PT,Portugal,ESRA Mediterranean,PT,Portugal,ESRA Mediterranean,42077,44330
+PT,Portugal,ESRA Mediterranean,RO,Romania,ESRA East,240,287
+PT,Portugal,ESRA Mediterranean,RS,Serbia,ESRA East,62,16
+PT,Portugal,ESRA Mediterranean,SE,Sweden,ESRA North-West,745,812
+PT,Portugal,ESRA Mediterranean,SI,Slovenia,ESRA East,6,5
+PT,Portugal,ESRA Mediterranean,SK,Slovakia,ESRA East,16,13
+PT,Portugal,ESRA Mediterranean,TR,Turkey,ESRA Mediterranean,529,857
+PT,Portugal,ESRA Mediterranean,UA,Ukraine,ESRA East,95,82
+RO,Romania,ESRA East,AL,Albania,ESRA East,6,4
+RO,Romania,ESRA East,AM,Armenia,Other Europe,8,5
+RO,Romania,ESRA East,AT,Austria,ESRA North-West,3405,3244
+RO,Romania,ESRA East,BA,Bosnia & Herzegovina,ESRA East,4,12
+RO,Romania,ESRA East,BE,Belgium,ESRA North-West,1803,2229
+RO,Romania,ESRA East,BG,Bulgaria,ESRA East,1484,1134
+RO,Romania,ESRA East,CH,Switzerland,ESRA North-West,753,870
+RO,Romania,ESRA East,CY,Cyprus,ESRA Mediterranean,531,536
+RO,Romania,ESRA East,CZ,Czechia,ESRA East,717,602
+RO,Romania,ESRA East,DE,Germany,ESRA North-West,9175,9916
+RO,Romania,ESRA East,DK,Denmark,ESRA North-West,180,187
+RO,Romania,ESRA East,EE,Estonia,Other Europe,2,2
+RO,Romania,ESRA East,ES,Spain,ESRA Mediterranean,3783,4051
+RO,Romania,ESRA East,FI,Finland,ESRA North-West,11,12
+RO,Romania,ESRA East,FO,Faroe Islands,ESRA North-West,1,3
+RO,Romania,ESRA East,FR,France,ESRA North-West,3065,3442
+RO,Romania,ESRA East,GB,United Kingdom,ESRA North-West,4330,5406
+RO,Romania,ESRA East,GE,Georgia,Other Europe,15,18
+RO,Romania,ESRA East,GI,Gibraltar,Other Europe,0,1
+RO,Romania,ESRA East,GR,Greece,ESRA Mediterranean,1717,1740
+RO,Romania,ESRA East,HR,Croatia,ESRA East,39,42
+RO,Romania,ESRA East,HU,Hungary,ESRA East,1995,2037
+RO,Romania,ESRA East,IE,Ireland,ESRA North-West,602,446
+RO,Romania,ESRA East,IT,Italy,ESRA Mediterranean,8712,10134
+RO,Romania,ESRA East,LT,Lithuania,Other Europe,7,2
+RO,Romania,ESRA East,LU,Luxembourg,ESRA North-West,7,4
+RO,Romania,ESRA East,LV,Latvia,Other Europe,97,91
+RO,Romania,ESRA East,MD,Moldova,ESRA East,1587,1337
+RO,Romania,ESRA East,MK,Macedonia,ESRA East,6,7
+RO,Romania,ESRA East,MT,Malta,ESRA Mediterranean,95,126
+RO,Romania,ESRA East,NL,Netherlands,ESRA North-West,1925,1930
+RO,Romania,ESRA East,NO,Norway,ESRA North-West,119,114
+RO,Romania,ESRA East,PL,Poland,ESRA East,1017,1155
+RO,Romania,ESRA East,PT,Portugal,ESRA Mediterranean,245,287
+RO,Romania,ESRA East,RO,Romania,ESRA East,13803,13280
+RO,Romania,ESRA East,RS,Serbia,ESRA East,742,731
+RO,Romania,ESRA East,SE,Sweden,ESRA North-West,182,455
+RO,Romania,ESRA East,SI,Slovenia,ESRA East,7,8
+RO,Romania,ESRA East,SK,Slovakia,ESRA East,44,70
+RO,Romania,ESRA East,TR,Turkey,ESRA Mediterranean,2840,2860
+RO,Romania,ESRA East,UA,Ukraine,ESRA East,57,56
+RS,Serbia,ESRA East,AL,Albania,ESRA East,93,342
+RS,Serbia,ESRA East,AM,Armenia,Other Europe,12,12
+RS,Serbia,ESRA East,AT,Austria,ESRA North-West,3131,2946
+RS,Serbia,ESRA East,BA,Bosnia & Herzegovina,ESRA East,1159,851
+RS,Serbia,ESRA East,BE,Belgium,ESRA North-West,607,590
+RS,Serbia,ESRA East,BG,Bulgaria,ESRA East,558,1063
+RS,Serbia,ESRA East,CH,Switzerland,ESRA North-West,3336,3293
+RS,Serbia,ESRA East,CY,Cyprus,ESRA Mediterranean,375,320
+RS,Serbia,ESRA East,CZ,Czechia,ESRA East,573,654
+RS,Serbia,ESRA East,DE,Germany,ESRA North-West,5445,5665
+RS,Serbia,ESRA East,DK,Denmark,ESRA North-West,505,470
+RS,Serbia,ESRA East,EE,Estonia,Other Europe,6,7
+RS,Serbia,ESRA East,ES,Spain,ESRA Mediterranean,169,204
+RS,Serbia,ESRA East,FI,Finland,ESRA North-West,6,6
+RS,Serbia,ESRA East,FR,France,ESRA North-West,2390,2546
+RS,Serbia,ESRA East,GB,United Kingdom,ESRA North-West,943,951
+RS,Serbia,ESRA East,GE,Georgia,Other Europe,5,8
+RS,Serbia,ESRA East,GI,Gibraltar,Other Europe,0,1
+RS,Serbia,ESRA East,GR,Greece,ESRA Mediterranean,1841,1796
+RS,Serbia,ESRA East,HR,Croatia,ESRA East,808,1479
+RS,Serbia,ESRA East,HU,Hungary,ESRA East,732,778
+RS,Serbia,ESRA East,IE,Ireland,ESRA North-West,12,8
+RS,Serbia,ESRA East,IT,Italy,ESRA Mediterranean,2747,2265
+RS,Serbia,ESRA East,LT,Lithuania,Other Europe,11,6
+RS,Serbia,ESRA East,LU,Luxembourg,ESRA North-West,8,16
+RS,Serbia,ESRA East,LV,Latvia,Other Europe,19,21
+RS,Serbia,ESRA East,MD,Moldova,ESRA East,14,20
+RS,Serbia,ESRA East,MK,Macedonia,ESRA East,616,527
+RS,Serbia,ESRA East,MT,Malta,ESRA Mediterranean,34,44
+RS,Serbia,ESRA East,NL,Netherlands,ESRA North-West,599,677
+RS,Serbia,ESRA East,NO,Norway,ESRA North-West,180,190
+RS,Serbia,ESRA East,PL,Poland,ESRA East,580,551
+RS,Serbia,ESRA East,PT,Portugal,ESRA Mediterranean,65,18
+RS,Serbia,ESRA East,RO,Romania,ESRA East,737,713
+RS,Serbia,ESRA East,RS,Serbia,ESRA East,7176,7643
+RS,Serbia,ESRA East,SE,Sweden,ESRA North-West,893,938
+RS,Serbia,ESRA East,SI,Slovenia,ESRA East,1411,1651
+RS,Serbia,ESRA East,SK,Slovakia,ESRA East,38,65
+RS,Serbia,ESRA East,TR,Turkey,ESRA Mediterranean,3433,3356
+RS,Serbia,ESRA East,UA,Ukraine,ESRA East,414,361
+SE,Sweden,ESRA North-West,AL,Albania,ESRA East,6,2
+SE,Sweden,ESRA North-West,AM,Armenia,Other Europe,6,4
+SE,Sweden,ESRA North-West,AT,Austria,ESRA North-West,1790,1847
+SE,Sweden,ESRA North-West,BA,Bosnia & Herzegovina,ESRA East,334,410
+SE,Sweden,ESRA North-West,BE,Belgium,ESRA North-West,3789,3878
+SE,Sweden,ESRA North-West,BG,Bulgaria,ESRA East,192,217
+SE,Sweden,ESRA North-West,CH,Switzerland,ESRA North-West,2713,2761
+SE,Sweden,ESRA North-West,CY,Cyprus,ESRA Mediterranean,550,496
+SE,Sweden,ESRA North-West,CZ,Czechia,ESRA East,805,1065
+SE,Sweden,ESRA North-West,DE,Germany,ESRA North-West,16323,17397
+SE,Sweden,ESRA North-West,DK,Denmark,ESRA North-West,12703,12775
+SE,Sweden,ESRA North-West,EE,Estonia,Other Europe,1547,1902
+SE,Sweden,ESRA North-West,ES,Spain,ESRA Mediterranean,8860,8789
+SE,Sweden,ESRA North-West,FI,Finland,ESRA North-West,14507,14405
+SE,Sweden,ESRA North-West,FO,Faroe Islands,ESRA North-West,5,1
+SE,Sweden,ESRA North-West,FR,France,ESRA North-West,5435,5141
+SE,Sweden,ESRA North-West,GB,United Kingdom,ESRA North-West,11473,11241
+SE,Sweden,ESRA North-West,GE,Georgia,Other Europe,2,3
+SE,Sweden,ESRA North-West,GI,Gibraltar,Other Europe,2,0
+SE,Sweden,ESRA North-West,GR,Greece,ESRA Mediterranean,3055,3135
+SE,Sweden,ESRA North-West,HR,Croatia,ESRA East,927,876
+SE,Sweden,ESRA North-West,HU,Hungary,ESRA East,991,1177
+SE,Sweden,ESRA North-West,IE,Ireland,ESRA North-West,489,390
+SE,Sweden,ESRA North-West,IT,Italy,ESRA Mediterranean,2840,2759
+SE,Sweden,ESRA North-West,LT,Lithuania,Other Europe,754,1074
+SE,Sweden,ESRA North-West,LU,Luxembourg,ESRA North-West,202,331
+SE,Sweden,ESRA North-West,LV,Latvia,Other Europe,1785,2315
+SE,Sweden,ESRA North-West,MD,Moldova,ESRA East,0,4
+SE,Sweden,ESRA North-West,MK,Macedonia,ESRA East,464,557
+SE,Sweden,ESRA North-West,MT,Malta,ESRA Mediterranean,271,285
+SE,Sweden,ESRA North-West,NL,Netherlands,ESRA North-West,5518,5333
+SE,Sweden,ESRA North-West,NO,Norway,ESRA North-West,11551,10632
+SE,Sweden,ESRA North-West,PL,Poland,ESRA East,3527,4129
+SE,Sweden,ESRA North-West,PT,Portugal,ESRA Mediterranean,741,795
+SE,Sweden,ESRA North-West,RO,Romania,ESRA East,185,441
+SE,Sweden,ESRA North-West,RS,Serbia,ESRA East,899,954
+SE,Sweden,ESRA North-West,SE,Sweden,ESRA North-West,147135,144030
+SE,Sweden,ESRA North-West,SI,Slovenia,ESRA East,14,61
+SE,Sweden,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,2,1
+SE,Sweden,ESRA North-West,SK,Slovakia,ESRA East,25,54
+SE,Sweden,ESRA North-West,TR,Turkey,ESRA Mediterranean,4737,4485
+SE,Sweden,ESRA North-West,UA,Ukraine,ESRA East,207,364
+SI,Slovenia,ESRA East,AL,Albania,ESRA East,514,508
+SI,Slovenia,ESRA East,AM,Armenia,Other Europe,1,0
+SI,Slovenia,ESRA East,AT,Austria,ESRA North-West,1540,1373
+SI,Slovenia,ESRA East,BA,Bosnia & Herzegovina,ESRA East,479,355
+SI,Slovenia,ESRA East,BE,Belgium,ESRA North-West,767,781
+SI,Slovenia,ESRA East,BG,Bulgaria,ESRA East,21,11
+SI,Slovenia,ESRA East,CH,Switzerland,ESRA North-West,965,1205
+SI,Slovenia,ESRA East,CY,Cyprus,ESRA Mediterranean,3,2
+SI,Slovenia,ESRA East,CZ,Czechia,ESRA East,285,282
+SI,Slovenia,ESRA East,DE,Germany,ESRA North-West,2467,2667
+SI,Slovenia,ESRA East,DK,Denmark,ESRA North-West,188,182
+SI,Slovenia,ESRA East,EE,Estonia,Other Europe,4,10
+SI,Slovenia,ESRA East,ES,Spain,ESRA Mediterranean,64,45
+SI,Slovenia,ESRA East,FI,Finland,ESRA North-West,121,131
+SI,Slovenia,ESRA East,FR,France,ESRA North-West,765,764
+SI,Slovenia,ESRA East,GB,United Kingdom,ESRA North-West,598,682
+SI,Slovenia,ESRA East,GE,Georgia,Other Europe,0,2
+SI,Slovenia,ESRA East,GR,Greece,ESRA Mediterranean,266,347
+SI,Slovenia,ESRA East,HR,Croatia,ESRA East,178,302
+SI,Slovenia,ESRA East,HU,Hungary,ESRA East,44,65
+SI,Slovenia,ESRA East,IE,Ireland,ESRA North-West,1,2
+SI,Slovenia,ESRA East,IT,Italy,ESRA Mediterranean,206,257
+SI,Slovenia,ESRA East,LT,Lithuania,Other Europe,4,0
+SI,Slovenia,ESRA East,LU,Luxembourg,ESRA North-West,3,9
+SI,Slovenia,ESRA East,LV,Latvia,Other Europe,2,2
+SI,Slovenia,ESRA East,MD,Moldova,ESRA East,6,2
+SI,Slovenia,ESRA East,MK,Macedonia,ESRA East,439,372
+SI,Slovenia,ESRA East,MT,Malta,ESRA Mediterranean,15,26
+SI,Slovenia,ESRA East,NL,Netherlands,ESRA North-West,167,171
+SI,Slovenia,ESRA East,NO,Norway,ESRA North-West,4,8
+SI,Slovenia,ESRA East,PL,Poland,ESRA East,140,209
+SI,Slovenia,ESRA East,PT,Portugal,ESRA Mediterranean,7,4
+SI,Slovenia,ESRA East,RO,Romania,ESRA East,11,13
+SI,Slovenia,ESRA East,RS,Serbia,ESRA East,1410,1661
+SI,Slovenia,ESRA East,SE,Sweden,ESRA North-West,10,59
+SI,Slovenia,ESRA East,SI,Slovenia,ESRA East,623,791
+SI,Slovenia,ESRA East,SK,Slovakia,ESRA East,21,22
+SI,Slovenia,ESRA East,TR,Turkey,ESRA Mediterranean,852,918
+SI,Slovenia,ESRA East,UA,Ukraine,ESRA East,22,19
+SJ,Svalbard & Jan Mayen,ESRA North-West,AT,Austria,ESRA North-West,0,1
+SJ,Svalbard & Jan Mayen,ESRA North-West,BE,Belgium,ESRA North-West,1,0
+SJ,Svalbard & Jan Mayen,ESRA North-West,CH,Switzerland,ESRA North-West,3,3
+SJ,Svalbard & Jan Mayen,ESRA North-West,DE,Germany,ESRA North-West,11,16
+SJ,Svalbard & Jan Mayen,ESRA North-West,DK,Denmark,ESRA North-West,3,2
+SJ,Svalbard & Jan Mayen,ESRA North-West,EE,Estonia,Other Europe,1,0
+SJ,Svalbard & Jan Mayen,ESRA North-West,FI,Finland,ESRA North-West,1,3
+SJ,Svalbard & Jan Mayen,ESRA North-West,FR,France,ESRA North-West,9,6
+SJ,Svalbard & Jan Mayen,ESRA North-West,GB,United Kingdom,ESRA North-West,2,5
+SJ,Svalbard & Jan Mayen,ESRA North-West,LT,Lithuania,Other Europe,0,1
+SJ,Svalbard & Jan Mayen,ESRA North-West,MT,Malta,ESRA Mediterranean,1,0
+SJ,Svalbard & Jan Mayen,ESRA North-West,NL,Netherlands,ESRA North-West,1,3
+SJ,Svalbard & Jan Mayen,ESRA North-West,NO,Norway,ESRA North-West,887,880
+SJ,Svalbard & Jan Mayen,ESRA North-West,PL,Poland,ESRA East,0,1
+SJ,Svalbard & Jan Mayen,ESRA North-West,SE,Sweden,ESRA North-West,2,2
+SJ,Svalbard & Jan Mayen,ESRA North-West,SJ,Svalbard & Jan Mayen,ESRA North-West,7,5
+SK,Slovakia,ESRA East,AL,Albania,ESRA East,13,29
+SK,Slovakia,ESRA East,AM,Armenia,Other Europe,2,0
+SK,Slovakia,ESRA East,AT,Austria,ESRA North-West,908,864
+SK,Slovakia,ESRA East,BA,Bosnia & Herzegovina,ESRA East,11,19
+SK,Slovakia,ESRA East,BE,Belgium,ESRA North-West,334,465
+SK,Slovakia,ESRA East,BG,Bulgaria,ESRA East,329,309
+SK,Slovakia,ESRA East,CH,Switzerland,ESRA North-West,124,126
+SK,Slovakia,ESRA East,CY,Cyprus,ESRA Mediterranean,21,15
+SK,Slovakia,ESRA East,CZ,Czechia,ESRA East,1875,1908
+SK,Slovakia,ESRA East,DE,Germany,ESRA North-West,772,1029
+SK,Slovakia,ESRA East,DK,Denmark,ESRA North-West,17,19
+SK,Slovakia,ESRA East,EE,Estonia,Other Europe,1,3
+SK,Slovakia,ESRA East,ES,Spain,ESRA Mediterranean,343,507
+SK,Slovakia,ESRA East,FI,Finland,ESRA North-West,11,30
+SK,Slovakia,ESRA East,FR,France,ESRA North-West,324,323
+SK,Slovakia,ESRA East,GB,United Kingdom,ESRA North-West,1715,2138
+SK,Slovakia,ESRA East,GE,Georgia,Other Europe,6,4
+SK,Slovakia,ESRA East,GI,Gibraltar,Other Europe,0,1
+SK,Slovakia,ESRA East,GR,Greece,ESRA Mediterranean,483,642
+SK,Slovakia,ESRA East,HR,Croatia,ESRA East,186,234
+SK,Slovakia,ESRA East,HU,Hungary,ESRA East,90,162
+SK,Slovakia,ESRA East,IE,Ireland,ESRA North-West,313,374
+SK,Slovakia,ESRA East,IT,Italy,ESRA Mediterranean,876,979
+SK,Slovakia,ESRA East,LT,Lithuania,Other Europe,3,14
+SK,Slovakia,ESRA East,LU,Luxembourg,ESRA North-West,3,18
+SK,Slovakia,ESRA East,LV,Latvia,Other Europe,12,23
+SK,Slovakia,ESRA East,MD,Moldova,ESRA East,6,12
+SK,Slovakia,ESRA East,MK,Macedonia,ESRA East,257,256
+SK,Slovakia,ESRA East,MT,Malta,ESRA Mediterranean,31,14
+SK,Slovakia,ESRA East,NL,Netherlands,ESRA North-West,24,22
+SK,Slovakia,ESRA East,NO,Norway,ESRA North-West,102,13
+SK,Slovakia,ESRA East,PL,Poland,ESRA East,186,193
+SK,Slovakia,ESRA East,PT,Portugal,ESRA Mediterranean,13,16
+SK,Slovakia,ESRA East,RO,Romania,ESRA East,44,65
+SK,Slovakia,ESRA East,RS,Serbia,ESRA East,43,55
+SK,Slovakia,ESRA East,SE,Sweden,ESRA North-West,27,54
+SK,Slovakia,ESRA East,SI,Slovenia,ESRA East,17,29
+SK,Slovakia,ESRA East,SK,Slovakia,ESRA East,2075,2294
+SK,Slovakia,ESRA East,TR,Turkey,ESRA Mediterranean,640,792
+SK,Slovakia,ESRA East,UA,Ukraine,ESRA East,89,175
+TR,Turkey,ESRA Mediterranean,AL,Albania,ESRA East,1066,1059
+TR,Turkey,ESRA Mediterranean,AM,Armenia,Other Europe,132,132
+TR,Turkey,ESRA Mediterranean,AT,Austria,ESRA North-West,5192,5334
+TR,Turkey,ESRA Mediterranean,BA,Bosnia & Herzegovina,ESRA East,1402,1342
+TR,Turkey,ESRA Mediterranean,BE,Belgium,ESRA North-West,5561,5504
+TR,Turkey,ESRA Mediterranean,BG,Bulgaria,ESRA East,1123,1382
+TR,Turkey,ESRA Mediterranean,CH,Switzerland,ESRA North-West,5342,5590
+TR,Turkey,ESRA Mediterranean,CY,Cyprus,ESRA Mediterranean,2,0
+TR,Turkey,ESRA Mediterranean,CZ,Czechia,ESRA East,1988,2430
+TR,Turkey,ESRA Mediterranean,DE,Germany,ESRA North-West,49580,54162
+TR,Turkey,ESRA Mediterranean,DK,Denmark,ESRA North-West,3923,4071
+TR,Turkey,ESRA Mediterranean,EE,Estonia,Other Europe,653,707
+TR,Turkey,ESRA Mediterranean,ES,Spain,ESRA Mediterranean,4625,5044
+TR,Turkey,ESRA Mediterranean,FI,Finland,ESRA North-West,2010,2111
+TR,Turkey,ESRA Mediterranean,FR,France,ESRA North-West,11024,11701
+TR,Turkey,ESRA Mediterranean,GB,United Kingdom,ESRA North-West,17497,17882
+TR,Turkey,ESRA Mediterranean,GE,Georgia,Other Europe,3143,3047
+TR,Turkey,ESRA Mediterranean,GR,Greece,ESRA Mediterranean,4601,5118
+TR,Turkey,ESRA Mediterranean,HR,Croatia,ESRA East,902,859
+TR,Turkey,ESRA Mediterranean,HU,Hungary,ESRA East,1776,2146
+TR,Turkey,ESRA Mediterranean,IE,Ireland,ESRA North-West,888,993
+TR,Turkey,ESRA Mediterranean,IT,Italy,ESRA Mediterranean,9122,10350
+TR,Turkey,ESRA Mediterranean,LT,Lithuania,Other Europe,615,789
+TR,Turkey,ESRA Mediterranean,LU,Luxembourg,ESRA North-West,594,610
+TR,Turkey,ESRA Mediterranean,LV,Latvia,Other Europe,684,611
+TR,Turkey,ESRA Mediterranean,MD,Moldova,ESRA East,1172,1172
+TR,Turkey,ESRA Mediterranean,MK,Macedonia,ESRA East,1029,1051
+TR,Turkey,ESRA Mediterranean,MT,Malta,ESRA Mediterranean,349,587
+TR,Turkey,ESRA Mediterranean,NL,Netherlands,ESRA North-West,9684,9632
+TR,Turkey,ESRA Mediterranean,NO,Norway,ESRA North-West,2347,2386
+TR,Turkey,ESRA Mediterranean,PL,Poland,ESRA East,2714,2830
+TR,Turkey,ESRA Mediterranean,PT,Portugal,ESRA Mediterranean,534,860
+TR,Turkey,ESRA Mediterranean,RO,Romania,ESRA East,2843,2868
+TR,Turkey,ESRA Mediterranean,RS,Serbia,ESRA East,3409,3318
+TR,Turkey,ESRA Mediterranean,SE,Sweden,ESRA North-West,4650,4393
+TR,Turkey,ESRA Mediterranean,SI,Slovenia,ESRA East,852,929
+TR,Turkey,ESRA Mediterranean,SK,Slovakia,ESRA East,650,807
+TR,Turkey,ESRA Mediterranean,TR,Turkey,ESRA Mediterranean,329324,359224
+TR,Turkey,ESRA Mediterranean,UA,Ukraine,ESRA East,6410,6790
+UA,Ukraine,ESRA East,AL,Albania,ESRA East,2,10
+UA,Ukraine,ESRA East,AM,Armenia,Other Europe,427,415
+UA,Ukraine,ESRA East,AT,Austria,ESRA North-West,2505,2337
+UA,Ukraine,ESRA East,BA,Bosnia & Herzegovina,ESRA East,1,4
+UA,Ukraine,ESRA East,BE,Belgium,ESRA North-West,610,491
+UA,Ukraine,ESRA East,BG,Bulgaria,ESRA East,312,191
+UA,Ukraine,ESRA East,CH,Switzerland,ESRA North-West,1303,1006
+UA,Ukraine,ESRA East,CY,Cyprus,ESRA Mediterranean,471,616
+UA,Ukraine,ESRA East,CZ,Czechia,ESRA East,761,622
+UA,Ukraine,ESRA East,DE,Germany,ESRA North-West,4229,3684
+UA,Ukraine,ESRA East,DK,Denmark,ESRA North-West,26,15
+UA,Ukraine,ESRA East,EE,Estonia,Other Europe,275,353
+UA,Ukraine,ESRA East,ES,Spain,ESRA Mediterranean,930,587
+UA,Ukraine,ESRA East,FI,Finland,ESRA North-West,298,295
+UA,Ukraine,ESRA East,FO,Faroe Islands,ESRA North-West,0,2
+UA,Ukraine,ESRA East,FR,France,ESRA North-West,1581,1589
+UA,Ukraine,ESRA East,GB,United Kingdom,ESRA North-West,1322,1248
+UA,Ukraine,ESRA East,GE,Georgia,Other Europe,1317,1114
+UA,Ukraine,ESRA East,GR,Greece,ESRA Mediterranean,1187,919
+UA,Ukraine,ESRA East,HR,Croatia,ESRA East,93,95
+UA,Ukraine,ESRA East,HU,Hungary,ESRA East,526,471
+UA,Ukraine,ESRA East,IE,Ireland,ESRA North-West,10,1
+UA,Ukraine,ESRA East,IT,Italy,ESRA Mediterranean,2132,1250
+UA,Ukraine,ESRA East,LT,Lithuania,Other Europe,680,696
+UA,Ukraine,ESRA East,LU,Luxembourg,ESRA North-West,12,15
+UA,Ukraine,ESRA East,LV,Latvia,Other Europe,854,941
+UA,Ukraine,ESRA East,MD,Moldova,ESRA East,591,567
+UA,Ukraine,ESRA East,MK,Macedonia,ESRA East,6,6
+UA,Ukraine,ESRA East,MT,Malta,ESRA Mediterranean,17,17
+UA,Ukraine,ESRA East,NL,Netherlands,ESRA North-West,1058,1105
+UA,Ukraine,ESRA East,NO,Norway,ESRA North-West,98,15
+UA,Ukraine,ESRA East,PL,Poland,ESRA East,2650,2548
+UA,Ukraine,ESRA East,PT,Portugal,ESRA Mediterranean,93,82
+UA,Ukraine,ESRA East,RO,Romania,ESRA East,64,58
+UA,Ukraine,ESRA East,RS,Serbia,ESRA East,436,372
+UA,Ukraine,ESRA East,SE,Sweden,ESRA North-West,206,386
+UA,Ukraine,ESRA East,SI,Slovenia,ESRA East,26,17
+UA,Ukraine,ESRA East,SK,Slovakia,ESRA East,96,177
+UA,Ukraine,ESRA East,TR,Turkey,ESRA Mediterranean,6135,6518
+UA,Ukraine,ESRA East,UA,Ukraine,ESRA East,17385,12254

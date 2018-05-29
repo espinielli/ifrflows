@@ -6,7 +6,8 @@
 #' @param wef the beginning year of the period (included).
 #' @param til the end year of the period (not included).
 #'
-#' @return a dataframe with year, # of flights, departing country code and arrival country code.
+#' @return a dataframe with year, # of flights, departing country code and
+#' arrival country code.
 #' @export
 #'
 #' @examples
@@ -29,6 +30,10 @@
 #' }
 #'
 retrieve_country_flows <- function(wef, til) {
+  if (!requireNamespace("ROracle", quietly = TRUE)) {
+    stop("Package \"ROracle\" needed for this function to work. Please install it.",
+         call. = FALSE)
+  }
 
   # DB params
   usr <- Sys.getenv("PRU_DEV_USR")
@@ -120,6 +125,10 @@ retrieve_country_flows <- function(wef, til) {
 #' }
 #'
 retrieve_airport_flows <- function(wef, til) {
+  if (!requireNamespace("ROracle", quietly = TRUE)) {
+    stop("Package \"ROracle\" needed for this function to work. Please install it.",
+         call. = FALSE)
+  }
   # DB params
   usr <- Sys.getenv("PRU_DEV_USR")
   pwd <- Sys.getenv("PRU_DEV_PWD")
@@ -176,7 +185,7 @@ ORDER BY
   fltq <- ROracle::dbSendQuery(con, query_flows)
   flows <- ROracle::fetch(fltq, n = -1)
   flows <- tibble::as_tibble(flows) %>%
-    dplyr::mutate(NB_OF_FLIGHT = as.integer(NB_OF_FLIGHT))
+    dplyr::mutate(NB_OF_FLIGHT = as.integer(.data$NB_OF_FLIGHT))
 
   ROracle::dbDisconnect(con)
   Sys.unsetenv("TZ")
@@ -206,6 +215,10 @@ ORDER BY
 #' }
 #'
 retrieve_airports <- function(apts, wef, til) {
+  if (!requireNamespace("ROracle", quietly = TRUE)) {
+    stop("Package \"ROracle\" needed for this function to work. Please install it.",
+         call. = FALSE)
+  }
   # DB params
   usr <- Sys.getenv("PRU_DEV_USR")
   pwd <- Sys.getenv("PRU_DEV_PWD")
@@ -260,5 +273,4 @@ ORDER BY
   Sys.unsetenv("ORA_SDTZ")
 
   return(apts)
-
 }

@@ -4,5 +4,3 @@
 #' @aliases flows
 #' @docType package
 NULL
-
-#' @importFrom Rdpack reprompt

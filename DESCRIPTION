@@ -3,20 +3,29 @@ Version: 0.0.0.9000
 Title: Data Preparation and Plots for Flows of Flights
 Description: Data preparation for flows of flights so that circular and sankey plots are possible and easy.
 Authors@R: 'Enrico spinielli <enrico.spinielli@gmail.com> [aut,cre]'
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
-Imports: Rdpack,
-    parsedate,
-    ROracle,
-    DBI,
-    tidyverse,
-    countrycode,
-    magrittr
+Imports: countrycode,
+    dplyr,
+    magrittr,
+    Rdpack,
+    rlang,
+    stringr,
+    tibble
 RdMacros: Rdpack
-Suggests: knitr,
-    rmarkdown
+Suggests: DBI,
+    knitr,
+    here,
+    igraph,
+    networkD3,
+    parsedate,
+    readr,
+    rmarkdown,
+    ROracle,
+    tidyr,
+    tidygraph
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 URL: https://github.com/espinielli/ifrflows

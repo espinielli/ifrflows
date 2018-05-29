@@ -11,14 +11,12 @@ vignette: >
 
 
 ```{r setup, results='asis', echo=FALSE, include=FALSE}
-suppressPackageStartupMessages(library(here))
-library(tidyverse)
+library(dplyr)
+library(stringr)
 library(countrycode)
 library(readr)
 library(magrittr)
-
-
-knitr::read_chunk(str_glue('{root}/R/db.R', root = here()))
+library(ifrflows)
 ```
 
 
@@ -45,12 +43,12 @@ The query used to export the relevant flows in CSV format to the file `ifr_flows
 encapsulated in the `retrieve_country_flows` function:
 
 ```{r yearly-country-flows, eval=FALSE}
-<<retrieve_country_flows>>
+retrieve_country_flows
 ```
 
 The flollowing filters have been applied:
 
-* flights without an ISO2 country code for either the departing or arriving airport have been excluded:
+* flights without an ISO2 country code for either the departure or destination airport have been excluded:
 
   ```sql
   ...
@@ -94,28 +92,23 @@ cols <- cols(
   DES_ISO_COUNTRY_CODE = col_character()
 )
 
-flows <- read_csv(str_glue('{root}/data/', raw_flows_file, root = here()), na = c(""), col_types = cols)
+flows <- read_csv(
+  system.file("extdata", raw_flows_file, package = "ifrflows"),
+  na = c(""),
+  col_types = cols)
 ```
 
 
 **Note**: the ISO code for Serbia is provided as CS, which was correct till 2005.
 Since 2006 it is RS.
 Let's fix it globally (even if we should keep `CS` before 2006...):
-
-```{r}
-flows %<>%
-  mutate(
-    DEP_ISO_COUNTRY_CODE = ifelse(DEP_ISO_COUNTRY_CODE == "CS", "RS", DEP_ISO_COUNTRY_CODE),
-    DES_ISO_COUNTRY_CODE = ifelse(DES_ISO_COUNTRY_CODE == "CS", "RS", DES_ISO_COUNTRY_CODE))
-```
-
 Also `XF` has been used for Martinique/Guadaloupe, let's put `MQ` which will result in a proper UN region.
+
 ```{r}
-flows %<>%
-  mutate(
-    DEP_ISO_COUNTRY_CODE = ifelse(DEP_ISO_COUNTRY_CODE == "XF", "MQ", DEP_ISO_COUNTRY_CODE),
-    DES_ISO_COUNTRY_CODE = ifelse(DES_ISO_COUNTRY_CODE == "XF", "MQ", DES_ISO_COUNTRY_CODE))
+flows <- flows %>%
+  fix_iso_countrycode()
 ```
+
 
 Now remove the rows where ISO2 code is NA (for 2014 it is Namibia only which accounts for in/out flows of less than 400 flights per year...)
 
@@ -136,13 +129,13 @@ flows %>%
   summarise(filtered_out_des = sum(NB_OF_FLIGHT))
 
 # filter out the entry where there is no ISO code
-flows %<>%
+flows <- flows %>%
   filter(!(is.na(DEP_ISO_COUNTRY_CODE) | is.na(DES_ISO_COUNTRY_CODE)))
 ```
 
 Rename the variables
 ```{r}
-flows %<>%
+flows <- flows %>%
   rename(
     year = YEAR,
     flights = NB_OF_FLIGHT,
@@ -165,16 +158,16 @@ Luckily there is an R package for that, and I have contributed to it in order to
 
 
 ```{r}
-flows %<>%
-  mutate(originregion_name = countrycode(origin_iso, "iso2c", "region"),
-         destinationregion_name = countrycode(destination_iso, "iso2c", "region"),
+flows <- flows %>%
+  mutate(origin_region_name = countrycode(origin_iso, "iso2c", "region"),
+         destination_region_name = countrycode(destination_iso, "iso2c", "region"),
          origin_name = countrycode(origin_iso, "iso2c", "country.name"),
          destination_name = countrycode(destination_iso, "iso2c", "country.name"))
 
-flows %<>%
+flows <- flows %>%
   select(year, flights,
-         origin_iso, origin_name, originregion_name,
-         destination_iso, destination_name, destinationregion_name)
+         origin_iso, origin_name, origin_region_name,
+         destination_iso, destination_name, destination_region_name)
 ```
 
 
@@ -190,37 +183,21 @@ with countrycode `AN`.
 
 
 ```{r an-fix}
-flows %<>%
-  mutate(originregion_name = ifelse(origin_iso == "AN",
-                                    "Caribbean",
-                                    originregion_name)) %>%
-  mutate(destinationregion_name = ifelse(destination_iso == "AN",
-                                         "Caribbean",
-                                         destinationregion_name))
-
+flows <- flows %>%
+  fix_region_AN()
 ```
 
 
 
 ## Check for `TW`
 
-But certain ISO 2 alpha have officially no UN region, i.e. Taiwan and British Indian Ocean Territory.
+Certain ISO 2 alpha have officially no UN region, i.e. Taiwan and British Indian Ocean Territory.
 Let's fix it:
 
 ```{r}
-flows %<>%
-  mutate(originregion_name = ifelse(origin_iso == "TW",
-                                    "Eastern Asia",
-                                    originregion_name)) %>%
-  mutate(destinationregion_name = ifelse(destination_iso == "TW",
-                                         "Eastern Asia",
-                                         destinationregion_name)) %>% 
-  mutate(originregion_name = ifelse(origin_iso == "IO",
-                                    "Eastern Africa",
-                                    originregion_name)) %>%
-  mutate(destinationregion_name = ifelse(destination_iso == "IO",
-                                         "Eastern Africa",
-                                         destinationregion_name))
+flows <- flows %>%
+  fix_region_TW() %>% 
+  fix_region_IO()
 ```
 
 
@@ -231,134 +208,65 @@ Define regions as per Eurocontrol classification
 ```{r}
 classification <- "eurocontrol_pru"
 # handle 'AN', 'TW' and 'IO' and 'SN'
-flows %<>%
-  mutate(originregion_name = countrycode(origin_iso, "iso2c", classification),
-         destinationregion_name = countrycode(destination_iso, "iso2c", classification),
+flows <- flows %>%
+  mutate(origin_region_name = countrycode(origin_iso, "iso2c", classification),
+         destination_region_name = countrycode(destination_iso, "iso2c", classification),
          origin_name = countrycode(origin_iso, "iso2c", "country.name"),
          destination_name = countrycode(destination_iso, "iso2c", "country.name")) %>% 
-  mutate(originregion_name = ifelse(origin_iso == "AN",
-                                    "Southern America",
-                                    originregion_name)) %>%
-  mutate(destinationregion_name = ifelse(destination_iso == "AN",
-                                         "Southern America",
-                                         destinationregion_name)) %>% 
-  mutate(origin_name = ifelse(origin_iso == "AN",
-                                    "Antilles",
-                                    origin_name)) %>%
-  mutate(destination_name = ifelse(destination_iso == "AN",
-                                         "Antilles",
-                                         destination_name)) %>% 
-  mutate(originregion_name = ifelse(origin_iso == "TW",
-                                    "Eastern Asia",
-                                    originregion_name)) %>%
-  mutate(destinationregion_name = ifelse(destination_iso == "TW",
-                                         "Eastern Asia",
-                                         destinationregion_name)) %>% 
-  mutate(originregion_name = ifelse(origin_iso == "IO",
-                                    "Eastern Africa",
-                                    originregion_name)) %>%
-  mutate(destinationregion_name = ifelse(destination_iso == "IO",
-                                         "Eastern Africa",
-                                         destinationregion_name)) %>% 
-  mutate(originregion_name = ifelse(origin_iso == "SN",
-                                    "Western Africa",
-                                    originregion_name)) %>%
-  mutate(destinationregion_name = ifelse(destination_iso == "SN",
-                                         "Western Africa",
-                                         destinationregion_name))
-
+  fix_eurocontrol_region()
 ```
 
 
-Split flows into intra and extra-European flows   
+We will now split flows into intra and extra-European flows:
+* intra flows: flights departing *AND* arriving to EUROCONTROL region
+* extra flows:
+  - flights departing from EUROCONTROL region *AND*
+    arriving to another region but EUROCONTROL
+  - flights departing from another region but EUROCONTROL *AND*
+    arriving to EUROCONTROL region
+
+We will exclude overflying flights, i.e. the ones departing *AND* arriving from
+another region but EUROCONTROL. (TODO: assess amounts...)
 
 ```{r}
+# flights that stay within EUROCONTROL Member States
 intra_flows <- flows %>%
-  filter(originregion_name == "Eurocontrol" & destinationregion_name == "Eurocontrol")
+  filter(origin_region_name == "Eurocontrol" & destination_region_name == "Eurocontrol")
 
 
-# let's try to filter out internal Eurocontrol traffic
+# flows from/to outside EUROCONTROL Member States
 extra_flows <- flows %>%
-  filter(!(originregion_name == "Eurocontrol" & destinationregion_name == "Eurocontrol"))
+  filter(
+    # flowing IN to EUROCONTROL region
+    (origin_region_name != "Eurocontrol" & destination_region_name == "Eurocontrol") | 
+    # flowing OUT of EUROCONTROL region
+    (origin_region_name == "Eurocontrol" & destination_region_name != "Eurocontrol"))
 ```
 
 
-```{r}
-# split intra-Eurocontrol flights in regions according to STATFOR
-classification <- "eurocontrol_statfor"
-intra_flows %<>%
-  mutate(originregion_name = countrycode(origin_iso, "iso2c", classification),
-         destinationregion_name = countrycode(destination_iso, "iso2c", classification),
-         origin_name = countrycode(origin_iso, "iso2c", "country.name"),
-         destination_name = countrycode(destination_iso, "iso2c", "country.name"))
-
-```
-
-
-Concentrate on extra-European flows   
-
-```{r}
-
-flows <- extra_flows
-```
+### Extra flows
 
 Relabel / regroup regions
 
 ```{r}
 # Russia ->  Asia
-flows %<>%
-  mutate(originregion_name = ifelse(originregion_name == "Russia",
-                                    "Asia",
-                                    originregion_name))
-flows %<>%
-  mutate(destinationregion_name = ifelse(destinationregion_name == "Russia",
-                                         "Asia",
-                                         destinationregion_name))
-
-
-# China ->  Asia
-flows %<>%
-  mutate(originregion_name = ifelse(originregion_name == "China",
-                                    "Asia",
-                                    originregion_name))
-flows %<>%
-  mutate(destinationregion_name = ifelse(destinationregion_name == "China",
-                                         "Asia",
-                                         destinationregion_name))
-
-
-# Southern America ->  America
-flows %<>%
-  mutate(originregion_name = ifelse(originregion_name == "Southern America",
-                                    "America",
-                                    originregion_name))
-flows %<>%
-  mutate(destinationregion_name = ifelse(destinationregion_name == "Southern America",
-                                         "America",
-                                         destinationregion_name))
-
-# Northern America -> N Ame
-flows %<>%
-  mutate(originregion_name = ifelse(originregion_name == "Northern America",
-                                    "America",
-                                    originregion_name))
-flows %<>%
-  mutate(destinationregion_name = ifelse(destinationregion_name == "Northern America",
-                                         "America",
-                                         destinationregion_name))
+extra_flows <- extra_flows %>%
+  fix_extra_flows_region()
 ```
 
 
 Let's analyse the size of the flows per year
 
 ```{r, eval=FALSE}
-stats <- flows %>%
-  mutate(flow_name = ifelse(originregion_name < destinationregion_name, 
-                            paste0(originregion_name, "-", destinationregion_name),
-                            paste0(destinationregion_name, "-", originregion_name))) %>%
+extra_stats <- extra_flows %>%
+  mutate(flow_name = ifelse(
+    origin_region_name < destination_region_name,
+    paste0(origin_region_name, "-", destination_region_name),
+    paste0(destination_region_name, "-", origin_region_name)
+  )) %>%
   select(year, flights, flow_name) %>%
   group_by(year, flow_name) %>%
-  summarise(movements=sum(flights)) %>%
+  summarise(movements = sum(flights)) %>%
   arrange(desc(movements)) %>%
   spread(year, movements, fill = 0)
 ```
@@ -380,67 +288,110 @@ Say we keep only the flows with at least `threshold` flights
 require(tidyr)
 
 # list of unfiltered countries
-descou <- flows %>%
+extra_destination_countries <- extra_flows %>%
   select(destination_iso, destination_name) %>%
   rename(iso = destination_iso, name = destination_name) %>%
   distinct()
 
-depcou <- flows %>%
+extra_departure_countries <- extra_flows %>%
   select(origin_iso, origin_name) %>%
   rename(iso = origin_iso, name = origin_name) %>%
   distinct()
 
 # set visibility to FALSE (0)
-cous0 <- dplyr::union(descou, depcou) %>%
+extra_countries <- dplyr::union(extra_destination_countries, extra_departure_countries) %>%
   distinct() %>%
   arrange(iso) %>%
   mutate(show = 0)
 
+# Regions in the (unfiltered) set
+extra_destination_regions <- extra_flows %>%
+  select(destination_region_name) %>%
+  rename(name = destination_region_name) %>%
+  distinct()
 
+extra_departure_regions <- extra_flows %>%
+  select(origin_region_name) %>%
+  rename(name = origin_region_name) %>%
+  distinct()
 
+extra_regions <- dplyr::union(extra_destination_regions, extra_departure_regions) %>%
+  dplyr::distinct() %>%
+  arrange(name)
 ```
 
 Now let's filter out the little flows...
 
 ```{r}
-years <- flows %>%
+extra_years <- extra_flows %>%
   select(year) %>%
   distinct() %>%
   arrange(year)
 
-# names(years) <- c("year")
-
-# threshold for filtering out small flows (3650 = flow of 10 flights/day between dep/des country)
-threshold <- 3650 / 2
+# threshold for filtering out small flows 
+extra_fpd <- 10 # flights per day
+extra_threshold <- 365 * extra_fpd
 
 # eventually keep only a subset of the time serie
-years <- years[[1]] # get the array of _ALL_ year numbers
+# extra_years <- extra_years[[1]] # get the array of _ALL_ year numbers
 # years <- c(years[length(years)]) # just take last one
+extra_years_subset <- extra_years %>% 
+  pull(year)
 
 # keep only the years as previously defined, used to generate the list of visible countries
-flows %<>% 
-  filter(flights > threshold) %>%
-  filter(year %in% years) %>%
-  spread(year, flights, fill=0)
+extra_flows <- extra_flows %>% 
+  filter(flights > extra_threshold) %>%
+  filter(year %in% extra_years_subset) %>%
+  spread(year, flights, fill = 0)
 
 # prepend "countryflow_"" to year columns, i.e. from "2007" to "countryflow_2007"
-names(flows) <- ifelse(names(flows) %in% unlist(years, use.names=FALSE),
-                       paste("countryflow_", names(flows), sep=""),
-                       names(flows))
-
+names(extra_flows) <- ifelse(names(extra_flows) %in% unlist(extra_years, use.names = FALSE),
+                       paste("countryflow_", names(extra_flows), sep = ""),
+                       names(extra_flows))
 ```
+
+
+
+### Intra flows
+
+For the flows inside EUROCONTROL region, use STATFOR regions:
+
+```{r}
+# split intra-Eurocontrol flights in regions according to STATFOR
+classification <- "eurocontrol_statfor"
+intra_flows <- intra_flows %>%
+  mutate(origin_region_name = countrycode(origin_iso, "iso2c", classification),
+         destination_region_name = countrycode(destination_iso, "iso2c", classification),
+         origin_name = countrycode(origin_iso, "iso2c", "country.name"),
+         destination_name = countrycode(destination_iso, "iso2c", "country.name"))
+```
+
+
+
 
 ```{r}
 # do the same for intra
-# keep only the years as previously defined, used to generate the list of visible countries
-threshold <- 0
-intra_flows %<>% 
-  filter(flights > threshold) %>%
-  filter(year %in% years) %>%
-  spread(year, flights, fill=0)
+intra_years <- intra_flows %>%
+  select(year) %>%
+  distinct() %>%
+  arrange(year)
+
+names(intra_years) <- c("year")
+
+intra_years_subset <- intra_years %>% 
+  pull(year)
+
+# threshold for filtering out small flows 
+intra_fpd <- 0 # flights per day
+intra_threshold <- 365 * intra_fpd
+
+intra_flows <- intra_flows %>% 
+  filter(flights > intra_threshold) %>%
+  filter(year %in% intra_years_subset) %>%
+  spread(year, flights, fill = 0)
 
 # prepend "countryflow_"" to year columns, i.e. from "2007" to "countryflow_2007"
-names(intra_flows) <- ifelse(names(intra_flows) %in% unlist(years, use.names=FALSE),
+names(intra_flows) <- ifelse(names(intra_flows) %in% unlist(intra_years, use.names=FALSE),
                        paste("countryflow_", names(intra_flows), sep=""),
                        names(intra_flows))
 ```
@@ -448,93 +399,99 @@ names(intra_flows) <- ifelse(names(intra_flows) %in% unlist(years, use.names=FAL
 Now let's create the files for the countries and the regions present in the filtered dataset
 
 ```{r}
-descou <- flows %>%
+intra_destination_countries <- intra_flows %>%
   select(destination_iso, destination_name) %>%
   rename(iso = destination_iso, name = destination_name) %>%
   distinct()
 
-depcou <- flows %>%
+intra_departure_countries <- intra_flows %>%
   select(origin_iso, origin_name) %>%
   rename(iso = origin_iso, name = origin_name) %>%
   dplyr::distinct()
 
-cous <- dplyr::union(descou, depcou) %>%
+intra_countries <- dplyr::union(intra_destination_countries, intra_departure_countries) %>%
   dplyr::distinct() %>%
   arrange(iso) %>%
   mutate(show = 1)
 
-# set show=1 to cous0 rows matching cous iso 
-cous0 %<>%
-  left_join(cous, by="iso") %>%
-  mutate(show=show.y,name=name.x) %>%
-  select(iso,name,show) %>%
-  mutate_all(funs(replace(., which(is.na(.)), 0)))
-
 
 # Regions in the (unfiltered) set
-desreg <- flows %>%
-  select(destinationregion_name) %>%
-  rename(name = destinationregion_name) %>%
+intra_destination_regions <- intra_flows %>%
+  select(destination_region_name) %>%
+  rename(name = destination_region_name) %>%
   distinct()
 
-depreg <- flows %>%
-  select(originregion_name) %>%
-  rename(name = originregion_name) %>%
+intra_departure_regions <- intra_flows %>%
+  select(origin_region_name) %>%
+  rename(name = origin_region_name) %>%
   distinct()
 
-regs <- dplyr::union(desreg, depreg) %>%
+intra_regions <- dplyr::union(intra_destination_regions, intra_departure_regions) %>%
   dplyr::distinct() %>%
   arrange(name)
-
 ```
 
 List of countries contributing the major movements
 
 ```{r}
 # limit to 2014 (for now)
-movements <- flows %>% 
-  filter(originregion_name == 'Eurocontrol' |
-           destinationregion_name == 'Eurocontrol') %>%
+intra_movements_2014 <- intra_flows %>% 
   select(origin_name, destination_name,
-         originregion_name,
-         destinationregion_name,
+         origin_region_name,
+         destination_region_name,
          countryflow_2014) %>%
-  mutate(flow = ifelse(originregion_name != 'Eurocontrol',
+  mutate(flow = ifelse(origin_region_name != 'Eurocontrol',
                        origin_name,
                        destination_name))
 
 # print 30 biggest contributors
-movements %>% 
+intra_movements_2014 %>% 
   group_by(flow) %>% 
   summarise(total = sum(countryflow_2014)) %>%
   arrange(desc(total)) %>%
-  print(n=30)
+  print(n = 30)
 ```
 
 
 **TODO**: Analyse the distribution of flows
 
 
+### Save to files
 
-Save all on file
+Save all on file...
+
 ```{r save-files, eval=FALSE}
-data_dir <- "data/"
+data_dir <- str_glue("{root}/data/", root = here())
 flows %>%
-  write_csv(., paste(data_dir, extra_flows_file, sep = ""))
+  write_csv(path = paste(data_dir, "ifr_flows_2014-2015.csv", sep = ""))
 
+# INTRA
 intra_flows %>%
-  write_csv(., paste(data_dir, intra_flows_file, sep = ""))
+  write_csv(path = paste(data_dir, intra_flows_file, sep = ""))
+intra_countries %>%
+  write_csv(path = paste(data_dir, "intra_countries.csv", sep = ""))
+
+intra_regions %>%
+  write_csv(path = paste(data_dir, "intra_regions.csv", sep = ""))
+
+intra_years %>%
+  write_csv(path = paste(data_dir, "intra_years.csv", sep = ""))
+
+
+
+# EXTRA
+extra_flows %>%
+  write_csv(path = paste(data_dir, extra_flows_file, sep = ""))
 
 # quotes needed due to commas in some country names
-cous %>%
-  write_csv(., file = paste(data_dir, "countries.csv", sep = ""), row.names = FALSE, quote = TRUE)
+extra_countries %>%
+  write_csv(path = paste(data_dir, "extra_countries.csv", sep = ""))
 
-regs %>%
-  write_csv(., file = paste(data_dir, "regions.csv", sep = ""), row.names = FALSE, quote = TRUE)
+extra_regions %>%
+  write_csv(path = paste(data_dir, "extra_regions.csv", sep = ""))
 
-years %>%
-  write_csv(., sep = ",", file = paste(data_dir, "years.csv", sep = ""),
-    row.names = FALSE, col.names = c("year"), quote = TRUE)
+extra_years %>%
+  write_csv(path = paste(data_dir, "extra_years.csv", sep = ""))
 ```
 
 
@@ -542,31 +499,39 @@ years %>%
 ## Plot
 Sankey
 
-```{r sankey}
-library("tidyverse")
+```{r sankey, out.width="100%"}
+library("dplyr")
+library(tidygraph)
+library(igraph)
+library("networkD3")
+
 cols <- cols(
   .default = col_integer(),
   origin_iso = col_character(),
   origin_name = col_character(),
-  originregion_name = col_character(),
+  origin_region_name = col_character(),
   destination_iso = col_character(),
   destination_name = col_character(),
-  destinationregion_name = col_character()
+  destination_region_name = col_character()
 )
 
 intra <- read_csv(
-  str_glue('{root}/data/', intra_flows_file, root = here()),
+  system.file("extdata", "ifr_flows_2014-2015.csv", package = "ifrflows"),
   na = c(""),
   col_types = cols)
 
-ii <- intra  %>%
-  select(origin_iso, destination_iso, countryflow_2015) %>%
-  rename(flights = countryflow_2015) %>%
-  dplyr::filter(flights > 36500)
+flights_per_day <- 40
+threshold <- 365 * flights_per_day
 
-library(tidygraph)
-library(igraph)
-library("networkD3")
+ii <- intra  %>%
+  filter(year == 2015) %>% 
+  select(origin_iso, destination_iso, flights) %>%
+  dplyr::filter(flights > threshold) %>% 
+  mutate(
+    origin_iso = str_c(origin_iso, "dep"),
+    destination_iso = str_c(destination_iso, "des")
+  )
+
 
 ng <- ii %>% 
   as_tbl_graph() %>% 
@@ -581,8 +546,8 @@ sankeyNetwork(
   NodeID = "name",
   fontSize = 14
 )
-
-
 ```
+
+
 
 # References

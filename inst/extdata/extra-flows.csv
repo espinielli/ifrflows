@@ -1,0 +1,125 @@
+origin_iso,origin_name,origin_region_name,destination_iso,destination_name,destination_region_name,countryflow_2014,countryflow_2015
+AE,United Arab Emirates,Middle East,DE,Germany,Eurocontrol,8667,9219
+AE,United Arab Emirates,Middle East,GB,United Kingdom,Eurocontrol,11141,11516
+AE,United Arab Emirates,Middle East,IT,Italy,Eurocontrol,0,4864
+AM,Armenia,Eurocontrol,RU,Russia,Asia,7472,6224
+AT,Austria,Eurocontrol,RU,Russia,Asia,5820,4180
+AZ,Azerbaijan,Asia,TR,Turkey,Eurocontrol,4312,4424
+BE,Belgium,Eurocontrol,MA,Morocco,Africa,4615,4390
+BE,Belgium,Eurocontrol,US,United States,America,3898,4117
+BG,Bulgaria,Eurocontrol,RU,Russia,Asia,4169,0
+BR,Brazil,America,PT,Portugal,Eurocontrol,3700,3684
+CA,Canada,America,DE,Germany,Eurocontrol,3925,3901
+CA,Canada,America,FR,France,Eurocontrol,0,3764
+CA,Canada,America,GB,United Kingdom,Eurocontrol,7416,7469
+CH,Switzerland,Eurocontrol,RU,Russia,Asia,5064,4448
+CH,Switzerland,Eurocontrol,US,United States,America,6372,6404
+CN,China,Asia,DE,Germany,Eurocontrol,5522,6206
+CN,China,Asia,FR,France,Eurocontrol,0,3934
+CY,Cyprus,Eurocontrol,RU,Russia,Asia,4277,0
+CZ,Czechia,Eurocontrol,RU,Russia,Asia,6632,4714
+DE,Germany,Eurocontrol,AE,United Arab Emirates,Middle East,8246,8876
+DE,Germany,Eurocontrol,CA,Canada,America,4047,3970
+DE,Germany,Eurocontrol,CN,China,Asia,6332,6839
+DE,Germany,Eurocontrol,EG,Egypt,Middle East,6686,8362
+DE,Germany,Eurocontrol,IL,Israel,Middle East,4054,4550
+DE,Germany,Eurocontrol,RU,Russia,Asia,24814,20743
+DE,Germany,Eurocontrol,TN,Tunisia,Africa,4182,0
+DE,Germany,Eurocontrol,US,United States,America,25433,25146
+DZ,Algeria,Africa,FR,France,Eurocontrol,18984,19649
+EG,Egypt,Middle East,DE,Germany,Eurocontrol,6516,8199
+EG,Egypt,Middle East,GB,United Kingdom,Eurocontrol,5725,5570
+EG,Egypt,Middle East,IT,Italy,Eurocontrol,5103,3979
+EG,Egypt,Middle East,TR,Turkey,Eurocontrol,0,3715
+ES,Spain,Eurocontrol,MA,Morocco,Africa,8193,8362
+ES,Spain,Eurocontrol,RU,Russia,Asia,9255,6572
+ES,Spain,Eurocontrol,US,United States,America,7325,7645
+FR,France,Eurocontrol,AE,United Arab Emirates,Middle East,0,3651
+FR,France,Eurocontrol,CA,Canada,America,0,3816
+FR,France,Eurocontrol,CN,China,Asia,0,4156
+FR,France,Eurocontrol,DZ,Algeria,Africa,18977,19666
+FR,France,Eurocontrol,IL,Israel,Middle East,0,3817
+FR,France,Eurocontrol,MA,Morocco,Africa,21431,21103
+FR,France,Eurocontrol,RU,Russia,Asia,10044,8486
+FR,France,Eurocontrol,TN,Tunisia,Africa,12102,11080
+FR,France,Eurocontrol,US,United States,America,17284,17968
+GB,United Kingdom,Eurocontrol,AE,United Arab Emirates,Middle East,11070,11401
+GB,United Kingdom,Eurocontrol,CA,Canada,America,7360,7401
+GB,United Kingdom,Eurocontrol,EG,Egypt,Middle East,5689,5487
+GB,United Kingdom,Eurocontrol,IN,India,Asia,5920,5818
+GB,United Kingdom,Eurocontrol,IS,Iceland,America,3702,4259
+GB,United Kingdom,Eurocontrol,MA,Morocco,Africa,3989,4132
+GB,United Kingdom,Eurocontrol,RU,Russia,Asia,5696,4879
+GB,United Kingdom,Eurocontrol,US,United States,America,45958,48271
+GR,Greece,Eurocontrol,IL,Israel,Middle East,0,3739
+GR,Greece,Eurocontrol,RU,Russia,Asia,8776,5410
+IE,Ireland,Eurocontrol,US,United States,America,7452,8166
+IL,Israel,Middle East,DE,Germany,Eurocontrol,4129,4499
+IL,Israel,Middle East,FR,France,Eurocontrol,3682,3867
+IL,Israel,Middle East,IT,Italy,Eurocontrol,4081,4208
+IL,Israel,Middle East,TR,Turkey,Eurocontrol,5372,6062
+IN,India,Asia,DE,Germany,Eurocontrol,3804,3710
+IN,India,Asia,GB,United Kingdom,Eurocontrol,6070,5889
+IQ,Iraq,Middle East,TR,Turkey,Eurocontrol,4711,6539
+IR,Iran,Middle East,TR,Turkey,Eurocontrol,7874,8881
+IS,Iceland,America,GB,United Kingdom,Eurocontrol,0,4024
+IT,Italy,Eurocontrol,AE,United Arab Emirates,Middle East,0,4768
+IT,Italy,Eurocontrol,EG,Egypt,Middle East,4995,3891
+IT,Italy,Eurocontrol,IL,Israel,Middle East,4138,4180
+IT,Italy,Eurocontrol,MA,Morocco,Africa,4514,4777
+IT,Italy,Eurocontrol,RU,Russia,Asia,11731,9146
+IT,Italy,Eurocontrol,TN,Tunisia,Africa,3695,0
+IT,Italy,Eurocontrol,US,United States,America,8233,8364
+KZ,Kazakhstan,Asia,TR,Turkey,Eurocontrol,3765,0
+LB,Lebanon,Middle East,TR,Turkey,Eurocontrol,0,4425
+LV,Latvia,Eurocontrol,RU,Russia,Asia,4235,3662
+MA,Morocco,Africa,BE,Belgium,Eurocontrol,4547,4366
+MA,Morocco,Africa,ES,Spain,Eurocontrol,8244,8402
+MA,Morocco,Africa,FR,France,Eurocontrol,21470,21072
+MA,Morocco,Africa,GB,United Kingdom,Eurocontrol,4e3,4131
+MA,Morocco,Africa,IT,Italy,Eurocontrol,4501,4782
+MD,Moldova,Eurocontrol,RU,Russia,Asia,0,3883
+NL,Netherlands,Eurocontrol,US,United States,America,11128,11523
+PT,Portugal,Eurocontrol,BR,Brazil,America,3705,3684
+QA,Qatar,Middle East,GB,United Kingdom,Eurocontrol,0,3714
+RS,Serbia,Eurocontrol,RU,Russia,Asia,4064,3834
+RU,Russia,Russia,AM,Armenia,Eurocontrol,7496,6210
+RU,Russia,Russia,AT,Austria,Eurocontrol,6074,4425
+RU,Russia,Russia,BG,Bulgaria,Eurocontrol,4148,0
+RU,Russia,Russia,CH,Switzerland,Eurocontrol,5033,4432
+RU,Russia,Russia,CY,Cyprus,Eurocontrol,4279,0
+RU,Russia,Russia,CZ,Czechia,Eurocontrol,6636,4711
+RU,Russia,Russia,DE,Germany,Eurocontrol,25352,21042
+RU,Russia,Russia,ES,Spain,Eurocontrol,9233,6590
+RU,Russia,Russia,FR,France,Eurocontrol,9967,8431
+RU,Russia,Russia,GB,United Kingdom,Eurocontrol,5755,5015
+RU,Russia,Russia,GR,Greece,Eurocontrol,8762,5419
+RU,Russia,Russia,IT,Italy,Eurocontrol,11734,9185
+RU,Russia,Russia,LV,Latvia,Eurocontrol,4256,3696
+RU,Russia,Russia,MD,Moldova,Eurocontrol,0,3880
+RU,Russia,Russia,RS,Serbia,Eurocontrol,4132,3900
+RU,Russia,Russia,TR,Turkey,Eurocontrol,26151,21873
+RU,Russia,Russia,UA,Ukraine,Eurocontrol,10817,7393
+SA,Saudi Arabia,Middle East,TR,Turkey,Eurocontrol,9576,10607
+TN,Tunisia,Africa,DE,Germany,Eurocontrol,4137,0
+TN,Tunisia,Africa,FR,France,Eurocontrol,12106,11074
+TN,Tunisia,Africa,IT,Italy,Eurocontrol,3713,0
+TR,Turkey,Eurocontrol,AZ,Azerbaijan,Asia,4302,4420
+TR,Turkey,Eurocontrol,EG,Egypt,Middle East,0,3775
+TR,Turkey,Eurocontrol,IL,Israel,Middle East,5332,5966
+TR,Turkey,Eurocontrol,IQ,Iraq,Middle East,4676,6556
+TR,Turkey,Eurocontrol,IR,Iran,Middle East,8292,9167
+TR,Turkey,Eurocontrol,KZ,Kazakhstan,Asia,3905,0
+TR,Turkey,Eurocontrol,LB,Lebanon,Middle East,0,4516
+TR,Turkey,Eurocontrol,RU,Russia,Asia,26301,21848
+TR,Turkey,Eurocontrol,SA,Saudi Arabia,Middle East,9548,10433
+UA,Ukraine,Eurocontrol,RU,Russia,Asia,10728,7332
+US,United States,America,BE,Belgium,Eurocontrol,4326,4841
+US,United States,America,CH,Switzerland,Eurocontrol,6469,6476
+US,United States,America,DE,Germany,Eurocontrol,25744,25622
+US,United States,America,ES,Spain,Eurocontrol,7411,7728
+US,United States,America,FR,France,Eurocontrol,17653,18223
+US,United States,America,GB,United Kingdom,Eurocontrol,47195,49451
+US,United States,America,IE,Ireland,Eurocontrol,6501,7108
+US,United States,America,IT,Italy,Eurocontrol,7838,8261
+US,United States,America,NL,Netherlands,Eurocontrol,11776,12395
