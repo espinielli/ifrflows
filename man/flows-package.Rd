@@ -5,6 +5,3 @@
 \alias{flows-package}
 \alias{flows}
 \title{Tools for Creating flows of flights data}
-\description{
-Tools for Creating flows of flights data
-}

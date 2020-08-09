@@ -2,6 +2,7 @@
 title: "IFR Flows"
 author: "Enrico Spinielli"
 date: "`r Sys.Date()`"
+bibliography: ../inst/REFERENCES.bib
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Vignette Title}
@@ -9,8 +10,14 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  out.width = "220px",
+  fig.align = 'center'
+)
 
-```{r setup, results='asis', echo=FALSE, include=FALSE}
 library(dplyr)
 library(stringr)
 library(countrycode)
@@ -32,7 +39,8 @@ entering / exiting the airspace of Eurocontrol member States for the years 2007-
 The visualization part of this work is inspired by Sander, Abel and Bauer's website [see @sander_2014] and its
 relevant paper [see @abel_2014a].
 
-The data is collected from the PRU's Analytical database and includes all 2001-2015 IFR flights, but the analysis below will consider only the interval 2007-2015.
+The data is collected from the PRU's Analytical database and includes all 2001-2015 IFR flights,
+but the analysis below will consider only the interval 2007-2015.
 
 
 # The nasty details
@@ -49,27 +57,29 @@ retrieve_country_flows
 The flollowing filters have been applied:
 
 * flights without an ISO2 country code for either the departure or destination airport have been excluded:
+    
+    ```{sql connection=NULL, eval=FALSE}
+      ...
+      AND (A1.EC_ISO_CT_CODE != '##' AND A2.EC_ISO_CT_CODE != '##')
+      ...
+    
+    ```
 
-  ```sql
-  ...
-  AND (A1.EC_ISO_CT_CODE != '##' AND A2.EC_ISO_CT_CODE != '##')
-  ...
-  ```
 
 * military and helicopter flights have been excluded:
 
-
-  ```sql
-  ...
-  AND (F.ICAO_FLT_TYPE != 'M')
-  AND SUBSTR(AC.ICAO_DESC,1,1) != 'H'
-  ...
-  ```
+    
+    ```{sql connection=NULL, eval=FALSE}
+    ...
+    AND (F.ICAO_FLT_TYPE != 'M')
+    AND SUBSTR(AC.ICAO_DESC,1,1) != 'H'
+    ...
+    ```
 
 The amount of filtered out flights is tiny compared with the relevant flows:
 
 * **TODO** table with counts for no ISO code flights
-* **TODO** table for military and heli filghts
+* **TODO** table for military and heli flights
 
 
 ## Data preparation for the visualization library
@@ -96,6 +106,7 @@ flows <- read_csv(
   system.file("extdata", raw_flows_file, package = "ifrflows"),
   na = c(""),
   col_types = cols)
+flows
 ```
 
 
@@ -218,14 +229,16 @@ flows <- flows %>%
 
 
 We will now split flows into intra and extra-European flows:
-* intra flows: flights departing *AND* arriving to EUROCONTROL region
-* extra flows:
-  - flights departing from EUROCONTROL region *AND*
-    arriving to another region but EUROCONTROL
-  - flights departing from another region but EUROCONTROL *AND*
-    arriving to EUROCONTROL region
 
-We will exclude overflying flights, i.e. the ones departing *AND* arriving from
+* intra flows: flights departing **AND** arriving to EUROCONTROL region
+* extra flows:
+
+    - flights departing from EUROCONTROL region **AND**
+      arriving to another region but EUROCONTROL
+    - flights departing from another region but EUROCONTROL **AND**
+      arriving to EUROCONTROL region
+
+We will exclude overflying flights, i.e. the ones departing **AND** arriving from
 another region but EUROCONTROL. (TODO: assess amounts...)
 
 ```{r}
