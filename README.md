@@ -26,3 +26,9 @@ remotes::install_github("espinielli/ifrflows")
 ## Example
 
 See vignettes and `data-raw`
+
+## TODO’s
+
+  - [ ] For use with D3, see [how to generate
+    OD-matrix](https://docs.ropensci.org/stplanr/articles/stplanr-od.html)
+    from OD datasets via [stplanar](https://docs.ropensci.org/stplanr/)
