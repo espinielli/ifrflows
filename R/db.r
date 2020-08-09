@@ -110,7 +110,6 @@ retrieve_country_flows <- function(wef, til) {
 #' }
 #' @export
 #' @rdname retrieve_daily_airport_flows
-#' @seealso
 retrieve_daily_airport_flows <- function(wef, til) {
   usr <- Sys.getenv("PRU_DEV_USR")
   pwd <- Sys.getenv("PRU_DEV_PWD")

@@ -25,7 +25,7 @@ remotes::install_github("espinielli/ifrflows")
 
 ## Example
 
-See vignettes and `data-raw`
+See vignettes and `data-raw/flowmap.R`
 
 ## TODO’s
 
