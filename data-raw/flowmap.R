@@ -7,14 +7,18 @@ library(lubridate)
 # from (adapted to include country ISO_A2) Muriel's query
 # see first skip line in the file
 # cp <- read_csv2("C:/Users/spi/Downloads/city-pairs.csv", skip = 73)
+wef <- "2020-01-01"
+til <- "2020-08-08"
+filename <- str_glue("city-pairs_{wef}_{til}.csv.gz")
+
 if (FALSE) {
-  cp <- retrieve_daily_airport_flows("2020-03-01", "2020-08-04") %>%
+  cp <- retrieve_daily_airport_flows(wef, til) %>%
     as_tibble() %>%
     mutate(ENTRY_DAY = as_date(ENTRY_DAY)) %>%
     janitor::clean_names()
-  cp %>% write_csv("cp.csv", na = "")
+  cp %>% write_csv(here::here("data-raw", filename), na = "")
 } else {
-  cp <- read_csv("cp.csv", na = c(""))
+  cp <- read_csv(here::here("data-raw", filename), na = c(""))
 }
 
 # cp %>% filter(entry_day > "2020-07-15") -> cp
