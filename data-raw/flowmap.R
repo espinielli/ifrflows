@@ -140,31 +140,32 @@ flows <- country_pair %>%
 
 
 library(googlesheets4)
-sheet_id <- gs4_find("daily_country_flows")
-
-locations %>%
-  select(-iso_a2) %>%
-  sheet_write(sheet_id, sheet = "locations")
-
-threshold <- 1
-
-flows %>%
-  # filter on relevant counts
-  filter(count >= threshold) %>%
-  mutate(sheet_name = entry_day %>% format("%Y-%m-%d")) %>%
-  group_walk(~sheet_write(.x %>% select(-sheet_name), sheet_id, sheet = first(.$sheet_name)))
-
-# sheets
-flows %>%
-  # filter on relevant counts
-  filter(count >= threshold) %>%
-  mutate(sheet_name = entry_day) %>%
-  distinct(entry_day, sheet_name) %>%
-  arrange(desc(entry_day)) %>%
-  pull(sheet_name) %>% paste(collapse = ",") %>%
-  as_tibble() %>%
-  range_write(data = ., sheet_id, sheet = "properties", range = "B15:B15", col_names = FALSE)
-
+# # with dropdown menu for date
+# sheet_id <- gs4_find("daily_country_flows")
+#
+# locations %>%
+#   select(-iso_a2) %>%
+#   sheet_write(sheet_id, sheet = "locations")
+#
+# threshold <- 1
+#
+# flows %>%
+#   # filter on relevant counts
+#   filter(count >= threshold) %>%
+#   mutate(sheet_name = entry_day %>% format("%Y-%m-%d")) %>%
+#   group_walk(~sheet_write(.x %>% select(-sheet_name), sheet_id, sheet = first(.$sheet_name)))
+#
+# # sheets
+# flows %>%
+#   # filter on relevant counts
+#   filter(count >= threshold) %>%
+#   mutate(sheet_name = entry_day) %>%
+#   distinct(entry_day, sheet_name) %>%
+#   arrange(desc(entry_day)) %>%
+#   pull(sheet_name) %>% paste(collapse = ",") %>%
+#   as_tibble() %>%
+#   range_write(data = ., sheet_id, sheet = "properties", range = "B15:B15", col_names = FALSE)
+#
 
 
 ########################################
