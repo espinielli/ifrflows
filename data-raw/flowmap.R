@@ -8,7 +8,7 @@ library(lubridate)
 # see first skip line in the file
 # cp <- read_csv2("C:/Users/spi/Downloads/city-pairs.csv", skip = 73)
 wef <- "2020-01-01"
-til <- "2020-08-08"
+til <- "2020-08-13"
 filename <- str_glue("city-pairs_{wef}_{til}.csv.gz")
 
 if (FALSE) {
@@ -36,8 +36,8 @@ country_pair <- cp %>%
   ) %>%
   arrange(desc(count)) %>%
   # remove BOGUS
-  filter(!(source_iso2c %in% c("##", "AN", "XF", "YT"))) %>%
-  filter(!(target_iso2c %in% c("##", "AN", "XF", "YT")))
+  filter(!(source_iso2c %in% c("##", "AN", "XF", "YT")) |
+           !(target_iso2c %in% c("##", "AN", "XF", "YT")))
 
 countries <- country_pair %>%
   ungroup() %>%
@@ -48,10 +48,8 @@ countries <- country_pair %>%
   filter(!is.na(iso_a2))
 
 # country centroids from https://worldmap.harvard.edu/data/geonode:country_centroids_az8
-base_dir <- "C:/Users/spi/Downloads"
 filename <- "country_centroids_az8.csv"
-
-file <- fs::path(base_dir, filename)
+file <- here::here("data-raw", filename)
 fs::file_exists(file)
 
 # avoid to interpret "NA" as NA: it is iso_a2 for Namibia
@@ -81,8 +79,8 @@ d <- countries %>%
     latitude  = ifelse(iso_a2 == "ES-CN",  28.4398708, latitude),
     longitude = ifelse(iso_a2 == "ES-CN", -16.9743268, longitude),
     # France (avoid French Guinea effect)
-    latitude  = ifelse(iso_a2 == "FR",     46.982204, latitude),
-    longitude = ifelse(iso_a2 == "FR",      4.233172, longitude),
+    latitude  = ifelse(iso_a2 == "FR",     47.5, latitude),
+    longitude = ifelse(iso_a2 == "FR",      3.2, longitude),
     # Norway: way too North
     latitude  = ifelse(iso_a2 == "NO",     60.980820, latitude),
     longitude = ifelse(iso_a2 == "NO",      8.855597, longitude),
@@ -148,7 +146,7 @@ locations %>%
   select(-iso_a2) %>%
   sheet_write(sheet_id, sheet = "locations")
 
-threshold <- 5
+threshold <- 1
 
 flows %>%
   # filter on relevant counts
@@ -173,6 +171,8 @@ flows %>%
 #-----Single timeline
 sheet_id <- gs4_find("daily_country_flows_timeline")
 
+threshold <- 1
+
 locations %>%
   select(-iso_a2) %>%
   sheet_write(sheet_id, sheet = "locations")
@@ -194,11 +194,12 @@ my_properties <- c(
   "description"                  = "Daily flight flows from/to countries in the EUROCONTROL area",
   "source.name"                  = "EUROCONTROL",
   "source.url"                   = "https://eurocontrol.int",
-  "createdBy.name"               = "Enrico Spinielli - Aviation Intelligence Unit",
-  "createdBy.email"              = "enrico.spinielli@eurocontrol.int",
+  "createdBy.name"               = "Aviation Intelligence Unit",
+  "createdBy.email"              = "PRU-Support@eurocontrol.int",
   "createdBy.url"                = "https://ansperformance.eu",
   "mapbox.accessToken"           = NA,
   "mapbox.mapStyle"              = NA,
+  "map.bbox"                     = NA,  # west, south, east, north
   "colors.scheme"                = "Default",
   "colors.darkMode"              = "no",
   "animate.flows"                = "no",
