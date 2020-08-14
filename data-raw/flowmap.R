@@ -218,7 +218,7 @@ flows %>%
   sheet_write(sheet_id, sheet = "flows")
 
 my_properties <- c(
-  "title"                        = "Daily country to country flight flows",
+  "title"                        = "Daily country flight flows",
   "description"                  = "Daily flight flows from/to countries in the EUROCONTROL area",
   "source.name"                  = "EUROCONTROL",
   "source.url"                   = "https://eurocontrol.int",
