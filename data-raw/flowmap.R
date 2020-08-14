@@ -6,7 +6,6 @@ library(lubridate)
 
 # from (adapted to include country ISO_A2) Muriel's query
 # see first skip line in the file
-# cp <- read_csv2("C:/Users/spi/Downloads/city-pairs.csv", skip = 73)
 wef <- "2020-01-01"
 til <- "2020-08-13"
 filename <- str_glue("city-pairs_{wef}_{til}.csv.gz")
@@ -21,31 +20,49 @@ if (FALSE) {
   cp <- read_csv(here::here("data-raw", filename), na = c(""))
 }
 
-# cp %>% filter(entry_day > "2020-07-15") -> cp
-
+# fix adep KVPC
+cp <- cp %>%
+  mutate(
+    adep_country_iso_code = if_else(adep == "KVPC", "US", adep_country_iso_code),
+    ades_country_iso_code = if_else(ades == "KVPC", "US", ades_country_iso_code))
 
 country_pair <- cp %>%
-  mutate(country_pair = paste0(adep_country_iso_name, ">", ades_country_iso_name)) %>%
-  group_by(entry_day, country_pair) %>%
+  mutate(airport_country_pair = paste0(adep_country_iso_code, ">", ades_country_iso_code)) %>%
+  group_by(entry_day, airport_country_pair) %>%
   summarize(
     count = sum(flight),
     source = adep_country_iso_name %>% first() %>% str_to_title(),
     target = ades_country_iso_name %>% first() %>% str_to_title(),
     source_iso2c = adep_country_iso_code %>% first(),
     target_iso2c = ades_country_iso_code %>% first()
-  ) %>%
-  arrange(desc(count)) %>%
-  # remove BOGUS
-  filter(!(source_iso2c %in% c("##", "AN", "XF", "YT")) |
-           !(target_iso2c %in% c("##", "AN", "XF", "YT")))
+  )
+# %>%
+#   arrange(desc(count))
+# %>%
+#   # remove BOGUS: c("##", "AN", "XF" -> French Antilles in EUROCONTROL)
+#   filter(!((source_iso2c %in% c("##")) | (target_iso2c %in% c("##"))))
 
 countries <- country_pair %>%
   ungroup() %>%
   select(entry_day, source_iso2c, target_iso2c) %>%
-  pivot_longer(-entry_day, names_to = "col", values_to = "iso_a2", values_ptypes = list(iso_a2 = character())) %>%
+  pivot_longer(
+    -entry_day,
+    names_to = "col",
+    values_to = "iso_a2",
+    values_ptypes = list(iso_a2 = character())) %>%
   select(iso_a2) %>%
   distinct() %>%
   filter(!is.na(iso_a2))
+
+# adep_countries <- country_pair %>%
+#   ungroup() %>%
+#   select(source_iso2c) %>%
+#   rename(iso_2c = source_iso2c)
+# ades_countries <- country_pair %>%
+#   ungroup() %>%
+#   select(target_iso2c) %>%
+#   rename(iso_2c = target_iso2c)
+# countries <- bind_rows(adep_countries, ades_countries) %>% distinct()
 
 # country centroids from https://worldmap.harvard.edu/data/geonode:country_centroids_az8
 filename <- "country_centroids_az8.csv"
@@ -58,19 +75,25 @@ centroids <- read_csv(file, na = c("")) %>%
   janitor::clean_names()
 
 # # extra centroids
-# extra_centroids <- tribble(
-#   ~name,     ~iso_a3, ~iso_a2, ~latitude, ~longitude,
-#   "Barbados", "BRB", "BB", 13.17, -59.5525,
-#   "Uruguay", "URY", "UY", -32.6005596,-58.0283107,
-#   "Philippines", "PHL", "PH", 13, 122,
-#   "Saint Lucia", "LCA", "LC", 13.883333, -60.966667,
-#   "Guinea", "GIN", "GN", 11, -10,
-#   "Puerto Rico", "PRI", "PR",18.2, -66.5,
-#   "Rwanda", "RWA", "RW", -1.95, 29.866667
-# )
-#
-# centroids <- centroids %>%
-#   bind_rows(extra_centroids)
+extra_centroids <- tribble(
+  ~name,     ~iso_a3, ~iso_a2, ~latitude, ~longitude,
+  # "Guadeloupe", NA, "GP",16.1488972,-61.957529,
+  # "Martinique", NA, "MQ", 14.6345865,-61.2939723,
+  "French Antilles", NA, "XF", 14.6345865,-61.2939723,
+  "Mayotte", NA, "YT", -12.843056, 45.138333,
+  "Netherland Antilles", NA, "AN", 14.6339221,-61.153894, # Martinique
+  "UNKNOWN", NA, "##", 0.0, 0.0
+  # "Barbados", "BRB", "BB", 13.17, -59.5525,
+  # "Uruguay", "URY", "UY", -32.6005596,-58.0283107,
+  # "Philippines", "PHL", "PH", 13, 122,
+  # "Saint Lucia", "LCA", "LC", 13.883333, -60.966667,
+  # "Guinea", "GIN", "GN", 11, -10,
+  # "Puerto Rico", "PRI", "PR",18.2, -66.5,
+  # "Rwanda", "RWA", "RW", -1.95, 29.866667,
+)
+
+centroids <- centroids %>%
+  bind_rows(extra_centroids)
 
 d <- countries %>%
   left_join(centroids, by = c("iso_a2" = "iso_a2")) %>%
@@ -96,13 +119,17 @@ d <- countries %>%
     # Slovenia
     latitude  = ifelse(iso_a2 == "SI",     46.1155477207, latitude),
     longitude = ifelse(iso_a2 == "SI",     14.8044423776, longitude),
-    # USA center it
-    latitude  = ifelse(iso_a2 == "US",     38.091737, latitude),
-    longitude = ifelse(iso_a2 == "US",     -77.118292, longitude),
+    # USA center it (Raleigh 35.843965,-78.7851414)
+    latitude  = ifelse(iso_a2 == "US",     35.843965, latitude),
+    longitude = ifelse(iso_a2 == "US",     -78.7851414, longitude),
+    # Russia (center at Nizhny Novgorod: 56.292129,43.6460081)
+    latitude  = ifelse(iso_a2 == "RU",     56.292129, latitude),
+    longitude = ifelse(iso_a2 == "RU",     43.6460081, longitude),
     NULL
-  ) %>%
-  # exclude BOGUS
-  filter(!(iso_a2 %in% c("##", "AN", "XF", "YT")))
+  )
+# %>%
+#   # exclude BOGUS
+#   filter(!(iso_a2 %in% c("##", "AN", "XF", "YT")))
 
 # arrange for flowmap.blue/in-browser
 # locations
@@ -191,7 +218,7 @@ flows %>%
   sheet_write(sheet_id, sheet = "flows")
 
 my_properties <- c(
-  "title"                        = "Daily country flight flows",
+  "title"                        = "Daily country to country flight flows",
   "description"                  = "Daily flight flows from/to countries in the EUROCONTROL area",
   "source.name"                  = "EUROCONTROL",
   "source.url"                   = "https://eurocontrol.int",
