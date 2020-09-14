@@ -7,10 +7,11 @@ library(lubridate)
 # from (adapted to include country ISO_A2) Muriel's query
 # see first skip line in the file
 wef <- "2020-01-01"
-til <- "2020-08-13"
+til <- "2020-09-13"
 filename <- str_glue("city-pairs_{wef}_{til}.csv.gz")
 
 if (FALSE) {
+  source("R/retrieve_daily_airport_flows.R")
   cp <- retrieve_daily_airport_flows(wef, til) %>%
     as_tibble() %>%
     mutate(ENTRY_DAY = as_date(ENTRY_DAY)) %>%
@@ -225,7 +226,7 @@ my_properties <- c(
   "createdBy.name"               = "Aviation Intelligence Unit",
   "createdBy.email"              = "PRU-Support@eurocontrol.int",
   "createdBy.url"                = "https://ansperformance.eu",
-  "mapbox.accessToken"           = NA,
+  "mapbox.accessToken"           = "pk.eyJ1IjoicGVyZm9ybWFuY2VyZXZpZXd1bml0IiwiYSI6ImNrZXlnNzhmYzA1aWIyc3Bybmo3eWpmb3AifQ.NQVbySxKjPGpF64_KamtPQ",
   "mapbox.mapStyle"              = NA,
   "map.bbox"                     = NA,  # west, south, east, north
   "colors.scheme"                = "Default",
@@ -241,8 +242,8 @@ my_properties <- c(
   "msg.totalCount.countOfTrips"  = "{0} of {1} flights"
   )
 
-tibble(property=names(my_properties)) %>%
-  mutate(value=my_properties[property]) %>%
+tibble(property = names(my_properties)) %>%
+  mutate(value = my_properties[property]) %>%
   write_sheet(sheet_id,"properties")
 
 # # upload flows.csv and locations.csv in a (secret or public) GitHub gist
