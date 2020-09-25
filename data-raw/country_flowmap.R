@@ -7,7 +7,7 @@ library(lubridate)
 # from (adapted to include country ISO_A2) Muriel's query
 # see first skip line in the file
 wef <- "2020-01-01"
-til <- "2020-08-25"
+til <- "2020-09-25"
 filename <- str_glue("city-pairs_{wef}_{til}.csv.gz")
 
 if (FALSE) {
@@ -225,7 +225,7 @@ my_properties <- c(
   "createdBy.name"               = "Aviation Intelligence Unit",
   "createdBy.email"              = "PRU-Support@eurocontrol.int",
   "createdBy.url"                = "https://ansperformance.eu",
-  "mapbox.accessToken"           = NA,
+  "mapbox.accessToken"           = "pk.eyJ1IjoicGVyZm9ybWFuY2VyZXZpZXd1bml0IiwiYSI6ImNrZXlnNzhmYzA1aWIyc3Bybmo3eWpmb3AifQ.NQVbySxKjPGpF64_KamtPQ",
   "mapbox.mapStyle"              = NA,
   "map.bbox"                     = NA,  # west, south, east, north
   "colors.scheme"                = "Default",
